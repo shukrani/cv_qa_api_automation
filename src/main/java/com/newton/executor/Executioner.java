@@ -6,6 +6,8 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
+import javax.ws.rs.core.MediaType;
+
 import org.apache.commons.lang3.time.StopWatch;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -18,11 +20,15 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.skyscreamer.jsonassert.JSONAssert;
 import org.testng.Assert;
 import org.testng.Reporter;
 
 import com.newton.reporter.CustomReporter;
+import com.newton.utils.Config;
+import com.newton.utils.ExcelReader;
 import com.newton.utils.Util;
+import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;
 
@@ -558,6 +564,37 @@ public class Executioner {
 
 	}
 
+	public String doHttpGet(WebResource webResource, Class<ClientResponse> c) {
+		String screenshot = "NA";
+		Map<String, String> response = new HashMap<String, String>();
+		ClientResponse clientResponse = null;
+		String output = "";
+		try {
+
+			startTime = stopWatch.getTime();
+			clientResponse = webResource.accept("application/json").get(c);
+			output = clientResponse.getEntity(String.class);
+
+			screenshot = util.saveResponse(output);
+
+			addStep(startTime, stopWatch.getTime() - startTime, "Method : GET <br> URL: " + webResource.getURI()
+					+ " <br> <br> Response Code:" + clientResponse.getStatus(), "Pass", screenshot);
+
+			return output;
+		} catch (AssertionError exception) {
+			addStep(startTime, stopWatch.getTime() - startTime,
+					"HTTP GET \n URL: " + webResource.getURI() + " \n Response Code:" + clientResponse.getStatus(),
+					"Failed", screenshot);
+
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return output;
+		}
+		return output;
+
+	}
+
 	public Map<String, String> httpPost(WebResource webResource, Class<ClientResponse> c, String requestData) {
 		String screenshot = "NA";
 		Map<String, String> response = new HashMap<String, String>();
@@ -565,7 +602,8 @@ public class Executioner {
 		try {
 
 			startTime = stopWatch.getTime();
-			clientResponse = webResource.accept("application/json").post(c, requestData);
+			clientResponse = webResource.accept("application/json").type(MediaType.APPLICATION_JSON).post(c,
+					requestData);
 			String output = clientResponse.getEntity(String.class);
 			response.put("responseData", output);
 			response.put("status", clientResponse.getStatus() + "");
@@ -590,6 +628,84 @@ public class Executioner {
 			return response;
 		}
 		return response;
+
+	}
+
+	public String doHttpPost(WebResource webResource, Class<ClientResponse> c, String requestData) {
+		String screenshot = "NA";
+		Map<String, String> response = new HashMap<String, String>();
+		ClientResponse clientResponse = null;
+		String output = "";
+		try {
+
+			startTime = stopWatch.getTime();
+			clientResponse = webResource.type("application/json").post(c, requestData);
+			output = clientResponse.getEntity(String.class);
+
+			// System.out.println(output);
+
+			screenshot = util.saveResponse(output);
+
+			addStep(startTime, stopWatch.getTime() - startTime, "Method : POST <br> URL: " + webResource.getURI()
+					+ " <br> <br> Request Data : " + requestData + " <br>Response Code:" + clientResponse.getStatus(),
+					"Pass", screenshot);
+
+			return output;
+		} catch (AssertionError exception) {
+			addStep(startTime, stopWatch.getTime() - startTime,
+					"HTTP GET \n URL: " + webResource.getURI() + " \n Response Code:" + clientResponse.getStatus(),
+					"Failed", screenshot);
+
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();//
+
+		} finally {
+			return output;
+		}
+
+	}
+
+	public Executioner verifyJsonEquals(String expected, String actual, String message, boolean flag) {
+
+		String screenshot = "NA";
+		try {
+
+			startTime = stopWatch.getTime();
+			JSONAssert.assertEquals(expected, actual, flag);
+			if (flag) {
+				screenshot = util.takeScreenshot(driver);
+			}
+			addStep(startTime, stopWatch.getTime() - startTime,
+					message + "<br> actual : " + actual + "<br><br> expected : " + expected, "Pass", screenshot);
+			Reporter.log("Staus: PASS, Expected: " + expected + ", Actual : " + actual, true);
+			return this;
+		} catch (AssertionError exception) {
+			addStep(startTime, stopWatch.getTime() - startTime, message + " <br> " + exception.getMessage(), "Failed",
+					screenshot);
+			// Assert.fail("verification failed " + actual + " is not equals " +
+			// expected);
+			exception.getMessage();
+			Reporter.log("Staus: FAIL, Expected: " + expected + ", Actual : " + actual, true);
+			return this;
+
+		}
+
+	}
+
+	public static void main(String[] args) {
+		System.out.println(" in executioner");
+
+		Util util = Util.getInstance();
+		Client client = Client.create();
+		ExcelReader reader = new ExcelReader();
+		reader.getUserDataFromExcel("testData.xlsx", "summary");
+		WebResource webResource = client.resource(Config.baseURL + "v1/getSearch");
+
+		String requestJson = util.readFileAsString("requests/search.json");
+		String expectedJson = util.readFileAsString("responses/expectedResults.json");
+
+		JSONAssert.assertEquals("{'data':true}", "{'data':false}", true);
 
 	}
 

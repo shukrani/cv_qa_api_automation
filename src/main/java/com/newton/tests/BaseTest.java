@@ -12,7 +12,9 @@ import com.newton.executor.Executioner;
 import com.newton.reporter.CustomReporter;
 import com.newton.utils.Config;
 import com.newton.utils.JsonParser;
+import com.newton.utils.Util;
 import com.sun.jersey.api.client.Client;
+
 /**
  * 
  * @author chhagan
@@ -29,6 +31,7 @@ public class BaseTest {
 	String endReport = "</body> </html>";
 	String endTable = "</table>";
 	String requestData;
+	Util util;
 
 	@BeforeSuite
 	public void beforeSuite() {
@@ -36,6 +39,7 @@ public class BaseTest {
 		reporter = CustomReporter.getInstance();
 		startReport();
 		jsonParser = new JsonParser();
+		util = Util.getInstance();
 
 	}
 

@@ -1,0 +1,25 @@
+{
+	"color": [
+		"red",
+		"black"
+	],
+	"price": [
+		{
+			"500": "1000"
+		}
+	],
+	"discount_percentage": [
+		10,
+		12,
+		30
+	],
+	"vendor_cod": 1,
+	"fastShipping": "0",
+	"discountedPriceOrder": "ASC",
+	"newestSort": "ASC",
+	"nameSort": "ASC",
+	"priceSort": "ASC",
+	"is_international_enabled": 0,
+	"perPage": 60,
+	"pageId": "1"
+}

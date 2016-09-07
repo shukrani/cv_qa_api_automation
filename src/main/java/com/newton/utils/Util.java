@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.http.HttpEntity;
@@ -150,5 +152,37 @@ public class Util {
 		}
 		return "NA";
 	}
+
+	// readfile as string
+
+	public String readFileAsString(String filePath) {
+		String data = "";
+		try {
+			ClassLoader classLoader = getClass().getClassLoader();
+			File file = new File(classLoader.getResource(filePath).getFile());
+
+			data = new String(Files.readAllBytes(Paths.get(file.getAbsolutePath())));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			return data;
+		}
+
+	}
+	
+	public void setUrlParams(){
+		
+	}
+
+	// public void setProxy(String proxyurl) {
+	// ClientConfig config = new ClientConfig();
+	// config.connectorProvider(new ApacheConnectorProvider());
+	// config.property(ClientProperties.PROXY_URI, proxy);
+	// config.property(ClientProperties.PROXY_USERNAME, user);
+	// config.property(ClientProperties.PROXY_PASSWORD, pass);
+	// Client client = JerseyClientBuilder.newClient(config);
+	//
+	// }
 
 }
