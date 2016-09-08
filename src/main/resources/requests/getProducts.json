@@ -1,0 +1,55 @@
+{
+	"feed_id": 1,
+	"search_term": "red sarees",
+	"filters": {
+		"entity_id": [
+			1,
+			2,
+			3
+		],
+		"category_id": [
+			1,
+			2
+		],
+		"vendor_id": [
+			12
+		],
+		"pincode_delivery": [
+			"229206",
+			"450005",
+			"450003"
+		],
+		"color": [
+			"blue",
+			"red"
+		],
+		"price": [
+			{
+				"min": 100,
+				"max": 500
+			}
+		],
+		"discount_percentage": [
+			{
+				"min": 1,
+				"max": 100
+			}
+		],
+		"attributes.Size": [
+			"m",
+			"xl",
+			"s"
+		],
+		"vendor_cod": 1,
+		"is_international_enabled": 1
+	},
+	"sort_by": {
+		"name": "ASC",
+		"price": "ASC",
+		"discounted_price": "ASC",
+		"dispatch_time_max": "ASC",
+		"updated_at": "ASC"
+	},
+	"per_page": 10,
+	"page_id": 2
+}

@@ -6,6 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Iterator;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.http.HttpEntity;
@@ -17,9 +18,14 @@ import org.apache.http.entity.mime.content.FileBody;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
+import org.codehaus.jettison.json.JSONException;
+import org.codehaus.jettison.json.JSONObject;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+
+import com.google.gson.JsonObject;
+import com.sun.jersey.api.client.WebResource;
 
 public class Util {
 	private static Util instance;
@@ -170,9 +176,23 @@ public class Util {
 		}
 
 	}
-	
-	public void setUrlParams(){
-		
+
+	public WebResource setUrlParams(WebResource webResource, String urlParamsJson) {
+		try {
+			JSONObject params = new JSONObject(urlParamsJson);
+			Iterator<JsonObject> it = params.keys();
+			while (it.hasNext()) {
+				String key = it.next() + "";
+				webResource = webResource.queryParam(key, params.get(key) + "");
+			}
+
+		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			return webResource;
+		}
+
 	}
 
 	// public void setProxy(String proxyurl) {

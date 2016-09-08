@@ -27,11 +27,12 @@ public class BaseTest {
 	CustomReporter reporter;
 	JsonParser jsonParser;
 	String startReport = "<!DOCTYPE html> <html> <head> <style> table, th, td { border: 1px solid black; border-collapse: collapse; } th, td { padding: 5px; text-align: left; } </style> </head> <body> ";
-	String startTable = "<table style='width:100%'> <caption><h3>TESTCASE_NAME</h3></caption> <tr> <th>Start Time</th> <th>Duration</th> <th>Step Description</th> <th>Status</th> <th>Screenshot</th> </tr>";
+	String startTable = "<table style='width:100%'> <caption><h3>TESTCASE_NAME</h3></caption> <tr> <th>Start Time</th> <th>Duration</th> <th>Step Description</th> <th>Status</th> <th>Response</th> </tr>";
 	String endReport = "</body> </html>";
 	String endTable = "</table>";
 	String requestData;
 	Util util;
+	String urlParams;
 
 	@BeforeSuite
 	public void beforeSuite() {
@@ -45,7 +46,7 @@ public class BaseTest {
 
 	@BeforeMethod
 	public void setup(@Optional Method method) {
-		startTable(method.getName());
+
 		client = Client.create();
 	}
 

@@ -3,8 +3,8 @@
 <suite name="Suite" parallel="false">
 	<test name="Regression Test ">
 		<classes>
-			<class name="com.newton.tests.SearchTest" />
-			<class name="com.newton.tests.ProductTest" />
+			<class name="com.newton.tests.GenericTest" />
+
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

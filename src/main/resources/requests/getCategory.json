@@ -1,0 +1,36 @@
+{
+	"categoryId": [
+		10001,
+		10015,
+		10064,
+		10004
+	],
+	"price": [
+		{
+			"1000": "2000"
+		}
+	],
+	"color": [
+		"Multicolor",
+		"red"
+	],
+	"discounted_price": [
+		10,
+		12,
+		30
+	],
+	"codProducts": "1",
+	"fastShipping": "0",
+	"priceOrder": "ASC",
+	"discountedPriceOrder": "ASC",
+	"pageId": "1",
+	"perPage": 10,
+	"is_international_enabled": 0,
+	"filters": {
+		"attributes.Size": [
+			"m",
+			"xl",
+			"l"
+		]
+	}
+}

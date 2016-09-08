@@ -9,6 +9,7 @@ import java.util.Map;
 import javax.ws.rs.core.MediaType;
 
 import org.apache.commons.lang3.time.StopWatch;
+import org.codehaus.jettison.json.JSONException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -651,7 +652,41 @@ public class Executioner {
 					"Pass", screenshot);
 
 			return output;
-		} catch (AssertionError exception) {
+		} catch (AssertionError exeption) {
+			addStep(startTime, stopWatch.getTime() - startTime,
+					"HTTP GET \n URL: " + webResource.getURI() + " \n Response Code:" + clientResponse.getStatus(),
+					"Failed", screenshot);
+
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();//
+
+		} finally {
+			return output;
+		}
+
+	}
+
+	public String doHttpPost(WebResource webResource, Class<ClientResponse> c) {
+		String screenshot = "NA";
+		Map<String, String> response = new HashMap<String, String>();
+		ClientResponse clientResponse = null;
+		String output = "";
+		try {
+
+			startTime = stopWatch.getTime();
+			clientResponse = webResource.type("application/json").post(c);
+			output = clientResponse.getEntity(String.class);
+
+			// System.out.println(output);
+
+			screenshot = util.saveResponse(output);
+
+			addStep(startTime, stopWatch.getTime() - startTime, "Method : POST <br> URL: " + webResource.getURI()
+					+ " <br>Response Code:" + clientResponse.getStatus(), "Pass", screenshot);
+
+			return output;
+		} catch (AssertionError exeption) {
 			addStep(startTime, stopWatch.getTime() - startTime,
 					"HTTP GET \n URL: " + webResource.getURI() + " \n Response Code:" + clientResponse.getStatus(),
 					"Failed", screenshot);
@@ -676,11 +711,10 @@ public class Executioner {
 			if (flag) {
 				screenshot = util.takeScreenshot(driver);
 			}
-			addStep(startTime, stopWatch.getTime() - startTime,
-					message + "<br> actual : " + actual + "<br><br> expected : " + expected, "Pass", screenshot);
+			addStep(startTime, stopWatch.getTime() - startTime, message, "Pass", screenshot);
 			Reporter.log("Staus: PASS, Expected: " + expected + ", Actual : " + actual, true);
 			return this;
-		} catch (AssertionError exception) {
+		} catch (AssertionError | org.json.JSONException exception) {
 			addStep(startTime, stopWatch.getTime() - startTime, message + " <br> " + exception.getMessage(), "Failed",
 					screenshot);
 			// Assert.fail("verification failed " + actual + " is not equals " +

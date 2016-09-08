@@ -7,7 +7,6 @@ import org.codehaus.jackson.JsonGenerationException;
 import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
-import org.skyscreamer.jsonassert.JSONAssert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -17,17 +16,29 @@ import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;
 
 public class GenericTest extends BaseTest {
+	String urlParamsJson;
+	String requestJson;
+
 	@Test(dataProvider = "PostSearchDataProvider")
 	@Parameters("testData")
-	public void testSearchProductPost(Map<String, String> testData)
+	public void restAPITest(Map<String, String> testData)
 			throws JsonGenerationException, JsonMappingException, IOException, JSONException {
+		requestJson = testData.get("RequestData");
+		startTable(testData.get("TestName"));
 
-		String requestJson = util.readFileAsString("requests/" + testData.get("RequestData") + ".json");
+		if (requestJson != null && requestJson.length() > 2) {
+			requestJson = util.readFileAsString("requests/" + requestJson + ".json");
+		}
 		String expectedJson = util.readFileAsString("responses/" + testData.get("ExpectedResponse") + ".json");
-		String urlParamsJson = util.readFileAsString("params/" + testData.get("URLParams") + ".json");
+		urlParams = testData.get("URLParams");
+		if (urlParams != null && urlParams.length() > 2) {
+			urlParamsJson = util.readFileAsString("params/" + urlParams + ".json");
+		}
 		String actualJson = "";
 
 		WebResource webResource = client.resource(baseURL + testData.get("APIEndPoint"));
+
+		webResource = util.setUrlParams(webResource, urlParamsJson);
 
 		switch (testData.get("HTTPMethod").toUpperCase()) {
 
@@ -35,8 +46,14 @@ public class GenericTest extends BaseTest {
 			actualJson = executor.doHttpGet(webResource, ClientResponse.class);
 			break;
 		}
-		case "POST":
-			actualJson = executor.doHttpPost(webResource, ClientResponse.class, new JSONObject(requestJson).toString());
+		case "POST": {
+			if (requestJson != null && requestJson.length() > 2) {
+				actualJson = executor.doHttpPost(webResource, ClientResponse.class,
+						new JSONObject(requestJson).toString());
+			} else {
+				actualJson = executor.doHttpPost(webResource, ClientResponse.class);
+			}
+		}
 
 		}
 

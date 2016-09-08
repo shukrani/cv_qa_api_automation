@@ -1,0 +1,44 @@
+{
+	"feedId": 1,
+	"filters": {
+		"price": [
+			{
+				"min": 1000,
+				"max": 2000
+			}
+		],
+		"discounted_price": [
+			{
+				"min": 10,
+				"max": 100
+			}
+		],
+		"is_in_stock": 1,
+		"is_international_enabled": 1,
+		"codProducts": 1,
+		"attributes": {
+			"Color": [
+				"Red"
+			],
+			"Occasion": [
+				"Festival"
+			]
+		},
+		"attributes.Color": [
+			"red",
+			"yellow"
+		],
+		"attributes.Occasion": [
+			"Party"
+		]
+	},
+	"sort_by": {
+		"price": "asc",
+		"discounted_price": "asc",
+		"discount_percentage": "asc",
+		"name": "desc",
+		"fastShipping": "desc"
+	},
+	"per_page": "5",
+	"page_id": 1
+}

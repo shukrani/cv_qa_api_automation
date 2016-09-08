@@ -1,0 +1,5 @@
+{
+	"withDisplayFilters": true,
+	"filterDataInArray": true,
+	"categoryRequired": true
+}

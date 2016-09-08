@@ -43,7 +43,7 @@ public class ExcelReader {
 
 				// For each row, iterate through each columns
 				Iterator<Cell> cellIterator = row.cellIterator();
-				while (cellIterator.hasNext()) {
+				while (cellIterator.hasNext() && j < cells) {
 
 					Cell cell = cellIterator.next();
 
