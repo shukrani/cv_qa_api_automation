@@ -15,4 +15,4 @@ This repository contains framework to test REST APIs.
 - request data in folder : src/main/resources/responses/<any unique file name>.json
 
 ###running tests ###
-* run genreric test as testng test
+* run ```mvn test```

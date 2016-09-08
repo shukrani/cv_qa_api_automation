@@ -33,6 +33,8 @@ public class GenericTest extends BaseTest {
 		urlParams = testData.get("URLParams");
 		if (urlParams != null && urlParams.length() > 2) {
 			urlParamsJson = util.readFileAsString("params/" + urlParams + ".json");
+		}else{
+			urlParamsJson="{}";
 		}
 		String actualJson = "";
 

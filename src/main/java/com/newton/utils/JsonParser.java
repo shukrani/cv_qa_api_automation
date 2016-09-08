@@ -42,8 +42,8 @@ public class JsonParser {
 
 		String json = " { \"userId\": 1, \"id\": 1, \"title\": \"some title\", \"body\": \"text body\" }";
 		ObjectMapper mapper = new ObjectMapper();
-		Post post = mapper.readValue(json, Post.class);
-		System.out.println(post.getBody());
+		// //Post post = mapper.readValue(json, Post.class);
+		// System.out.println(post.getBody());
 
 	}
 }

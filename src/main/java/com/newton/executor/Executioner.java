@@ -65,12 +65,25 @@ public class Executioner {
 
 	private void addStep(long start, long duration, String step, String status, String screenShot) {
 
-		if (screenShot.length() > 4) {
-			reporter.log("<tr> <td>" + start + "</td> <td>" + duration + "</td> <td>" + step + " </td> <td>" + status
-					+ "</td> <td><a href='" + screenShot + "' > view </a></td></tr>");
+		if (status.toLowerCase().equals("pass")) {
+
+			if (screenShot.length() > 4) {
+				reporter.log("<tr> <td>" + start + "</td> <td>" + duration + "</td> <td>" + step + " </td> <td>"
+						+ status + "</td> <td><a href='" + screenShot + "' > view </a></td></tr>");
+			} else {
+				reporter.log("<tr> <td>" + start + "</td> <td>" + duration + "</td> <td>" + step + " </td> <td>"
+						+ status + "</td> <td>" + screenShot + "</td></tr>");
+			}
 		} else {
-			reporter.log("<tr> <td>" + start + "</td> <td>" + duration + "</td> <td>" + step + " </td> <td>" + status
-					+ "</td> <td>" + screenShot + "</td></tr>");
+
+			if (screenShot.length() > 4) {
+				reporter.log("<tr bgcolor='#FF0000'> <td>" + start + "</td> <td>" + duration + "</td> <td>" + step
+						+ " </td> <td>" + status + "</td> <td><a href='" + screenShot + "' > view </a></td></tr>");
+			} else {
+				reporter.log("<tr bgcolor='#FF0000'> <td>" + start + "</td> <td>" + duration + "</td> <td>" + step
+						+ " </td> <td>" + status + "</td> <td>" + screenShot + "</td></tr>");
+			}
+
 		}
 	}
 
@@ -717,10 +730,8 @@ public class Executioner {
 		} catch (AssertionError | org.json.JSONException exception) {
 			addStep(startTime, stopWatch.getTime() - startTime, message + " <br> " + exception.getMessage(), "Failed",
 					screenshot);
-			// Assert.fail("verification failed " + actual + " is not equals " +
-			// expected);
-			exception.getMessage();
-			Reporter.log("Staus: FAIL, Expected: " + expected + ", Actual : " + actual, true);
+			Assert.fail(exception.getMessage());
+
 			return this;
 
 		}
