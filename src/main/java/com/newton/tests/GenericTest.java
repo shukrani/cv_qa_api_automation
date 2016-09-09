@@ -24,7 +24,8 @@ public class GenericTest extends BaseTest {
 	public void restAPITest(Map<String, String> testData)
 			throws JsonGenerationException, JsonMappingException, IOException, JSONException {
 		requestJson = testData.get("RequestData");
-		startTable(testData.get("TestName"));
+
+		test = extentReporter.startTest(testData.get("TestName"));
 
 		if (requestJson != null && requestJson.length() > 2) {
 			requestJson = util.readFileAsString("requests/" + requestJson + ".json");
@@ -45,27 +46,26 @@ public class GenericTest extends BaseTest {
 		switch (testData.get("HTTPMethod").toUpperCase()) {
 
 		case "GET": {
-			actualJson = executor.doHttpGet(webResource, ClientResponse.class);
+			actualJson = executor.doHttpGet(webResource, ClientResponse.class, test);
 			break;
 		}
 		case "POST": {
 			if (requestJson != null && requestJson.length() > 2) {
 				actualJson = executor.doHttpPost(webResource, ClientResponse.class,
-						new JSONObject(requestJson).toString());
+						new JSONObject(requestJson).toString(), test);
 			} else {
-				actualJson = executor.doHttpPost(webResource, ClientResponse.class);
+				actualJson = executor.doHttpPost(webResource, ClientResponse.class, test);
 			}
 
 		}
 
 		}
 
-		// JSONAssert.assertEquals(expectedJson, actualJson, false);
-		executor.verifyJsonEquals(expectedJson, actualJson, "verify search results", false);
+		executor.verifyJsonEquals(expectedJson, actualJson, "verify search results", false, test);
 
 	}
 
-	@DataProvider(name = "PostSearchDataProvider")
+	@DataProvider(name = "PostSearchDataProvider"/* , parallel = true */)
 	public Object[][] postSearchData() {
 		return new ExcelReader().getUserDataFromExcel("testData.xlsx", "summary");
 	}

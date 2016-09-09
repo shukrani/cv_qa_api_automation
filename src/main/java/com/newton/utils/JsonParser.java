@@ -9,7 +9,7 @@ import org.codehaus.jackson.map.ObjectMapper;
 import org.json.JSONObject;
 
 /**
- * Hello world!
+ * @author chhagan
  *
  */
 public class JsonParser {
@@ -38,12 +38,4 @@ public class JsonParser {
 
 	}
 
-	public static void main(String[] args) throws JsonParseException, JsonMappingException, IOException {
-
-		String json = " { \"userId\": 1, \"id\": 1, \"title\": \"some title\", \"body\": \"text body\" }";
-		ObjectMapper mapper = new ObjectMapper();
-		// //Post post = mapper.readValue(json, Post.class);
-		// System.out.println(post.getBody());
-
-	}
 }
