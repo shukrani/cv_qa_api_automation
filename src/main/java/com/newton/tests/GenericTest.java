@@ -33,8 +33,8 @@ public class GenericTest extends BaseTest {
 		urlParams = testData.get("URLParams");
 		if (urlParams != null && urlParams.length() > 2) {
 			urlParamsJson = util.readFileAsString("params/" + urlParams + ".json");
-		}else{
-			urlParamsJson="{}";
+		} else {
+			urlParamsJson = "{}";
 		}
 		String actualJson = "";
 
@@ -55,6 +55,7 @@ public class GenericTest extends BaseTest {
 			} else {
 				actualJson = executor.doHttpPost(webResource, ClientResponse.class);
 			}
+
 		}
 
 		}
