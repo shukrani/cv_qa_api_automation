@@ -42,7 +42,7 @@ public class Executioner {
 
 			if (screenShot.length() > 4) {
 				reporter.log(LogStatus.PASS,
-						step + " </td><td class='step-details'> <a href='" + screenShot + "' > response </a></td>",
+						step + " </td><td class='step-details'> <a target='_blank' href='" + screenShot + "' > response </a></td>",
 						test);
 			} else {
 				reporter.log(LogStatus.PASS, step + " </td><td class='step-details'>" + screenShot + "</td>", test);
@@ -51,7 +51,7 @@ public class Executioner {
 
 			if (screenShot.length() > 4) {
 				reporter.log(LogStatus.FAIL,
-						step + " </td> <td class='step-details'><a href='" + screenShot + "' > response </a></td>",
+						step + " </td> <td class='step-details'><a target='_blank' href='" + screenShot + "' > response </a></td>",
 						test);
 			} else {
 				reporter.log(LogStatus.FAIL, step + " </td> <td class='step-details'> " + screenShot + " </td>", test);

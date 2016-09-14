@@ -52,7 +52,8 @@ public class BaseTest {
 
 	@BeforeMethod
 	public void setup(@Optional Method method) {
-
+		System.setProperty("http.proxyHost", "localhost");
+		System.setProperty("http.proxyPort", "8080");
 		client = Client.create();
 	}
 

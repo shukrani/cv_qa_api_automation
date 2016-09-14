@@ -32,6 +32,7 @@ public class Util {
 	String jira_attachment_baseURL = "";
 	String jira_attachment_authentication = "";
 	String reportPath;
+	
 
 	private Util() {
 		reportPath = getExtentReportPath();
