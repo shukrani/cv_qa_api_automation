@@ -1,0 +1,27 @@
+{
+	"filter": {
+		"categoryId": 10001,
+		"codProducts": "COD Available",
+		"color": [
+			"Red",
+			"Black",
+			"White"
+		],
+		"discountedPrice": "Above 50%",
+		"price": [
+			{
+				"max": "1010",
+				"min": "10"
+			}
+		]
+	},
+	"pageId": 1,
+	"perPage": 10,
+	"query": "red sarees",
+	"sort": {
+		"discountedPriceOrder": "High to Low",
+		"newestSort": "Newest",
+		"priceOrder": "High to Low",
+		"relevance": "Popular"
+	}
+}

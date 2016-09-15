@@ -1,0 +1,56 @@
+{
+	"s": 1,
+	"m": "Trending Keywords",
+	"d": [
+		{
+			"text": "Salwar Suits",
+			"type": "Category",
+			"id": 10022
+		},
+		{
+			"text": "Lehengas",
+			"type": "Category",
+			"id": 10018
+		},
+		{
+			"text": "Sarees",
+			"type": "Category",
+			"id": 10015
+		},
+		{
+			"text": "Gowns",
+			"type": "Category",
+			"id": 10025
+		},
+		{
+			"text": "Kurtis",
+			"type": "Category",
+			"id": 10021
+		},
+		{
+			"text": "Jewellery",
+			"type": "Category",
+			"id": 10002
+		},
+		{
+			"text": "Anarkali",
+			"type": "Category",
+			"id": 10023
+		},
+		{
+			"text": "Blouses",
+			"type": "Category",
+			"id": 10016
+		},
+		{
+			"text": "Cholis",
+			"type": "Category",
+			"id": 10019
+		},
+		{
+			"text": "Palazzo Suit",
+			"type": "Category",
+			"id": 10020
+		}
+	]
+}

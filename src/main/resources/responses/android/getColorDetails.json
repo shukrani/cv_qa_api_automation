@@ -1,0 +1,82 @@
+{
+	"s": 1,
+	"m": "Color Details",
+	"d": [
+		{
+			"colorCode": "#d34b56",
+			"name": "Red"
+		},
+		{
+			"colorCode": "#36454f",
+			"name": "Black"
+		},
+		{
+			"colorCode": "#0074d9",
+			"name": "Blue"
+		},
+		{
+			"colorCode": "#f2f2f2",
+			"name": "White"
+		},
+		{
+			"colorCode": "#2e8b57",
+			"name": "Green"
+		},
+		{
+			"colorCode": "#eadc32",
+			"name": "Yellow"
+		},
+		{
+			"colorCode": "#9fa8ab",
+			"name": "Grey"
+		},
+		{
+			"colorCode": "#b3b3b3",
+			"name": "Silver"
+		},
+		{
+			"colorCode": "#915039",
+			"name": "Brown"
+		},
+		{
+			"colorCode": "#800080",
+			"name": "Purple"
+		},
+		{
+			"colorCode": "#e5c74a",
+			"name": "Gold"
+		},
+		{
+			"colorCode": "#b9529f",
+			"name": "Magenta"
+		},
+		{
+			"colorCode": "#e8e6cf",
+			"name": "Beige"
+		},
+		{
+			"colorCode": "#EE82EE",
+			"name": "Violet"
+		},
+		{
+			"colorCode": "#f1a9c4",
+			"name": "Pink"
+		},
+		{
+			"colorCode": "#f28d20",
+			"name": "Orange"
+		},
+		{
+			"colorCode": "#b03060",
+			"name": "Maroon"
+		},
+		{
+			"colorCode": "#FCFCFC",
+			"name": "Pastel"
+		},
+		{
+			"colorCode": "#FCFCFC",
+			"name": "MultiColor"
+		}
+	]
+}

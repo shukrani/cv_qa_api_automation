@@ -1,0 +1,67 @@
+{
+	"s": 1,
+	"m": "",
+	"d": [
+		{
+			"text": "designer sarees",
+			"category_id": 10015,
+			"type": "context_suggest",
+			"category_name": "Sarees"
+		},
+		{
+			"text": "sarees",
+			"category_id": 10015,
+			"type": "category",
+			"url_path": "womens-clothing/sarees",
+			"category_name": "Sarees"
+		},
+		{
+			"text": "saree",
+			"category_id": 10015,
+			"type": "context_suggest",
+			"category_name": "Sarees"
+		},
+		{
+			"text": "silk saree",
+			"category_id": 10015,
+			"type": "context_suggest",
+			"category_name": "Sarees"
+		},
+		{
+			"text": "wedding sarees",
+			"category_id": 10015,
+			"type": "context_suggest",
+			"category_name": "Sarees"
+		},
+		{
+			"text": "chiffon sarees",
+			"category_id": 10015,
+			"type": "context_suggest",
+			"category_name": "Sarees"
+		},
+		{
+			"text": "cotton sarees",
+			"category_id": 10015,
+			"type": "context_suggest",
+			"category_name": "Sarees"
+		},
+		{
+			"text": "mirror work saree",
+			"category_id": 10015,
+			"type": "context_suggest",
+			"category_name": "Sarees"
+		},
+		{
+			"text": "georgette sarees",
+			"category_id": 10015,
+			"type": "context_suggest",
+			"category_name": "Sarees"
+		},
+		{
+			"text": "silk sarees",
+			"category_id": 10015,
+			"type": "context_suggest",
+			"category_name": "Sarees"
+		}
+	]
+}

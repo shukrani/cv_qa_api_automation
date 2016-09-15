@@ -1,0 +1,31 @@
+{
+	"categoryId": [
+		10001,
+		10015,
+		10064,
+		10004
+	],
+	"filter": {
+		"codProducts": "COD Available",
+		"color": [
+			"Red",
+			"Black",
+			"White"
+		],
+		"discountedPrice": "Above 50%",
+		"price": [
+			{
+				"max": "2000",
+				"min": "1000"
+			}
+		]
+	},
+	"pageId": 1,
+	"perPage": 10,
+	"sort": {
+		"discountedPriceOrder": "High to Low",
+		"newestSort": "Newest",
+		"priceOrder": "High to Low",
+		"relevance": "Popular"
+	}
+}

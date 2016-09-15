@@ -1,0 +1,7 @@
+{
+	"s": 1,
+	"m": "Email is already registered!",
+	"d": {
+		"customerExist": true
+	}
+}

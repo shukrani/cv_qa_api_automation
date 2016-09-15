@@ -1,0 +1,50 @@
+{
+	"success": "1",
+	"message": " Data Found",
+	"data": {
+		"pageCount": 1,
+		"productCount": 12,
+		"totalProducts": 12,
+		"data": [
+			{
+				"price": 5999,
+				"discounted_price": 666,
+				"name": "Black Koti",
+				"url_path": "black-koti",
+				"vendor_name": "Unique Fashions",
+				"vendor_url": "UNIQUEFASHIONS",
+				"image": "/C/V/CV-MUNIQ33478434670--UNIQUE_FASHIONS-Craftsvilla_1.jpg",
+				"discount_start_date": "2016-03-07 00:00:00",
+				"discount_end_date": "2026-03-07 00:00:00",
+				"entity_id": 4074335,
+				"is_in_stock": 1
+			},
+			{
+				"price": 9999,
+				"discounted_price": 666,
+				"name": "Sell Sell Sell Mandira Pink Black Saree",
+				"url_path": "sell-sell-sell-mandira-pink-black-saree",
+				"vendor_name": "Unique Fashions",
+				"vendor_url": "UNIQUEFASHIONS",
+				"image": "/C/V/CV-MUNIQ31174075970--UNIQUE_FASHIONS-Craftsvilla_1.jpg",
+				"discount_start_date": "2016-03-07 00:00:00",
+				"discount_end_date": "2026-03-07 00:00:00",
+				"entity_id": 4073327,
+				"is_in_stock": 1
+			},
+			{
+				"price": 9999,
+				"discounted_price": 666,
+				"name": "Sell Sell Sell Mandira Pink Black Saree",
+				"url_path": "sell-sell-sell-mandira-pink-black-saree",
+				"vendor_name": "Unique Fashions",
+				"vendor_url": "UNIQUEFASHIONS",
+				"image": "/C/V/CV-MUNIQ37315489720--UNIQUE_FASHIONS-Craftsvilla_1.jpg",
+				"discount_start_date": "2016-03-07 00:00:00",
+				"discount_end_date": "2026-03-07 00:00:00",
+				"entity_id": 4073315,
+				"is_in_stock": 1
+			}
+		]
+	}
+}

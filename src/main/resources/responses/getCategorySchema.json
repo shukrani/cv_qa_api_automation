@@ -1,0 +1,594 @@
+{
+	"s": "1",
+	"m": "Hey",
+	"d": [
+		{
+			"id": 10005,
+			"name": "Accessories",
+			"subCategories": [
+				{
+					"id": 10063,
+					"name": "Wallets and Purses",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10064,
+					"name": "Bags",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10065,
+					"name": "Footwear",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10066,
+					"name": "Watches",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10067,
+					"name": "Other Accessories",
+					"subCategories": [
+					]
+				}
+			]
+		},
+		{
+			"id": 10009,
+			"name": "Bath and Beauty",
+			"subCategories": [
+				{
+					"id": 10086,
+					"name": "Hair",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10087,
+					"name": "Skin",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10088,
+					"name": "Fragrances",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10089,
+					"name": "Make-Up/ Cosmetics",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10090,
+					"name": "Oils",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10091,
+					"name": "Soaps",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10092,
+					"name": "Shower Gels and Bath Salts",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10093,
+					"name": "Other Bath and Beauty Items",
+					"subCategories": [
+					]
+				}
+			]
+		},
+		{
+			"id": 10003,
+			"name": "Food and Health",
+			"subCategories": [
+				{
+					"id": 10046,
+					"name": "Ayurvedic and Other Health Supplements",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10047,
+					"name": "Syrups and Beverages",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10048,
+					"name": "Sweets and Chocolates",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10049,
+					"name": "Herbs and Spices",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10050,
+					"name": "Dry Fruits",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10051,
+					"name": "Pickles, Jams and Chutneys",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10052,
+					"name": "Workout and Massage",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10053,
+					"name": "Other Food and Health Items",
+					"subCategories": [
+					]
+				}
+			]
+		},
+		{
+			"id": 10004,
+			"name": "Home Decor",
+			"subCategories": [
+				{
+					"id": 10054,
+					"name": "Wall Art and Paintings",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10055,
+					"name": "Photo Frames",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10056,
+					"name": "Mirrors",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10057,
+					"name": "Lamps and Lightings",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10058,
+					"name": "Vases",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10059,
+					"name": "Candles and Fragrances",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10060,
+					"name": "Clocks",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10061,
+					"name": "Decoratives",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10062,
+					"name": "Other Home Decor Items",
+					"subCategories": [
+					]
+				}
+			]
+		},
+		{
+			"id": 10006,
+			"name": "Home Furnishings",
+			"subCategories": [
+				{
+					"id": 10068,
+					"name": "Boxes and Baskets",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10069,
+					"name": "Pillow and Cushion Covers",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10070,
+					"name": "Quilts and Blankets",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10071,
+					"name": "Rugs",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10072,
+					"name": "Bedsheets and Throws",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10073,
+					"name": "Curtains",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10074,
+					"name": "Bedding",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10075,
+					"name": "Other Home Furnishings",
+					"subCategories": [
+					]
+				}
+			]
+		},
+		{
+			"id": 10002,
+			"name": "Jewellery",
+			"subCategories": [
+				{
+					"id": 10032,
+					"name": "Necklaces",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10033,
+					"name": "Earrings",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10034,
+					"name": "Anklets",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10035,
+					"name": "Bracelets and Bangles",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10036,
+					"name": "Rings",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10037,
+					"name": "Pendants",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10038,
+					"name": "Maang Tikkas",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10039,
+					"name": "Brooches",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10040,
+					"name": "Waist Belts",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10041,
+					"name": "Toe Rings",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10042,
+					"name": "Armlets-Bajuband",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10043,
+					"name": "Mangalsutra",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10044,
+					"name": "Nose Pins",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10045,
+					"name": "Other Jewellery Items",
+					"subCategories": [
+					]
+				}
+			]
+		},
+		{
+			"id": 10007,
+			"name": "Kids",
+			"subCategories": [
+				{
+					"id": 10076,
+					"name": "Clothing",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10077,
+					"name": "Toys",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10078,
+					"name": "Other Kids' Items",
+					"subCategories": [
+					]
+				}
+			]
+		},
+		{
+			"id": 10010,
+			"name": "Kitchen",
+			"subCategories": [
+				{
+					"id": 10094,
+					"name": "Boxes and Baskets",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10095,
+					"name": "Cookware",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10096,
+					"name": "Dining and Serving",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10097,
+					"name": "Other Kitchen Items",
+					"subCategories": [
+					]
+				}
+			]
+		},
+		{
+			"id": 10008,
+			"name": "Men's Fashion",
+			"subCategories": [
+				{
+					"id": 10079,
+					"name": "Sherwanis, Kurtas and Kurta-Pyjamas",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10080,
+					"name": "Kotis, Jackets, Coats and Sweaters",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10081,
+					"name": "Jumpsuits",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10082,
+					"name": "Tshirts",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10083,
+					"name": "Shirts",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10084,
+					"name": "Dhotis, Bottoms and Pants",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10085,
+					"name": "Other Men's Fashion",
+					"subCategories": [
+					]
+				}
+			]
+		},
+		{
+			"id": 10000,
+			"name": "Spiritual",
+			"subCategories": [
+				{
+					"id": 10011,
+					"name": "Statues",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10012,
+					"name": "Temples",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10013,
+					"name": "Rangolis and Designs",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10014,
+					"name": "Other Spiritual Items",
+					"subCategories": [
+					]
+				}
+			]
+		},
+		{
+			"id": 10001,
+			"name": "Women's Fashion",
+			"subCategories": [
+				{
+					"id": 10015,
+					"name": "Sarees",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10016,
+					"name": "Blouses",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10017,
+					"name": "Petticoats",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10018,
+					"name": "Lehangas",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10019,
+					"name": "Cholis and Tops",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10020,
+					"name": "Bottoms and Pants",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10021,
+					"name": "Kurtis and Tunics",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10022,
+					"name": "Salwar Suits",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10023,
+					"name": "Anarkalis",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10024,
+					"name": "Skirts",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10025,
+					"name": "Dresses, Gowns and Kaftans",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10026,
+					"name": "Dupattas, Stoles, Scarves and Shawls",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10027,
+					"name": "Churidars, Salwars, Leggings and Harems",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10028,
+					"name": "Burquas and Hijabs",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10029,
+					"name": "Jumpsuits",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10030,
+					"name": "Kotis, Jackets, Coats and Sweaters",
+					"subCategories": [
+					]
+				},
+				{
+					"id": 10031,
+					"name": "Other Women's Fashion",
+					"subCategories": [
+					]
+				}
+			]
+		}
+	]
+}

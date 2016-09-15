@@ -1,0 +1,22 @@
+{
+	"success": "1",
+	"message": "Hey",
+	"data": [
+		{
+			"type": "seller",
+			"content": {
+				"images": "",
+				"text": "Sareesarovar",
+				"url_path": "hometoshop"
+			}
+		},
+		{
+			"type": "seller",
+			"content": {
+				"images": "",
+				"text": "Saree7",
+				"url_path": "Saree7"
+			}
+		}
+	]
+}
