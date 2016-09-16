@@ -44,7 +44,11 @@ public class Util {
 			fw = new FileWriter(file);
 			fw.write(response);
 
-			return file.getAbsolutePath();
+			String fpath = file.getAbsolutePath();
+			if (fpath.contains("/jenkins/")) {
+				fpath = "/job/PlayAPI_Automation/ws/responses/" + file.getName();
+			}
+			return fpath;
 		} catch (Exception e) {
 			// Reporter.log("Exception in taking screenshot");
 		} finally {
