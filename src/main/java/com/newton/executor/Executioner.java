@@ -5,16 +5,20 @@ import java.io.IOException;
 import org.apache.commons.lang3.time.StopWatch;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.skyscreamer.jsonassert.JSONAssert;
+import org.skyscreamer.jsonassert.JSONCompare;
+import org.skyscreamer.jsonassert.JSONCompareMode;
+import org.skyscreamer.jsonassert.JSONCompareResult;
 import org.testng.Assert;
 import org.testng.Reporter;
 
 import com.newton.reporter.MyReporter;
+import com.newton.utils.MyJsonComparator;
 import com.newton.utils.Util;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;
+import com.sun.jersey.api.client.WebResource.Builder;
 
 public class Executioner {
 	private WebDriver driver;
@@ -41,18 +45,16 @@ public class Executioner {
 		if (status.toLowerCase().equals("pass")) {
 
 			if (screenShot.length() > 4) {
-				reporter.log(LogStatus.PASS,
-						step + " </td><td class='step-details'> <a target='_blank' href='" + screenShot + "' > response </a></td>",
-						test);
+				reporter.log(LogStatus.PASS, step + " </td><td class='step-details'> <a target='_blank' href='"
+						+ screenShot + "' > response </a></td>", test);
 			} else {
 				reporter.log(LogStatus.PASS, step + " </td><td class='step-details'>" + screenShot + "</td>", test);
 			}
 		} else {
 
 			if (screenShot.length() > 4) {
-				reporter.log(LogStatus.FAIL,
-						step + " </td> <td class='step-details'><a target='_blank' href='" + screenShot + "' > response </a></td>",
-						test);
+				reporter.log(LogStatus.FAIL, step + " </td> <td class='step-details'><a target='_blank' href='"
+						+ screenShot + "' > response </a></td>", test);
 			} else {
 				reporter.log(LogStatus.FAIL, step + " </td> <td class='step-details'> " + screenShot + " </td>", test);
 			}
@@ -60,7 +62,7 @@ public class Executioner {
 		}
 	}
 
-	public String doHttpGet(WebResource webResource, Class<ClientResponse> c, ExtentTest test) {
+	public String doHttpGet(Builder builder, Class<ClientResponse> c, ExtentTest test) {
 		String screenshot = "NA";
 
 		ClientResponse clientResponse = null;
@@ -68,18 +70,49 @@ public class Executioner {
 		try {
 
 			startTime = stopWatch.getTime();
-			clientResponse = webResource.accept("application/json").get(c);
+			clientResponse = builder.accept("application/json").get(c);
 			output = clientResponse.getEntity(String.class);
 
 			screenshot = util.saveResponse(output);
 
-			addStep(startTime, stopWatch.getTime() - startTime, "Method : GET <br> URL: " + webResource.getURI()
+			addStep(startTime, stopWatch.getTime() - startTime, "Method : GET <br> URL: " + clientResponse.getLocation()
+					+ " <br> <br> Response Code:" + clientResponse.getStatus(), "Pass", screenshot, test);
+
+			return output;
+		} catch (AssertionError exception) {
+			addStep(startTime, stopWatch.getTime() - startTime, "HTTP GET \n URL: " + clientResponse.getLocation()
+					+ " \n Response Code:" + clientResponse.getStatus(), "Failed", screenshot, test);
+
+		} catch (IOException e) {
+
+			e.printStackTrace();
+
+		} finally {
+			return output;
+		}
+
+	}
+
+	public String doHttpGet(WebResource builder, Class<ClientResponse> c, ExtentTest test) {
+		String screenshot = "NA";
+
+		ClientResponse clientResponse = null;
+		String output = "";
+		try {
+
+			startTime = stopWatch.getTime();
+			clientResponse = builder.accept("application/json").get(c);
+			output = clientResponse.getEntity(String.class);
+
+			screenshot = util.saveResponse(output);
+
+			addStep(startTime, stopWatch.getTime() - startTime, "Method : GET <br> URL: " + builder.getURI()
 					+ " <br> <br> Response Code:" + clientResponse.getStatus(), "Pass", screenshot, test);
 
 			return output;
 		} catch (AssertionError exception) {
 			addStep(startTime, stopWatch.getTime() - startTime,
-					"HTTP GET \n URL: " + webResource.getURI() + " \n Response Code:" + clientResponse.getStatus(),
+					"HTTP GET \n URL: " + builder.getURI() + " \n Response Code:" + clientResponse.getStatus(),
 					"Failed", screenshot, test);
 
 		} catch (IOException e) {
@@ -167,8 +200,11 @@ public class Executioner {
 		try {
 
 			startTime = stopWatch.getTime();
-			JSONAssert.assertEquals(expected, actual, flag);
-
+			// JSONAssert.assertEquals(expected, actual, flag);
+			JSONCompareResult result = JSONCompare.compareJSON(expected, actual,
+					new MyJsonComparator(JSONCompareMode.STRICT));
+			if (!result.passed())
+				throw new AssertionError(result.getMessage());
 			addStep(startTime, stopWatch.getTime() - startTime, message, "Pass", screenshot, test);
 			Reporter.log("Staus: PASS, Expected: " + expected + ", Actual : " + actual, true);
 			return this;

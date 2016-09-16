@@ -1,6 +1,6 @@
 {
 	"success": "1",
-	"message": "Result Found",
+	"message": "Cached Result Found",
 	"data": {
 		"234523": {
 			"entity_id": 234523,

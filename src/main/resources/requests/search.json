@@ -1,3 +1,23 @@
 {
-	"search": "green saree"
+	"search": "green saree",
+	"color": [
+		"red",
+		"black"
+	],
+	"price": [
+		{
+			"500": "1000"
+		}
+	],
+	"discount_percentage": [
+		10,
+		12,
+		30
+	],
+	"vendor_cod": 1,
+	"fastShipping": 0,
+	"priceSort": "ASC",
+	"is_international_enabled": 0,
+	"perPage": 60,
+	"pageId": "1"
 }

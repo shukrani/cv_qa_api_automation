@@ -14,6 +14,7 @@ import org.testng.annotations.Test;
 import com.newton.utils.ExcelReader;
 import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;
+import com.sun.jersey.api.client.WebResource.Builder;
 
 public class FlaskAndroidTest extends BaseTest {
 	String urlParamsJson;
@@ -42,11 +43,12 @@ public class FlaskAndroidTest extends BaseTest {
 		WebResource webResource = client.resource(baseURL + testData.get("APIEndPoint"));
 
 		webResource = util.setUrlParams(webResource, urlParamsJson);
+		Builder builder = util.setHeaders(webResource, testData);
 
 		switch (testData.get("HTTPMethod").toUpperCase()) {
 
 		case "GET": {
-			actualJson = executor.doHttpGet(webResource, ClientResponse.class, test);
+			actualJson = executor.doHttpGet(builder, ClientResponse.class, test);
 			break;
 		}
 		case "POST": {
@@ -67,7 +69,7 @@ public class FlaskAndroidTest extends BaseTest {
 
 	@DataProvider(name = "PostSearchDataProvider"/* , parallel = true */)
 	public Object[][] postSearchData() {
-		return new ExcelReader().getUserDataFromExcel("testData.xlsx", "summary");
+		return new ExcelReader().getUserDataFromExcel("testData.xlsx", "android");
 	}
 
 }

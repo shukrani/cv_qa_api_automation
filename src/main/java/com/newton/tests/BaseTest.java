@@ -52,8 +52,12 @@ public class BaseTest {
 
 	@BeforeMethod
 	public void setup(@Optional Method method) {
-		System.setProperty("http.proxyHost", "localhost");
-		System.setProperty("http.proxyPort", "8080");
+		// System.setProperty("http.proxyHost", "localhost");
+		// System.setProperty("http.proxyPort", "8090");
+		String tempUrl = System.getenv("BASE_URL");
+		if (tempUrl != null && tempUrl.length() > 10) {
+			baseURL = tempUrl;
+		}
 		client = Client.create();
 	}
 
@@ -74,7 +78,9 @@ public class BaseTest {
 	@AfterSuite
 	public void afterSuite() {
 		// endReport();
+		System.out.println(util.getReportPath());
 		extentReporter.flush();
+
 	}
 
 }

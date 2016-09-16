@@ -11,6 +11,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.newton.utils.Config;
 import com.newton.utils.ExcelReader;
 import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;
@@ -23,6 +24,7 @@ public class GenericTest extends BaseTest {
 	@Parameters("testData")
 	public void restAPITest(Map<String, String> testData)
 			throws JsonGenerationException, JsonMappingException, IOException, JSONException {
+		Config.vars = testData;
 		requestJson = testData.get("RequestData");
 
 		test = extentReporter.startTest(testData.get("TestName"));

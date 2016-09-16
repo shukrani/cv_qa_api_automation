@@ -1,38 +1,26 @@
 package com.newton.utils;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Iterator;
+import java.util.Map;
 
-import org.apache.commons.io.FileUtils;
-import org.apache.http.HttpEntity;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.entity.mime.MultipartEntityBuilder;
-import org.apache.http.entity.mime.content.FileBody;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.util.EntityUtils;
 import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 
 import com.google.gson.JsonObject;
+import com.sun.jersey.api.client.RequestBuilder;
 import com.sun.jersey.api.client.WebResource;
+import com.sun.jersey.api.client.WebResource.Builder;
 
 public class Util {
 	private static Util instance;
 	String jira_attachment_baseURL = "";
 	String jira_attachment_authentication = "";
 	String reportPath;
-	
 
 	private Util() {
 		reportPath = getExtentReportPath();
@@ -110,6 +98,35 @@ public class Util {
 
 	public String getReportPath() {
 		return reportPath;
+	}
+
+	public Builder setHeaders(WebResource webResource, Map<String, String> testData) {
+		Builder header = webResource.getRequestBuilder();
+		try {
+			String headerJson = testData.get("RequestHeaders");
+
+			if (headerJson != null && headerJson.length() > 2) {
+				headerJson = readFileAsString("headers/" + headerJson + ".json");
+			}
+			JSONObject headers = new JSONObject(headerJson);
+			Iterator<JsonObject> it = headers.keys();
+
+			while (it.hasNext()) {
+				String key = it.next() + "";
+				Object value = headers.get(key);
+				if (value.toString().startsWith("$")) {
+					value = Config.vars.get(value);
+				}
+				header = webResource.header(key, value);
+			}
+
+		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			return header;
+		}
+
 	}
 
 	// public void setProxy(String proxyurl) {
