@@ -38,16 +38,16 @@ public class Util {
 		FileWriter fw = null;
 		try {
 
-			String filename = "./responses/response" + System.currentTimeMillis() + ".json";
+			String filename = "./test-output/extent-reports/responses/response" + System.currentTimeMillis() + ".json";
 			File file = new File(filename);
 
 			fw = new FileWriter(file);
 			fw.write(response);
 
-			String fpath = file.getAbsolutePath();
-			if (fpath.contains("/jenkins/")) {
-				fpath = "/job/PlayAPI_Automation/ws/responses/" + file.getName();
-			}
+			// String fpath = file.getAbsolutePath();
+
+			String fpath ="./responses/"+file.getName();
+
 			return fpath;
 		} catch (Exception e) {
 			// Reporter.log("Exception in taking screenshot");
@@ -96,6 +96,7 @@ public class Util {
 	private String getExtentReportPath() {
 
 		new File("./test-output/extent-reports").mkdirs();
+		new File("./test-output/extent-reports/responses").mkdirs();
 		String reportPath = "./test-output/extent-reports/extent-report" + System.currentTimeMillis() + ".html";
 		return reportPath;
 	}
