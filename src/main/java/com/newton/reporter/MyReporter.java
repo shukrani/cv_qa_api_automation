@@ -5,6 +5,7 @@ import org.apache.commons.lang3.time.StopWatch;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
+import com.relevantcodes.extentreports.NetworkMode;
 
 public class MyReporter extends ExtentReports {
 
@@ -15,7 +16,7 @@ public class MyReporter extends ExtentReports {
 	private StopWatch stopWatch;
 
 	private MyReporter(String filepath) {
-		super(filepath);
+		super(filepath, NetworkMode.OFFLINE);
 		try {
 
 			stopWatch = new StopWatch();
