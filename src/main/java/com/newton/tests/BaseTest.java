@@ -43,6 +43,7 @@ public class BaseTest {
 	public void beforeSuite() {
 
 		// reporter = MyReporter.getInstance();
+		System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "");
 		util = Util.getInstance();
 		extentReporter = MyReporter.getInstance(util.getReportPath());
 		// startReport();
