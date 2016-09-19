@@ -3,7 +3,7 @@
 <suite name="Suite" parallel="false">
 	<test name="Regression Test ">
 		<classes>
-			<class name="com.newton.tests.GenericTest" />
+			<class name="com.newton.tests.FlaskAndroidTest" />
 
 		</classes>
 	</test> <!-- Test -->

@@ -107,17 +107,22 @@ public class Util {
 
 			if (headerJson != null && headerJson.length() > 2) {
 				headerJson = readFileAsString("headers/" + headerJson + ".json");
-			}
-			JSONObject headers = new JSONObject(headerJson);
-			Iterator<JsonObject> it = headers.keys();
+				JSONObject headers = new JSONObject(headerJson);
+				Iterator<JsonObject> it = headers.keys();
 
-			while (it.hasNext()) {
-				String key = it.next() + "";
-				Object value = headers.get(key);
-				if (value.toString().startsWith("$")) {
-					value = Config.vars.get(value);
+				while (it.hasNext()) {
+					String key = it.next() + "";
+					Object value = headers.get(key);
+
+					header = header.header(key, value);
 				}
-				header = webResource.header(key, value);
+			}
+
+			header = header.header("X-VERSION-CODE", Config.versionCode + "");
+			if (testData.get("LoginRequired").toLowerCase().equals("yes")) {
+				header = header.header("Authorization", Config.authToken + "");
+			} else {
+				header = header.header("X-Session", Config.sessionToken + "");
 			}
 
 		} catch (JSONException e) {
@@ -127,6 +132,13 @@ public class Util {
 			return header;
 		}
 
+	}
+
+	public String decryptPassword(String encryptedPass) {
+
+		// CryptoUtil cryptoUtil = new CryptoUtil();
+
+		return CryptoUtil.decrypt("Bar12345Bar12345", "RandomInitVector", encryptedPass);
 	}
 
 	// public void setProxy(String proxyurl) {

@@ -75,13 +75,11 @@ public class Executioner {
 
 			screenshot = util.saveResponse(output);
 
-			addStep(startTime, stopWatch.getTime() - startTime, "Method : GET <br> URL: " + clientResponse.getLocation()
-					+ " <br> <br> Response Code:" + clientResponse.getStatus(), "Pass", screenshot, test);
+			addStep(startTime, stopWatch.getTime() - startTime, clientResponse + "", "Pass", screenshot, test);
 
 			return output;
 		} catch (AssertionError exception) {
-			addStep(startTime, stopWatch.getTime() - startTime, "HTTP GET \n URL: " + clientResponse.getLocation()
-					+ " \n Response Code:" + clientResponse.getStatus(), "Failed", screenshot, test);
+			addStep(startTime, stopWatch.getTime() - startTime, clientResponse + "", "Failed", screenshot, test);
 
 		} catch (IOException e) {
 
@@ -160,6 +158,40 @@ public class Executioner {
 
 	}
 
+	public String doHttpPost(Builder webResource, Class<ClientResponse> c, String requestData, ExtentTest test) {
+		String screenshot = "NA";
+
+		ClientResponse clientResponse = null;
+		String output = "";
+		try {
+
+			startTime = stopWatch.getTime();
+			clientResponse = webResource.type("application/json").post(c, requestData);
+			output = clientResponse.getEntity(String.class);
+
+			// System.out.println(output);
+
+			screenshot = util.saveResponse(output);
+
+			addStep(startTime, stopWatch.getTime() - startTime,
+					clientResponse + "" + " <br> <br> Request Data : " + requestData, "Pass", screenshot, test);
+
+			return output;
+		} catch (AssertionError exeption) {
+			addStep(startTime, stopWatch.getTime() - startTime, clientResponse + " <br> Headers : "
+					+ clientResponse.getHeaders() + " <br> <br> Request Data : " + requestData, "Failed", screenshot,
+					test);
+
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();//
+
+		} finally {
+			return output;
+		}
+
+	}
+
 	public String doHttpPost(WebResource webResource, Class<ClientResponse> c, ExtentTest test) {
 		String screenshot = "NA";
 
@@ -183,6 +215,37 @@ public class Executioner {
 			addStep(startTime, stopWatch.getTime() - startTime,
 					"HTTP GET \n URL: " + webResource.getURI() + " \n Response Code:" + clientResponse.getStatus(),
 					"Failed", screenshot, test);
+
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();//
+
+		} finally {
+			return output;
+		}
+
+	}
+
+	public String doHttpPost(Builder webResource, Class<ClientResponse> c, ExtentTest test) {
+		String screenshot = "NA";
+
+		ClientResponse clientResponse = null;
+		String output = "";
+		try {
+
+			startTime = stopWatch.getTime();
+			clientResponse = webResource.type("application/json").post(c);
+			output = clientResponse.getEntity(String.class);
+
+			// System.out.println(output);
+
+			screenshot = util.saveResponse(output);
+
+			addStep(startTime, stopWatch.getTime() - startTime, clientResponse + "", "Pass", screenshot, test);
+
+			return output;
+		} catch (AssertionError exeption) {
+			addStep(startTime, stopWatch.getTime() - startTime, clientResponse + "", "Failed", screenshot, test);
 
 		} catch (Exception e) {
 			// TODO Auto-generated catch block

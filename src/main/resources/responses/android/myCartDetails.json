@@ -1,0 +1,41 @@
+{
+	"s": 1,
+	"m": "",
+	"d": {
+		"coupon": {
+		},
+		"orderSummary": {
+			"totalPayable": 9592,
+			"couponDiscount": 0,
+			"shippingCost": 0,
+			"discount": 0,
+			"total": 9592,
+			"subTotal": 9592,
+			"vat": 0
+		},
+		"displayMsg": "Some items are out of stock. Please remove them to proceed.",
+		"products": [
+			{
+				"isInStock": 0,
+				"sellerNote": "",
+				"regularPrice": 4999,
+				"qty": 8,
+				"discountPercentage": 76,
+				"imgUrl": "/C/V/CV-MSHON44490366340--Shonayaa-Craftsvilla_1.jpg",
+				"discountedPrice": 1199,
+				"vendorDetails": {
+					"vendorId": "23776",
+					"vendorPincode": "395010",
+					"vendorCod": 1,
+					"vendorName": "Shonayaa"
+				},
+				"variants": {
+				},
+				"isCod": 1,
+				"productName": "Red And Black Embroidered Faux Georgette Saree",
+				"productId": "3576388"
+			}
+		],
+		"customerId": "1877319"
+	}
+}
