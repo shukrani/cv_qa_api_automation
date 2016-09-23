@@ -1,3 +1,9 @@
 {
-
+	"s": 1,
+	"m": "Guest user : emailId has been registered successfully.",
+	"d": {
+		"token": "3219697_1b994a132304c6b11900c366600d201b",
+		"loggedIn": 1,
+		"customerId": "3219697"
+	}
 }

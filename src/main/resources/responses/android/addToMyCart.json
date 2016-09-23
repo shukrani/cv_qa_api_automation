@@ -1,20 +1,43 @@
 {
 	"s": 1,
-	"m": "",
+	"m": "Product added to your cart!",
 	"d": {
 		"coupon": {
 		},
 		"orderSummary": {
-			"totalPayable": 998,
+			"totalPayable": 1997,
 			"couponDiscount": 0,
 			"shippingCost": 0,
 			"discount": 0,
-			"total": 998,
-			"subTotal": 998,
+			"total": 1997,
+			"subTotal": 1997,
 			"vat": 0
 		},
 		"displayMsg": "",
 		"products": [
+			{
+				"isInStock": 1,
+				"sellerNote": "",
+				"regularPrice": 2300,
+				"qty": 1,
+				"discountPercentage": 56,
+				"imgUrl": "/C/V/CV-MSHAY50944959040--ShayonaDeal-Craftsvilla_1.jpg",
+				"discountedPrice": 999,
+				"vendorDetails": {
+					"vendorId": "17697",
+					"vendorCod": 1,
+					"vendorName": "ShayonaDeal",
+					"vendorPincode": "395006"
+				},
+				"variants": {
+					"color": [
+						"Black"
+					]
+				},
+				"isCod": 1,
+				"productName": "Beautifull Fancy black and red sarees",
+				"productId": 3180202
+			},
 			{
 				"isInStock": 1,
 				"sellerNote": "",

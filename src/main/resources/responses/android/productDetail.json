@@ -167,6 +167,18 @@
 		"variantProducts": [
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563455",
+				"variants": {
+					"Color": [
+						"Yellow"
+					],
+					"Size": [
+						"S"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
 				"entityId": "4563350",
 				"variants": {
 					"Color": [
@@ -179,10 +191,22 @@
 			},
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563365",
+				"entityId": "4563358",
 				"variants": {
 					"Color": [
 						"Green"
+					],
+					"Size": [
+						"M"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563406",
+				"variants": {
+					"Color": [
+						"Pink"
 					],
 					"Size": [
 						"5XL"
@@ -191,25 +215,25 @@
 			},
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563346",
+				"entityId": "4563386",
 				"variants": {
 					"Color": [
-						"Black"
+						"Blue"
 					],
 					"Size": [
-						"M"
+						"XL"
 					]
 				}
 			},
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563358",
+				"entityId": "4563365",
 				"variants": {
 					"Color": [
 						"Green"
 					],
 					"Size": [
-						"M"
+						"5XL"
 					]
 				}
 			},
@@ -239,13 +263,13 @@
 			},
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563386",
+				"entityId": "4563453",
 				"variants": {
 					"Color": [
-						"Blue"
+						"White"
 					],
 					"Size": [
-						"XL"
+						"7XL"
 					]
 				}
 			},
@@ -275,22 +299,34 @@
 			},
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563453",
+				"entityId": "4563346",
 				"variants": {
 					"Color": [
-						"White"
+						"Black"
 					],
 					"Size": [
-						"7XL"
+						"M"
 					]
 				}
 			},
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563406",
+				"entityId": "4563345",
 				"variants": {
 					"Color": [
-						"Pink"
+						"Black"
+					],
+					"Size": [
+						"S"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563352",
+				"variants": {
+					"Color": [
+						"Black"
 					],
 					"Size": [
 						"5XL"
@@ -299,10 +335,10 @@
 			},
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563455",
+				"entityId": "4563370",
 				"variants": {
 					"Color": [
-						"Yellow"
+						"Grey"
 					],
 					"Size": [
 						"S"
@@ -311,10 +347,58 @@
 			},
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563436",
+				"entityId": "4563372",
 				"variants": {
 					"Color": [
-						"Beige"
+						"Grey"
+					],
+					"Size": [
+						"L"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563399",
+				"variants": {
+					"Color": [
+						"Pink"
+					],
+					"Size": [
+						"L"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563414",
+				"variants": {
+					"Color": [
+						"Purple"
+					],
+					"Size": [
+						"M"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563454",
+				"variants": {
+					"Color": [
+						"Yellow"
+					],
+					"Size": [
+						"XS"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563420",
+				"variants": {
+					"Color": [
+						"Purple"
 					],
 					"Size": [
 						"5XL"
@@ -323,142 +407,10 @@
 			},
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563444",
-				"variants": {
-					"Color": [
-						"White"
-					],
-					"Size": [
-						"L"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563431",
+				"entityId": "4563432",
 				"variants": {
 					"Color": [
 						"Beige"
-					],
-					"Size": [
-						"L"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563456",
-				"variants": {
-					"Color": [
-						"Yellow"
-					],
-					"Size": [
-						"M"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563440",
-				"variants": {
-					"Color": [
-						"White"
-					],
-					"Size": [
-						"S"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563357",
-				"variants": {
-					"Color": [
-						"Green"
-					],
-					"Size": [
-						"S"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563434",
-				"variants": {
-					"Color": [
-						"Beige"
-					],
-					"Size": [
-						"XXL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563387",
-				"variants": {
-					"Color": [
-						"Blue"
-					],
-					"Size": [
-						"XXL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563429",
-				"variants": {
-					"Color": [
-						"Beige"
-					],
-					"Size": [
-						"M"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563375",
-				"variants": {
-					"Color": [
-						"Grey"
-					],
-					"Size": [
-						"XXL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563384",
-				"variants": {
-					"Color": [
-						"Blue"
-					],
-					"Size": [
-						"M"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563395",
-				"variants": {
-					"Color": [
-						"Pink"
-					],
-					"Size": [
-						"S"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563374",
-				"variants": {
-					"Color": [
-						"Grey"
 					],
 					"Size": [
 						"XL"
@@ -467,10 +419,106 @@
 			},
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563398",
+				"entityId": "4563461",
 				"variants": {
 					"Color": [
-						"Pink"
+						"Yellow"
+					],
+					"Size": [
+						"3XL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563435",
+				"variants": {
+					"Color": [
+						"Beige"
+					],
+					"Size": [
+						"3XL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563437",
+				"variants": {
+					"Color": [
+						"Beige"
+					],
+					"Size": [
+						"6XL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563451",
+				"variants": {
+					"Color": [
+						"White"
+					],
+					"Size": [
+						"5XL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563364",
+				"variants": {
+					"Color": [
+						"Green"
+					],
+					"Size": [
+						"3XL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563347",
+				"variants": {
+					"Color": [
+						"Black"
+					],
+					"Size": [
+						"L"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563415",
+				"variants": {
+					"Color": [
+						"Purple"
+					],
+					"Size": [
+						"L"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563422",
+				"variants": {
+					"Color": [
+						"Purple"
+					],
+					"Size": [
+						"6XL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563442",
+				"variants": {
+					"Color": [
+						"White"
 					],
 					"Size": [
 						"M"
@@ -479,25 +527,13 @@
 			},
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563413",
+				"entityId": "4563445",
 				"variants": {
 					"Color": [
-						"Purple"
+						"White"
 					],
 					"Size": [
-						"S"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563407",
-				"variants": {
-					"Color": [
-						"Pink"
-					],
-					"Size": [
-						"6XL"
+						"XL"
 					]
 				}
 			},
@@ -515,109 +551,37 @@
 			},
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563438",
-				"variants": {
-					"Color": [
-						"Beige"
-					],
-					"Size": [
-						"7XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563425",
+				"entityId": "4563413",
 				"variants": {
 					"Color": [
 						"Purple"
 					],
 					"Size": [
-						"7XL"
+						"S"
 					]
 				}
 			},
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563448",
-				"variants": {
-					"Color": [
-						"White"
-					],
-					"Size": [
-						"XXL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563405",
-				"variants": {
-					"Color": [
-						"Pink"
-					],
-					"Size": [
-						"3XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563390",
-				"variants": {
-					"Color": [
-						"Blue"
-					],
-					"Size": [
-						"5XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563380",
-				"variants": {
-					"Color": [
-						"Grey"
-					],
-					"Size": [
-						"7XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563377",
-				"variants": {
-					"Color": [
-						"Grey"
-					],
-					"Size": [
-						"3XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563378",
-				"variants": {
-					"Color": [
-						"Grey"
-					],
-					"Size": [
-						"5XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563355",
+				"entityId": "4563360",
 				"variants": {
 					"Color": [
 						"Green"
 					],
 					"Size": [
-						"XS"
+						"L"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563407",
+				"variants": {
+					"Color": [
+						"Pink"
+					],
+					"Size": [
+						"6XL"
 					]
 				}
 			},
@@ -659,34 +623,34 @@
 			},
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563360",
+				"entityId": "4563390",
+				"variants": {
+					"Color": [
+						"Blue"
+					],
+					"Size": [
+						"5XL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563438",
+				"variants": {
+					"Color": [
+						"Beige"
+					],
+					"Size": [
+						"7XL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563355",
 				"variants": {
 					"Color": [
 						"Green"
-					],
-					"Size": [
-						"L"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563461",
-				"variants": {
-					"Color": [
-						"Yellow"
-					],
-					"Size": [
-						"3XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563454",
-				"variants": {
-					"Color": [
-						"Yellow"
 					],
 					"Size": [
 						"XS"
@@ -695,82 +659,22 @@
 			},
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563432",
+				"entityId": "4563380",
 				"variants": {
 					"Color": [
-						"Beige"
+						"Grey"
 					],
 					"Size": [
-						"XL"
+						"7XL"
 					]
 				}
 			},
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563445",
+				"entityId": "4563377",
 				"variants": {
 					"Color": [
-						"White"
-					],
-					"Size": [
-						"XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563345",
-				"variants": {
-					"Color": [
-						"Black"
-					],
-					"Size": [
-						"S"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563451",
-				"variants": {
-					"Color": [
-						"White"
-					],
-					"Size": [
-						"5XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563422",
-				"variants": {
-					"Color": [
-						"Purple"
-					],
-					"Size": [
-						"6XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563437",
-				"variants": {
-					"Color": [
-						"Beige"
-					],
-					"Size": [
-						"6XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563435",
-				"variants": {
-					"Color": [
-						"Beige"
+						"Grey"
 					],
 					"Size": [
 						"3XL"
@@ -779,10 +683,10 @@
 			},
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563420",
+				"entityId": "4563378",
 				"variants": {
 					"Color": [
-						"Purple"
+						"Grey"
 					],
 					"Size": [
 						"5XL"
@@ -791,109 +695,205 @@
 			},
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563415",
-				"variants": {
-					"Color": [
-						"Purple"
-					],
-					"Size": [
-						"L"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563414",
-				"variants": {
-					"Color": [
-						"Purple"
-					],
-					"Size": [
-						"M"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563442",
-				"variants": {
-					"Color": [
-						"White"
-					],
-					"Size": [
-						"M"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563352",
-				"variants": {
-					"Color": [
-						"Black"
-					],
-					"Size": [
-						"5XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563364",
-				"variants": {
-					"Color": [
-						"Green"
-					],
-					"Size": [
-						"3XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563347",
-				"variants": {
-					"Color": [
-						"Black"
-					],
-					"Size": [
-						"L"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563372",
-				"variants": {
-					"Color": [
-						"Grey"
-					],
-					"Size": [
-						"L"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563370",
-				"variants": {
-					"Color": [
-						"Grey"
-					],
-					"Size": [
-						"S"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563399",
+				"entityId": "4563405",
 				"variants": {
 					"Color": [
 						"Pink"
 					],
 					"Size": [
+						"3XL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563448",
+				"variants": {
+					"Color": [
+						"White"
+					],
+					"Size": [
+						"XXL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563425",
+				"variants": {
+					"Color": [
+						"Purple"
+					],
+					"Size": [
+						"7XL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563434",
+				"variants": {
+					"Color": [
+						"Beige"
+					],
+					"Size": [
+						"XXL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563384",
+				"variants": {
+					"Color": [
+						"Blue"
+					],
+					"Size": [
+						"M"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563374",
+				"variants": {
+					"Color": [
+						"Grey"
+					],
+					"Size": [
+						"XL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563387",
+				"variants": {
+					"Color": [
+						"Blue"
+					],
+					"Size": [
+						"XXL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563395",
+				"variants": {
+					"Color": [
+						"Pink"
+					],
+					"Size": [
+						"S"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563436",
+				"variants": {
+					"Color": [
+						"Beige"
+					],
+					"Size": [
+						"5XL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563375",
+				"variants": {
+					"Color": [
+						"Grey"
+					],
+					"Size": [
+						"XXL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563444",
+				"variants": {
+					"Color": [
+						"White"
+					],
+					"Size": [
 						"L"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563398",
+				"variants": {
+					"Color": [
+						"Pink"
+					],
+					"Size": [
+						"M"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563431",
+				"variants": {
+					"Color": [
+						"Beige"
+					],
+					"Size": [
+						"L"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563456",
+				"variants": {
+					"Color": [
+						"Yellow"
+					],
+					"Size": [
+						"M"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563357",
+				"variants": {
+					"Color": [
+						"Green"
+					],
+					"Size": [
+						"S"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563429",
+				"variants": {
+					"Color": [
+						"Beige"
+					],
+					"Size": [
+						"M"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563440",
+				"variants": {
+					"Color": [
+						"White"
+					],
+					"Size": [
+						"S"
 					]
 				}
 			},
@@ -906,42 +906,6 @@
 					],
 					"Size": [
 						"XS"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563368",
-				"variants": {
-					"Color": [
-						"Green"
-					],
-					"Size": [
-						"7XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563366",
-				"variants": {
-					"Color": [
-						"Green"
-					],
-					"Size": [
-						"6XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563349",
-				"variants": {
-					"Color": [
-						"Black"
-					],
-					"Size": [
-						"XXL"
 					]
 				}
 			},
@@ -971,18 +935,6 @@
 			},
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563371",
-				"variants": {
-					"Color": [
-						"Grey"
-					],
-					"Size": [
-						"M"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
 				"entityId": "4563363",
 				"variants": {
 					"Color": [
@@ -995,13 +947,13 @@
 			},
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563410",
+				"entityId": "4563371",
 				"variants": {
 					"Color": [
-						"Pink"
+						"Grey"
 					],
 					"Size": [
-						"7XL"
+						"M"
 					]
 				}
 			},
@@ -1014,186 +966,6 @@
 					],
 					"Size": [
 						"6XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563403",
-				"variants": {
-					"Color": [
-						"Pink"
-					],
-					"Size": [
-						"XXL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563381",
-				"variants": {
-					"Color": [
-						"Blue"
-					],
-					"Size": [
-						"XS"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563394",
-				"variants": {
-					"Color": [
-						"Pink"
-					],
-					"Size": [
-						"XS"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563383",
-				"variants": {
-					"Color": [
-						"Blue"
-					],
-					"Size": [
-						"S"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563400",
-				"variants": {
-					"Color": [
-						"Pink"
-					],
-					"Size": [
-						"XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563464",
-				"variants": {
-					"Color": [
-						"Yellow"
-					],
-					"Size": [
-						"7XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563462",
-				"variants": {
-					"Color": [
-						"Yellow"
-					],
-					"Size": [
-						"5XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563452",
-				"variants": {
-					"Color": [
-						"White"
-					],
-					"Size": [
-						"6XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563460",
-				"variants": {
-					"Color": [
-						"Yellow"
-					],
-					"Size": [
-						"XXL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563450",
-				"variants": {
-					"Color": [
-						"White"
-					],
-					"Size": [
-						"3XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563459",
-				"variants": {
-					"Color": [
-						"Yellow"
-					],
-					"Size": [
-						"XL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563439",
-				"variants": {
-					"Color": [
-						"White"
-					],
-					"Size": [
-						"XS"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563457",
-				"variants": {
-					"Color": [
-						"Yellow"
-					],
-					"Size": [
-						"L"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563417",
-				"variants": {
-					"Color": [
-						"Purple"
-					],
-					"Size": [
-						"XXL"
-					]
-				}
-			},
-			{
-				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563412",
-				"variants": {
-					"Color": [
-						"Purple"
-					],
-					"Size": [
-						"XS"
 					]
 				}
 			},
@@ -1223,10 +995,34 @@
 			},
 			{
 				"urlPath": "batwing-extra-long-basic-tunic",
-				"entityId": "4563393",
+				"entityId": "4563412",
 				"variants": {
 					"Color": [
-						"Blue"
+						"Purple"
+					],
+					"Size": [
+						"XS"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563457",
+				"variants": {
+					"Color": [
+						"Yellow"
+					],
+					"Size": [
+						"L"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563464",
+				"variants": {
+					"Color": [
+						"Yellow"
 					],
 					"Size": [
 						"7XL"
@@ -1242,6 +1038,210 @@
 					],
 					"Size": [
 						"XS"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563460",
+				"variants": {
+					"Color": [
+						"Yellow"
+					],
+					"Size": [
+						"XXL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563450",
+				"variants": {
+					"Color": [
+						"White"
+					],
+					"Size": [
+						"3XL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563417",
+				"variants": {
+					"Color": [
+						"Purple"
+					],
+					"Size": [
+						"XXL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563349",
+				"variants": {
+					"Color": [
+						"Black"
+					],
+					"Size": [
+						"XXL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563366",
+				"variants": {
+					"Color": [
+						"Green"
+					],
+					"Size": [
+						"6XL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563368",
+				"variants": {
+					"Color": [
+						"Green"
+					],
+					"Size": [
+						"7XL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563381",
+				"variants": {
+					"Color": [
+						"Blue"
+					],
+					"Size": [
+						"XS"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563410",
+				"variants": {
+					"Color": [
+						"Pink"
+					],
+					"Size": [
+						"7XL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563403",
+				"variants": {
+					"Color": [
+						"Pink"
+					],
+					"Size": [
+						"XXL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563400",
+				"variants": {
+					"Color": [
+						"Pink"
+					],
+					"Size": [
+						"XL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563383",
+				"variants": {
+					"Color": [
+						"Blue"
+					],
+					"Size": [
+						"S"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563393",
+				"variants": {
+					"Color": [
+						"Blue"
+					],
+					"Size": [
+						"7XL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563394",
+				"variants": {
+					"Color": [
+						"Pink"
+					],
+					"Size": [
+						"XS"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563452",
+				"variants": {
+					"Color": [
+						"White"
+					],
+					"Size": [
+						"6XL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563439",
+				"variants": {
+					"Color": [
+						"White"
+					],
+					"Size": [
+						"XS"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563462",
+				"variants": {
+					"Color": [
+						"Yellow"
+					],
+					"Size": [
+						"5XL"
+					]
+				}
+			},
+			{
+				"urlPath": "batwing-extra-long-basic-tunic",
+				"entityId": "4563459",
+				"variants": {
+					"Color": [
+						"Yellow"
+					],
+					"Size": [
+						"XL"
 					]
 				}
 			}
@@ -1264,7 +1264,7 @@
 				"6XL"
 			]
 		},
-		"shippingCostIndia": 0,
+		"shippingCostIndia": 0.0,
 		"regularPrice": 2780.0,
 		"estimatedDeliveryTime": "6-8 working days",
 		"discountPercentage": 34,

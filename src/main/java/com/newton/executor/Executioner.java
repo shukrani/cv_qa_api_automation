@@ -265,7 +265,7 @@ public class Executioner {
 			startTime = stopWatch.getTime();
 			// JSONAssert.assertEquals(expected, actual, flag);
 			JSONCompareResult result = JSONCompare.compareJSON(expected, actual,
-					new MyJsonComparator(JSONCompareMode.STRICT));
+					new MyJsonComparator(JSONCompareMode.LENIENT));
 			if (!result.passed())
 				throw new AssertionError(result.getMessage());
 			addStep(startTime, stopWatch.getTime() - startTime, message, "Pass", screenshot, test);

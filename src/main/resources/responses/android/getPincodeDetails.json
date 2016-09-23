@@ -1,1 +1,10 @@
-{}
+{
+	"s": 1,
+	"m": "",
+	"d": {
+		"city": "Mumbai",
+		"state": "MAHARASHTRA",
+		"countryId": "IN",
+		"customerPincode": "400079"
+	}
+}
