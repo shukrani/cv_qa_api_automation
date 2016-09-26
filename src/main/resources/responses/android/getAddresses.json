@@ -1,0 +1,22 @@
+{
+	"s": 1,
+	"m": "Address exists!",
+	"d": {
+		"addressList": [
+			{
+				"city": "Mumbai",
+				"countryId": "IN",
+				"addressId": "3034511",
+				"firstName": "ABC",
+				"defaultAddress": 1,
+				"lastName": "XYZ",
+				"address": "XYZ",
+				"pincode": "400101",
+				"state": "string",
+				"country": "India",
+				"countryPhoneCode": "+91",
+				"phoneNo": "7797326829"
+			}
+		]
+	}
+}

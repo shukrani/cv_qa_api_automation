@@ -1,0 +1,16 @@
+{
+	"s": 1,
+	"m": "",
+	"d": {
+		"city": "Mumbai",
+		"addressId": "3034511",
+		"firstname": "ABC",
+		"lastname": "XYZ",
+		"region": "string",
+		"country_id": "IN",
+		"telephone": "7797326829",
+		"street": "XYZ",
+		"postcode": "400101",
+		"countryPhoneCode": "+91"
+	}
+}

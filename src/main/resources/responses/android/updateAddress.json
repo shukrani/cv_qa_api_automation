@@ -1,0 +1,16 @@
+{
+	"s": 1,
+	"m": "Address has been updated successfully!",
+	"d": {
+		"city": "Mumbai",
+		"addressId": "3034511",
+		"firstname": "ABC",
+		"lastname": "XYZ",
+		"region": "Maharashtra",
+		"country_id": "IN",
+		"telephone": "1234567890",
+		"street": "ABC",
+		"postcode": "400101",
+		"countryPhoneCode": "+91"
+	}
+}
