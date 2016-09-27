@@ -1,0 +1,43 @@
+{
+	"s": 1,
+	"m": "",
+	"d": {
+		"coupon": {
+		},
+		"orderSummary": {
+			"totalPayable": 1999,
+			"couponDiscount": 0,
+			"shippingCost": 0,
+			"discount": 0,
+			"total": 1999,
+			"subTotal": 1999,
+			"vat": 0
+		},
+		"displayMsg": "Few Items in your cart are not available for CASH ON DELIVERY. You can still proceed and do Online Payment.",
+		"products": [
+			{
+				"isInStock": 1,
+				"sellerNote": "",
+				"regularPrice": 4000,
+				"qty": 1,
+				"discountPercentage": 50,
+				"imgUrl": "/C/V/CV-28905-MJWEL34080584380--jwellr-1470488843-Craftsvilla_1.jpg",
+				"discountedPrice": 1999,
+				"vendorDetails": {
+					"vendorId": "28905",
+					"vendorCod": 0,
+					"vendorName": "jwellr",
+					"vendorPincode": "395010"
+				},
+				"variants": {
+					"color": [
+						"Black"
+					]
+				},
+				"isCod": 0,
+				"productName": "Knapsack Bag a new style in college bag for college girls to enhance their look",
+				"productId": "5024776"
+			}
+		]
+	}
+}

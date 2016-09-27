@@ -1,12 +1,12 @@
 {
-  "address": "XYZ",
-  "city": "Mumbai",
-  "countryId": "IN",
-  "countryPhoneCode": "91",
-  "customerId": "1877248",
-  "firstName": "ABC",
-  "lastName": "XYZ",
-  "phoneNo": "7797326829",
-  "pincode": "400101",
-  "state": "string"
+	"address": "XYZ",
+	"city": "Mumbai",
+	"countryId": "IN",
+	"countryPhoneCode": "91",
+	"customerId": "3238687",
+	"firstName": "ABC",
+	"lastName": "XYZ",
+	"phoneNo": "7797326829",
+	"pincode": "400101",
+	"state": "string"
 }

@@ -5,44 +5,21 @@
 		"coupon": {
 		},
 		"orderSummary": {
-			"totalPayable": 1997,
+			"totalPayable": 4494,
 			"couponDiscount": 0,
 			"shippingCost": 0,
 			"discount": 0,
-			"total": 1997,
-			"subTotal": 1997,
+			"total": 4494,
+			"subTotal": 4494,
 			"vat": 0
 		},
-		"displayMsg": "",
+		"displayMsg": "Few Items in your cart are not available for CASH ON DELIVERY. You can still proceed and do Online Payment.",
 		"products": [
 			{
 				"isInStock": 1,
 				"sellerNote": "",
-				"regularPrice": 2300,
-				"qty": 1,
-				"discountPercentage": 56,
-				"imgUrl": "/C/V/CV-MSHAY50944959040--ShayonaDeal-Craftsvilla_1.jpg",
-				"discountedPrice": 999,
-				"vendorDetails": {
-					"vendorId": "17697",
-					"vendorCod": 1,
-					"vendorName": "ShayonaDeal",
-					"vendorPincode": "395006"
-				},
-				"variants": {
-					"color": [
-						"Black"
-					]
-				},
-				"isCod": 1,
-				"productName": "Beautifull Fancy black and red sarees",
-				"productId": "3180202"
-			},
-			{
-				"isInStock": 1,
-				"sellerNote": "",
 				"regularPrice": 1248,
-				"qty": 1,
+				"qty": 4,
 				"discountPercentage": 60,
 				"imgUrl": "/1/2/1234-S-Kurtis_and_Tunics-Ziyaa-1-Craftsvilla.jpg",
 				"discountedPrice": 499,
@@ -85,6 +62,29 @@
 				"isCod": 1,
 				"productName": "ZIYAA Pink Faux Crepe Half Sleeve And Round Neck Digital Printed Kurti",
 				"productId": "4582298"
+			},
+			{
+				"isInStock": 1,
+				"sellerNote": "",
+				"regularPrice": 4000,
+				"qty": 1,
+				"discountPercentage": 50,
+				"imgUrl": "/C/V/CV-28905-MJWEL34080584380--jwellr-1470488843-Craftsvilla_1.jpg",
+				"discountedPrice": 1999,
+				"vendorDetails": {
+					"vendorId": "28905",
+					"vendorCod": 0,
+					"vendorName": "jwellr",
+					"vendorPincode": "395010"
+				},
+				"variants": {
+					"color": [
+						"Black"
+					]
+				},
+				"isCod": 0,
+				"productName": "Knapsack Bag a new style in college bag for college girls to enhance their look",
+				"productId": "5024776"
 			}
 		],
 		"customerId": "3044185"

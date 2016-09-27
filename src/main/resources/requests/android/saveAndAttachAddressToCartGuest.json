@@ -1,0 +1,15 @@
+{
+	"customerId": "3238687",
+	"shippingAddress": {
+		"firstName": "Rebbecca",
+		"lastName": "Elvis",
+		"address": "Near Big Data Office",
+		"city": "Gurgaon",
+		"state": "maharashtra",
+		"country": "India",
+		"pincode": "400063",
+		"phoneNo": "9730926367",
+		"countryId": "IN",
+		"countryPhoneCode": "+91"
+	}
+}

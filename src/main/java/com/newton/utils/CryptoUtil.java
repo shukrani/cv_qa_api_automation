@@ -48,6 +48,6 @@ public class CryptoUtil {
 		String key = "Bar12345Bar12345"; // 128 bit key
 		String initVector = "RandomInitVector"; // 16 bytes IV
 
-		System.out.println(decrypt(key, initVector, encrypt(key, initVector, "781jpM")));
+		System.out.println(decrypt(key, initVector, encrypt(key, initVector, "WRDC6J")));
 	}
 }

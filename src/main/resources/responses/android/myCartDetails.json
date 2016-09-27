@@ -5,12 +5,12 @@
 		"coupon": {
 		},
 		"orderSummary": {
-			"totalPayable": 998,
+			"totalPayable": 2495,
 			"couponDiscount": 0,
 			"shippingCost": 0,
 			"discount": 0,
-			"total": 998,
-			"subTotal": 998,
+			"total": 2495,
+			"subTotal": 2495,
 			"vat": 0
 		},
 		"displayMsg": "",
@@ -19,7 +19,7 @@
 				"isInStock": 1,
 				"sellerNote": "",
 				"regularPrice": 1248,
-				"qty": 1,
+				"qty": 4,
 				"discountPercentage": 60,
 				"imgUrl": "/1/2/1234-S-Kurtis_and_Tunics-Ziyaa-1-Craftsvilla.jpg",
 				"discountedPrice": 499,

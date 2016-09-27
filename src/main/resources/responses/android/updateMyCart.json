@@ -1,19 +1,19 @@
 {
 	"s": 1,
-	"m": "Products have been removed from cart successfully!",
+	"m": "Cart has been updated successfully!",
 	"d": {
 		"coupon": {
 		},
 		"orderSummary": {
-			"totalPayable": 2495,
+			"totalPayable": 4494,
 			"couponDiscount": 0,
 			"shippingCost": 0,
 			"discount": 0,
-			"total": 2495,
-			"subTotal": 2495,
+			"total": 4494,
+			"subTotal": 4494,
 			"vat": 0
 		},
-		"displayMsg": "",
+		"displayMsg": "Few Items in your cart are not available for CASH ON DELIVERY. You can still proceed and do Online Payment.",
 		"products": [
 			{
 				"isInStock": 1,
@@ -62,6 +62,29 @@
 				"isCod": 1,
 				"productName": "ZIYAA Pink Faux Crepe Half Sleeve And Round Neck Digital Printed Kurti",
 				"productId": "4582298"
+			},
+			{
+				"isInStock": 1,
+				"sellerNote": "",
+				"regularPrice": 4000,
+				"qty": 1,
+				"discountPercentage": 50,
+				"imgUrl": "/C/V/CV-28905-MJWEL34080584380--jwellr-1470488843-Craftsvilla_1.jpg",
+				"discountedPrice": 1999,
+				"vendorDetails": {
+					"vendorId": "28905",
+					"vendorCod": 0,
+					"vendorName": "jwellr",
+					"vendorPincode": "395010"
+				},
+				"variants": {
+					"color": [
+						"Black"
+					]
+				},
+				"isCod": 0,
+				"productName": "Knapsack Bag a new style in college bag for college girls to enhance their look",
+				"productId": "5024776"
 			}
 		],
 		"customerId": "3044185"
