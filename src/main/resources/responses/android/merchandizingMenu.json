@@ -1,0 +1,1460 @@
+{
+	"s": 1,
+	"m": "Menu details",
+	"d": {
+		"menu": [
+			{
+				"name": "Lehenga",
+				"isNew": "",
+				"target": {
+					"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehenga_topselling_seeall#catId=10018&pageId=1&",
+					"name": "All Lehengas"
+				},
+				"data": [
+					{
+						"name": "Top Selling",
+						"isNew": "",
+						"target": {
+							"url": "",
+							"name": ""
+						},
+						"data": [
+							{
+								"name": "Bollywood",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/searchresults?searchby=product&q=bollywood+lehenga#price=1000_2000&pageId=1&MID=megamenu_lehenga_topselling_bollywood ",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Designer",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehenga_topselling_designer#catId=10018&style=designer&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Party wear",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehenga_topselling_partywear#catId=10018&occasion=party&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Wedding Special",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehenga_topselling_wedding#catId=10018&occasion=wedding&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Pastel Lehengas",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehenga_topselling_pastel-lehengas#catId=10018&lehenga-color=beige,pastel,pink,yellow&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Bridal Lehenga",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehenga_topselling_bridal-lehenga#catId=10018&occasion=bridal&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							}
+						],
+						"imgURL": "",
+						"desc": ""
+					},
+					{
+						"name": "By Occassion",
+						"isNew": "",
+						"target": {
+							"url": "",
+							"name": ""
+						},
+						"data": [
+							{
+								"name": "Festival",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehengas_occasion_festival#catId=10018&occasion=festival&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "party",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehengas_occasion_party#catId=10018&occasion=party&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "wedding",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehengas_occasion_wedding#catId=10018&occasion=wedding&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "casual",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehengas_occasion_casual#catId=10018&occasion=casual&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "bridal",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehengas_occasion_bridal#catId=10018&occasion=bridal&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "ceremonial",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehengas_occasion_ceremonial#catId=10018&occasion=ceremonial&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "See All",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehengas_occasion_seeall#catId=10018&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							}
+						],
+						"imgURL": "",
+						"desc": ""
+					},
+					{
+						"name": "By Style",
+						"isNew": "",
+						"target": {
+							"url": "",
+							"name": ""
+						},
+						"data": [
+							{
+								"name": "Designer",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehengas_style_designer#catId=10018&style=designer&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Traditional",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehengas_style_traditional#catId=10018&style=traditional&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "A Line",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehengas_style_aline#catId=10018&style=a line&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Circular",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehengas_style_circular#catId=10018&style=circular&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Mermaid Cut",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehengas_style_mermaidcut#catId=10018&style=mermaid cut&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Straight Cut",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehengas_style_straightcut#catId=10018&style=straight cut&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "See All",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehengas_style_seeall#catId=10018&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							}
+						],
+						"imgURL": "",
+						"desc": ""
+					},
+					{
+						"name": "By Fabric",
+						"isNew": "",
+						"target": {
+							"url": "",
+							"name": ""
+						},
+						"data": [
+							{
+								"name": "Georgette",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehengas_fabric_georgette#catId=10018&lehenga-fabric=georgette&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Chiffon",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehengas_fabric_chiffon#catId=10018&lehenga-fabric=chiffon&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Cotton",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehengas_fabric_cotton#catId=10018&lehenga-fabric=cotton&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Silk",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehengas_fabric_silk#catId=10018&lehenga-fabric=silk&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Net / Tissue",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehengas_fabric_net_tissue#catId=10018&lehenga-fabric=chantilly net,net,super net,tissue&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Satin",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehengas_fabric_satin#catId=10018&lehenga-fabric=satin&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "See All",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehengas_fabric_seeall#catId=10018&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							}
+						],
+						"imgURL": "",
+						"desc": ""
+					},
+					{
+						"name": "Top Picks",
+						"isNew": "",
+						"target": {
+							"url": "",
+							"name": ""
+						},
+						"data": [
+							{
+								"name": "Best-Selling",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/cvfeeds/lehenga-offers.html?MID=megamenu_lehenga_MB_1",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Wedding Special",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/lehangas/?MID=megamenu_lehenga_MB_2#catId=10018&occasion=wedding&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Lovely Lehenga Sarees",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/cvfeeds/ethnic-wear-starting-from-1299-20177.html",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							}
+						],
+						"imgURL": "",
+						"desc": ""
+					}
+				],
+				"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/Lehenga.png",
+				"desc": "Bollywood,Designer,Bridal"
+			},
+			{
+				"name": "Salwar Suits",
+				"isNew": "",
+				"target": {
+					"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_topselling_seeall#catId=10022&price=1000_2000,2000_5000,5000_0&pageId=1&",
+					"name": "All Salwar Suits"
+				},
+				"data": [
+					{
+						"name": "Top Selling",
+						"isNew": "",
+						"target": {
+							"url": "",
+							"name": ""
+						},
+						"data": [
+							{
+								"name": "Anarkalis",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/anarkalis/?MID=megamenu_salwarsuits_topselling_anarkalis#catId=10023&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Patiala",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/searchresults?searchby=product&q=patiyala%20salwaar%20suit",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Straight Suits",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_topselling_straight#catId=10022&style=straight suit&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Designer Suits",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuit_topselling_designer#catId=10022&style=designer&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Churidar Suits",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/searchresults?searchby=product&q=churidar&MID=megamenu_salwarsuits_topselling_gowns#price=1000_2000&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Gowns",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/searchresults?searchby=product&q=gown&MID=megamenu_salwarsuit_topselling_gowns#price=1000_2000&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "See All",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_topselling_seeall#catId=10022&price=1000_2000&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							}
+						],
+						"imgURL": "",
+						"desc": ""
+					},
+					{
+						"name": "By Style",
+						"isNew": "",
+						"target": {
+							"url": "",
+							"name": ""
+						},
+						"data": [
+							{
+								"name": "Straight Suit",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_style_straightsuit#catId=10022&style=straight suit&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "A line style",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_style_alinestyle#catId=10022&style=a line style&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Contemporary",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_style_contemporary#catId=10022&style=contemporary&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Designer",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_style_designer#catId=10022&style=designer&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Traditional",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_style_traditional#catId=10022&style=traditional&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Anarkali",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/anarkalis/?MID=megamenu_salwarsuits_style_anarkali",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "See All",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_style_seeall#catId=10022&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							}
+						],
+						"imgURL": "",
+						"desc": ""
+					},
+					{
+						"name": "By Occassion",
+						"isNew": "",
+						"target": {
+							"url": "",
+							"name": ""
+						},
+						"data": [
+							{
+								"name": "Festival",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_occasion_festival#catId=10022&occasion=festival&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Party",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_occasion_party#catId=10022&occasion=party&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Wedding",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_occasion_wedding#catId=10022&occasion=wedding&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Casual",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_occasion_casual#catId=10022&occasion=casual&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Bridal",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_occasion_bridal#catId=10022&occasion=bridal&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Ceremonial",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_occasion_ceremonial#catId=10022&occasion=ceremonial&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "See All",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_occasion_seeall#catId=10022&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							}
+						],
+						"imgURL": "",
+						"desc": ""
+					},
+					{
+						"name": "By Fabric",
+						"isNew": "",
+						"target": {
+							"url": "",
+							"name": ""
+						},
+						"data": [
+							{
+								"name": "Cotton",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_fabric_cotton#catId=10022&kurta-fabric=cotton&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Silk",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_fabric_silk#catId=10022&kurta-fabric=silk&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Khadi",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_fabric_khadi#catId=10022&kurta-fabric=khadi&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Georgette",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_fabric_georgette#catId=10022&kurta-fabric=georgette&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Chiffon",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_fabric_chiffon#catId=10022&kurta-fabric=chiffon&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Net",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_fabric_net#catId=10022&kurta-fabric=net&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "See All",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/salwar-suits/?MID=megamenu_salwarsuits_fabric_seeall#catId=10022&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							}
+						],
+						"imgURL": "",
+						"desc": ""
+					},
+					{
+						"name": "Top Picks",
+						"isNew": "",
+						"target": {
+							"url": "",
+							"name": ""
+						},
+						"data": [
+							{
+								"name": "Anarkalis Under 1499",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/cvfeeds/designer-anarkali-suits-high-price.html",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Straight Suits",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/cvfeeds/pakistani-salwar-suits.html?MID=megamenu_salwar suits_MB_2",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Patialas Under 1299",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/cvfeeds/women-patiala-patiyala.html",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							}
+						],
+						"imgURL": "",
+						"desc": ""
+					}
+				],
+				"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/salwar_suits.png",
+				"desc": "Anarkali, Designer, Patiala"
+			},
+			{
+				"name": "Sarees",
+				"isNew": "",
+				"target": {
+					"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_work_seeall#catId=10015&pageId=1&",
+					"name": "All Sarees"
+				},
+				"data": [
+					{
+						"name": "By Fabric",
+						"isNew": "",
+						"target": {
+							"url": "",
+							"name": ""
+						},
+						"data": [
+							{
+								"name": "Cotton",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_fabric_cotton#catId=10015&saree-fabric=cotton&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Chiffon",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_fabric_chiffon#catId=10015&saree-fabric=chiffon&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Georgette",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_saree_fabric_georgette#catId=10015&saree-fabric=georgette&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Silk",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_fabric_silk#catId=10015&saree-fabric=silk&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Net",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_fabric_net#catId=10015&saree-fabric=net&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Satin",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_fabric_satin#catId=10015&saree-fabric=satin&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Tissue",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_fabric_tissue#catId=10015&saree-fabric=tissue&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Khadi",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_fabric_khadi#catId=10015&saree-fabric=khadi&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "See All",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_fabric_seeall#catId=10015&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							}
+						],
+						"imgURL": "",
+						"desc": ""
+					},
+					{
+						"name": "By Work",
+						"isNew": "",
+						"target": {
+							"url": "",
+							"name": ""
+						},
+						"data": [
+							{
+								"name": "Banarasi",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/banarasi-sarees/?MID=megamenu_sarees_work_banarasi",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Embroidery",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_work_embroidery#catId=10015&saree-work=embroidered&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Embellishments",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_work_embellishments#catId=10015&saree-work=stone embellished&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Bhandej",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_work_bhandej#catId=10015&saree-work=bhandhej&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Chikankari",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_work_chikankari#catId=10015&saree-work=chikankari&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Zari work",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_work_zariwork#catId=10015&saree-work=zari work&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Bandhani",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_work_bandhani#catId=10015&saree-work=bandhani&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Kanjivaram",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/kanchivaram-sarees/?MID=megamenu_sarees_work_kanchivaram",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "See All",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_work_seeall#catId=10015&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							}
+						],
+						"imgURL": "",
+						"desc": ""
+					},
+					{
+						"name": "By Style ",
+						"isNew": "",
+						"target": {
+							"url": "",
+							"name": ""
+						},
+						"data": [
+							{
+								"name": "Designer",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_style_designer#catId=10015&style=designer&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Bollywood",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_style_bollywood#catId=10015&style=bollywood&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Half - Half saree",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_style_halfhalfsaree#catId=10015&style=half half saree&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Lehenga Saree",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_style_lehengasaree#catId=10015&style=lehenga saree&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Contemporary",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_style_contemporary#catId=10015&style=contemporary&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Traditional ",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_style_traditional#catId=10015&style=traditional&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "See All",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_style_seeall#catId=10015&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							}
+						],
+						"imgURL": "",
+						"desc": ""
+					},
+					{
+						"name": "By Occasion ",
+						"isNew": "",
+						"target": {
+							"url": "",
+							"name": ""
+						},
+						"data": [
+							{
+								"name": "Festival",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_occassion_festival#catId=10015&occasion=festival&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "party",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_occassion_party#catId=10015&occasion=party&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "wedding",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_occassion_wedding#catId=10015&occasion=wedding&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "casual",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_occassion_casual#catId=10015&occasion=casual&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "bridal",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_occassion_casual#catId=10015&occasion=bridal&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "ceremonial",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_occassion_ceremonial#catId=10015&occasion=ceremonial&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Readymade ",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/blouses/?MID=megamenu_sarees_blouses_readymade#catId=10016&stitching-type=readymade&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Contemporary",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/blouses/?MID=megamenu_sarees_blouses_contemporary#catId=10016&style=contemporary&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Designer",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/blouses/?MID=megamenu_sarees_blouses_designer#catId=10016&style=designer&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "See All",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_occassion_seeall#catId=10015&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							}
+						],
+						"imgURL": "",
+						"desc": ""
+					},
+					{
+						"name": "Top Picks ",
+						"isNew": "",
+						"target": {
+							"url": "",
+							"name": ""
+						},
+						"data": [
+							{
+								"name": "Best-Selling",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/cvfeeds/sarees-offers.html?MID=megamenu_sarees_MB_1",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Sarees Under 1699",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/cvfeeds/best-sarees-offers-below-1999.html?MID=megamenu_sarees_MB_3",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Designer Drapes",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/cvfeeds/occasional-wear-sarees-under-1299-20178.html",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							}
+						],
+						"imgURL": "",
+						"desc": ""
+					},
+					{
+						"name": "Blouses ",
+						"isNew": "",
+						"target": {
+							"url": "",
+							"name": ""
+						},
+						"data": [
+							{
+								"name": "Readymade ",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/blouses/?MID=megamenu_sarees_blouses_readymade#catId=10016&stitching-type=readymade&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Contemporary",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/blouses/?MID=megamenu_sarees_blouses_contemporary#catId=10016&style=contemporary&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							},
+							{
+								"name": "Designer",
+								"isNew": "",
+								"target": {
+									"url": "http://www.craftsvilla.com/womens-clothing/blouses/?MID=megamenu_sarees_blouses_designer#catId=10016&style=designer&pageId=1&",
+									"name": ""
+								},
+								"data": [
+								],
+								"imgURL": "",
+								"desc": ""
+							}
+						],
+						"imgURL": "",
+						"desc": ""
+					}
+				],
+				"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/sarees.png",
+				"desc": "Designer,Banarasi,Silk,Bollywood "
+			}
+		]
+	}
+}

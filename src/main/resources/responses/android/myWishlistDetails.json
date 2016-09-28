@@ -1,0 +1,21 @@
+{
+	"s": 1,
+	"m": "Wishlist Products ids!",
+	"d": {
+		"products": [
+			{
+				"isInStock": 1,
+				"regularPrice": 1699.0,
+				"discountPercentage": 0,
+				"discountedPrice": 1019.0,
+				"vendorDetails": {
+					"vendorName": "Aadhunik Libaas"
+				},
+				"productName": "Blue Reon With White Imbriodry Kurti",
+				"imgUrl": "/C/V/CV-19322-MAADH34470022050-1468148610-Craftsvilla_1.jpg",
+				"productId": "4775692"
+			}
+		],
+		"customerId": "3044185"
+	}
+}

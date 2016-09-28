@@ -1,0 +1,24 @@
+{
+	"s": 1,
+	"m": "there should be some informational message.",
+	"d": [
+		{
+			"Push": {
+				"utm_medium": "push",
+				"utm_source": "connect"
+			}
+		},
+		{
+			"Google Display Ads": {
+				"utm_medium": "cpm",
+				"utm_source": "google"
+			}
+		},
+		{
+			"Google Search Ads": {
+				"utm_medium": "cpc",
+				"utm_source": "google"
+			}
+		}
+	]
+}

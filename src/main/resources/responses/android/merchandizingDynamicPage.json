@@ -1,0 +1,340 @@
+{
+	"s": 1,
+	"m": "Homepage details",
+	"d": {
+		"widgets": [
+			{
+				"tillDate": "2017-03-17 08:00:00",
+				"elements": [
+					{
+						"altText": "",
+						"target": {
+							"url": "http://www.craftsvilla.com/cvfeeds/georgette-sarees-offer-craftsvilla",
+							"header": ""
+						},
+						"title": "",
+						"MID": "HP_Platinum_Banner1",
+						"aspectRatio": {
+							"width": 375,
+							"height": 135
+						},
+						"type": "Image",
+						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/1_Platinum_Banners/hero_banner_1.png"
+					},
+					{
+						"altText": "",
+						"target": {
+							"url": "http://www.craftsvilla.com/cvfeeds/designer-salwar-suit-craftsvilla",
+							"header": ""
+						},
+						"title": "",
+						"MID": "HP_Platinum_Banner2",
+						"aspectRatio": {
+							"width": 375,
+							"height": 135
+						},
+						"type": "Image",
+						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/1_Platinum_Banners/hero_banner_2.png"
+					}
+				],
+				"title": "",
+				"isTimerEnabled": false,
+				"fromDate": "2016-09-27 04:00:00",
+				"dataSource": {
+					"url": "",
+					"elementCount": null,
+					"type": null
+				},
+				"type": "carousal",
+				"display": {
+					"columns": 1,
+					"row": 1
+				},
+				"more": ""
+			},
+			{
+				"tillDate": "2017-10-31 23:00:00",
+				"elements": [
+					{
+						"altText": "Sarees",
+						"target": {
+							"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_fabric_seeall#catId=10015&pageId=1&",
+							"header": ""
+						},
+						"title": "Sarees",
+						"MID": "HP_Category_Sarees",
+						"aspectRatio": {
+							"width": 1,
+							"height": 1
+						},
+						"type": "Image",
+						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/sarees.png"
+					},
+					{
+						"altText": "Casual Wear",
+						"target": {
+							"url": "http://www.craftsvilla.com/womens-clothing/kurtis-tunics/kurtis/?MID=megamenu_casualwear_kurtis_seeall#feedid=20&pageId=1&",
+							"header": ""
+						},
+						"title": "Casual Wear",
+						"MID": "HP_Category_Casual",
+						"aspectRatio": {
+							"width": 1,
+							"height": 1
+						},
+						"type": null,
+						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/casual_wear.png"
+					},
+					{
+						"altText": "Salwar Suits",
+						"target": {
+							"url": "",
+							"header": ""
+						},
+						"title": "Salwar Suits",
+						"MID": "HP_Category_Salwar",
+						"aspectRatio": {
+							"width": 1,
+							"height": 1
+						},
+						"type": "Image",
+						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/salwar_suits.png"
+					},
+					{
+						"altText": "Lehengas",
+						"target": {
+							"url": "",
+							"header": ""
+						},
+						"title": "Lehengas",
+						"MID": "HP_Category_Lehengas",
+						"aspectRatio": {
+							"width": 1,
+							"height": 1
+						},
+						"type": "Image",
+						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/Lehenga.png"
+					},
+					{
+						"altText": "Jewellery",
+						"target": {
+							"url": "http://www.craftsvilla.com/jewellery/#catId=10002&pageId=1&",
+							"header": ""
+						},
+						"title": "Jewellery",
+						"MID": "HP_Category_Jewellery",
+						"aspectRatio": {
+							"width": 1,
+							"height": 1
+						},
+						"type": "Image",
+						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/accessories.png"
+					},
+					{
+						"altText": "Home Decor",
+						"target": {
+							"url": "http://www.craftsvilla.com/home-furnishing/bedsheets-throws/?MID=megamenu_2_1_Homedecor_Bedsheets#catId=10072&pageId=1&",
+							"header": ""
+						},
+						"title": "Home Decor",
+						"MID": "HP_Category_Home",
+						"aspectRatio": {
+							"width": 1,
+							"height": 1
+						},
+						"type": "Image",
+						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/home_decor.png"
+					},
+					{
+						"altText": "Mens Wear",
+						"target": {
+							"url": "http://www.craftsvilla.com/mens-fashion/sherwanis-kurtas/?MID=megamenu_2_6_mensfashion_seeall#catId=10079&pageId=1&",
+							"header": ""
+						},
+						"title": "Men's Fashion",
+						"MID": "HP_Category_Mens",
+						"aspectRatio": {
+							"width": 1,
+							"height": 1
+						},
+						"type": "Image",
+						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/men%27s+fashion.png"
+					},
+					{
+						"altText": "Beauty Products",
+						"target": {
+							"url": "http://www.craftsvilla.com/searchresults?searchby=product&q=body%20care&pageId=1&&windowwidth=1335",
+							"header": ""
+						},
+						"title": "Beauty",
+						"MID": "HP_Category_Beauty",
+						"aspectRatio": {
+							"width": 1,
+							"height": 1
+						},
+						"type": "Image",
+						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/salwar_suits.png"
+					}
+				],
+				"title": "Shop By Category",
+				"isTimerEnabled": false,
+				"fromDate": "2016-09-25 20:03:00",
+				"dataSource": {
+					"url": "",
+					"elementCount": null,
+					"type": null
+				},
+				"type": "fixed",
+				"display": {
+					"columns": 4,
+					"row": 2
+				},
+				"more": ""
+			},
+			{
+				"tillDate": "2017-09-05 20:16:00",
+				"elements": [
+				],
+				"title": "Recently Viewed",
+				"isTimerEnabled": false,
+				"fromDate": "2016-09-04 20:00:00",
+				"dataSource": {
+					"url": "",
+					"elementCount": "30",
+					"type": "custom"
+				},
+				"type": "Slider",
+				"display": {
+					"columns": 3,
+					"row": 1
+				},
+				"more": null
+			},
+			{
+				"tillDate": "2017-09-26 20:19:00",
+				"elements": [
+					{
+						"altText": "Party Gown",
+						"target": {
+							"url": "http://www.craftsvilla.com/cvfeeds/party-gowns-craftsvilla#feedid=630&pageId=1&",
+							"header": ""
+						},
+						"title": "",
+						"MID": "HP_Collections_1_Party",
+						"aspectRatio": {
+							"width": 250,
+							"height": 214
+						},
+						"type": "Image",
+						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/6_collections/collections_1.png"
+					},
+					{
+						"altText": "Embrodered Sarees",
+						"target": {
+							"url": "http://www.craftsvilla.com/cvfeeds/elegant-embroideries-sarees-craftsvilla#feedid=336&pageId=1&",
+							"header": ""
+						},
+						"title": "",
+						"MID": "HP_Collections_2_Embroiderred",
+						"aspectRatio": {
+							"width": 250,
+							"height": 214
+						},
+						"type": "Image",
+						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/6_collections/collections_2.png"
+					}
+				],
+				"title": "Collections",
+				"isTimerEnabled": false,
+				"fromDate": "2016-09-04 20:19:00",
+				"dataSource": {
+					"url": "",
+					"elementCount": null,
+					"type": null
+				},
+				"type": "Slider",
+				"display": {
+					"columns": 2,
+					"row": 1
+				},
+				"more": ""
+			},
+			{
+				"tillDate": "2017-09-26 20:28:00",
+				"elements": [
+				],
+				"title": "Trending Sarees",
+				"isTimerEnabled": false,
+				"fromDate": "2016-09-04 20:28:00",
+				"dataSource": {
+					"url": "http://www.craftsvilla.com/cvfeeds/trending-sarees-craftsvilla?MID=Normal__3_345_2#feedid=345&priceOrder=ASC&pageId=1&",
+					"elementCount": "20",
+					"type": "api"
+				},
+				"type": "Slider",
+				"display": {
+					"columns": 3,
+					"row": 1
+				},
+				"more": ""
+			},
+			{
+				"tillDate": "2017-09-25 20:30:00",
+				"elements": [
+					{
+						"altText": "Blog",
+						"target": {
+							"url": "http://www.craftsvilla.com/blog/bridal-lehenga-trends-2016/",
+							"header": ""
+						},
+						"title": "",
+						"MID": "HP_Blog_1",
+						"aspectRatio": {
+							"width": 1,
+							"height": 1
+						},
+						"type": "Image",
+						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/8_Blog/Blog.png"
+					}
+				],
+				"title": "",
+				"isTimerEnabled": false,
+				"fromDate": "2016-09-04 04:00:00",
+				"dataSource": {
+					"url": "",
+					"elementCount": null,
+					"type": null
+				},
+				"type": "fixed",
+				"display": {
+					"columns": 1,
+					"row": 1
+				},
+				"more": ""
+			},
+			{
+				"tillDate": "2017-09-26 23:00:00",
+				"elements": [
+				],
+				"title": "Trending Salwar Suits",
+				"isTimerEnabled": false,
+				"fromDate": "2016-09-25 23:00:00",
+				"dataSource": {
+					"url": "http://www.craftsvilla.com/cvfeeds/trending-salwarsuits-craftsvilla?MID=Normal__8_349_7#feedid=349&pageId=1&",
+					"elementCount": null,
+					"type": "api"
+				},
+				"type": "Slider",
+				"display": {
+					"columns": 3,
+					"row": 1
+				},
+				"more": ""
+			}
+		],
+		"pageType": "CSF",
+		"meta": "ADD User",
+		"name": "Home",
+		"userType": "First"
+	}
+}
