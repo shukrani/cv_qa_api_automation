@@ -18,7 +18,7 @@
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">1</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">${__P(ramp_up,1)}</stringProp>
         <longProp name="ThreadGroup.start_time">1475495247000</longProp>
         <longProp name="ThreadGroup.end_time">1475495247000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
@@ -36,6 +36,11 @@
             <elementProp name="port" elementType="Argument">
               <stringProp name="Argument.name">port</stringProp>
               <stringProp name="Argument.value">${__P(port,9192)}</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="ramp_up" elementType="Argument">
+              <stringProp name="Argument.name">ramp_up</stringProp>
+              <stringProp name="Argument.value">${__P(ramp_up,1)}</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
