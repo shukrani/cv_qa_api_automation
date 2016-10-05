@@ -5,15 +5,15 @@
 		"products": [
 			{
 				"isInStock": 1,
-				"regularPrice": 1699.0,
+				"regularPrice": 5000.0,
 				"discountPercentage": 0,
-				"discountedPrice": 1019.0,
+				"discountedPrice": 999.0,
 				"vendorDetails": {
-					"vendorName": "Aadhunik Libaas"
+					"vendorName": "World Of Style"
 				},
-				"productName": "Blue Reon With White Imbriodry Kurti",
-				"imgUrl": "/C/V/CV-19322-MAADH34470022050-1468148610-Craftsvilla_1.jpg",
-				"productId": "4775692"
+				"productName": "Blue Georgette Zari Work Saree With Blouse",
+				"imgUrl": "/C/V/CV-10271-MWORL20635014890--World_Of_Style-1475563217-Craftsvilla_1.jpg",
+				"productId": "4314360"
 			}
 		],
 		"customerId": "3044185"

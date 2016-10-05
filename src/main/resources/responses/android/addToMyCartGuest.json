@@ -5,9 +5,9 @@
 		"coupon": {
 		},
 		"orderSummary": {
-			"totalPayable": 1999,
+			"totalPayable": 2149,
 			"couponDiscount": 0,
-			"shippingCost": 0,
+			"shippingCost": 150,
 			"discount": 0,
 			"total": 1999,
 			"subTotal": 1999,

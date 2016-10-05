@@ -5,63 +5,58 @@
 		"coupon": {
 		},
 		"orderSummary": {
-			"totalPayable": 2495,
+			"totalPayable": 3598,
 			"couponDiscount": 0,
-			"shippingCost": 0,
+			"shippingCost": 450,
 			"discount": 0,
-			"total": 2495,
-			"subTotal": 2495,
+			"total": 3148,
+			"subTotal": 3148,
 			"vat": 0
 		},
 		"displayMsg": "",
 		"products": [
 			{
 				"isInStock": 1,
-				"sellerNote": "",
-				"regularPrice": 1248,
-				"qty": 4,
-				"discountPercentage": 60,
-				"imgUrl": "/1/2/1234-S-Kurtis_and_Tunics-Ziyaa-1-Craftsvilla.jpg",
-				"discountedPrice": 499,
+				"sellerNote": "Long sleeves",
+				"regularPrice": 4999,
+				"qty": 3,
+				"discountPercentage": 79,
+				"imgUrl": "/C/V/CV-MSHON44490366340--Shonayaa-Craftsvilla_1.jpg",
+				"discountedPrice": 1049,
 				"vendorDetails": {
-					"vendorId": "15041",
+					"vendorId": "23776",
 					"vendorCod": 1,
-					"vendorName": "Ziyaa",
-					"vendorPincode": "395017"
+					"vendorName": "Shonayaa",
+					"vendorPincode": "395010"
 				},
 				"variants": {
-					"color": [
-						"Pink"
-					],
-					"size": "S"
 				},
 				"isCod": 1,
-				"productName": "ZIYAA Pink Faux Crepe Half Sleeve And Round Neck Digital Printed Kurti",
-				"productId": "4582293"
+				"productName": "Red and black embroidered faux georgette saree",
+				"productId": "3576388"
 			},
 			{
 				"isInStock": 1,
-				"sellerNote": "Long sleeves",
-				"regularPrice": 1248,
+				"sellerNote": "",
+				"regularPrice": 15,
 				"qty": 1,
-				"discountPercentage": 60,
-				"imgUrl": "/1/2/1234-XL-Kurtis_and_Tunics-Ziyaa-1-Craftsvilla.jpg",
-				"discountedPrice": 499,
+				"discountPercentage": 93,
+				"imgUrl": "/C/V/CV-MSAMI60162679930--Samidha_shop-Craftsvilla_1.jpg",
+				"discountedPrice": 1,
 				"vendorDetails": {
-					"vendorId": "15041",
+					"vendorId": "9179",
 					"vendorCod": 1,
-					"vendorName": "Ziyaa",
-					"vendorPincode": "395017"
+					"vendorName": "Samidha shop",
+					"vendorPincode": "400104"
 				},
 				"variants": {
 					"color": [
-						"Pink"
-					],
-					"size": "XL"
+						"Black"
+					]
 				},
 				"isCod": 1,
-				"productName": "ZIYAA Pink Faux Crepe Half Sleeve And Round Neck Digital Printed Kurti",
-				"productId": "4582298"
+				"productName": "test",
+				"productId": "4331545"
 			}
 		],
 		"customerId": "3044185"

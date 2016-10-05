@@ -28,7 +28,7 @@
 				"productId": "4757417"
 			},
 			{
-				"isInStock": 0,
+				"isInStock": 1,
 				"regularPrice": 2058.0,
 				"discountPercentage": 0,
 				"discountedPrice": 799.0,
@@ -55,7 +55,7 @@
 				"isInStock": 1,
 				"regularPrice": 4599.0,
 				"discountPercentage": 0,
-				"discountedPrice": 2300.0,
+				"discountedPrice": 1999.0,
 				"vendorDetails": {
 					"vendorName": "Chhabra555"
 				},

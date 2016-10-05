@@ -1,4 +1,90 @@
 {
-	"couponCode": "K10",
-	"customerId": "3044185"
+	"s": 1,
+	"m": "CVTEAM10 coupon has been applied successfully.",
+	"d": {
+		"coupon": {
+			"isValid": 1,
+			"message": "CVTEAM10 coupon is applied on your cart.",
+			"code": "CVTEAM10",
+			"value": 514.7
+		},
+		"orderSummary": {
+			"totalPayable": 5232.3,
+			"couponDiscount": 514.7,
+			"shippingCost": 600,
+			"discount": 0,
+			"total": 5147,
+			"subTotal": 5147,
+			"vat": 0
+		},
+		"displayMsg": "Few Items in your cart are not available for CASH ON DELIVERY. You can still proceed and do Online Payment.",
+		"products": [
+			{
+				"isInStock": 1,
+				"sellerNote": "Long sleeves",
+				"regularPrice": 4999,
+				"qty": 3,
+				"discountPercentage": 79,
+				"imgUrl": "/C/V/CV-MSHON44490366340--Shonayaa-Craftsvilla_1.jpg",
+				"discountedPrice": 1049,
+				"vendorDetails": {
+					"vendorId": "23776",
+					"vendorCod": 1,
+					"vendorName": "Shonayaa",
+					"vendorPincode": "395010"
+				},
+				"variants": {
+				},
+				"isCod": 1,
+				"productName": "Red and black embroidered faux georgette saree",
+				"productId": "3576388"
+			},
+			{
+				"isInStock": 1,
+				"sellerNote": "",
+				"regularPrice": 15,
+				"qty": 1,
+				"discountPercentage": 93,
+				"imgUrl": "/C/V/CV-MSAMI60162679930--Samidha_shop-Craftsvilla_1.jpg",
+				"discountedPrice": 1,
+				"vendorDetails": {
+					"vendorId": "9179",
+					"vendorCod": 1,
+					"vendorName": "Samidha shop",
+					"vendorPincode": "400104"
+				},
+				"variants": {
+					"color": [
+						"Black"
+					]
+				},
+				"isCod": 1,
+				"productName": "test",
+				"productId": "4331545"
+			},
+			{
+				"isInStock": 1,
+				"sellerNote": "",
+				"regularPrice": 4000,
+				"qty": 1,
+				"discountPercentage": 50,
+				"imgUrl": "/C/V/CV-28905-MJWEL34080584380--jwellr-1470488843-Craftsvilla_1.jpg",
+				"discountedPrice": 1999,
+				"vendorDetails": {
+					"vendorId": "28905",
+					"vendorCod": 0,
+					"vendorName": "jwellr",
+					"vendorPincode": "395010"
+				},
+				"variants": {
+					"color": [
+						"Black"
+					]
+				},
+				"isCod": 0,
+				"productName": "Knapsack Bag a new style in college bag for college girls to enhance their look",
+				"productId": "5024776"
+			}
+		]
+	}
 }
