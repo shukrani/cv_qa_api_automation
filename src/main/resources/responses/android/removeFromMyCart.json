@@ -5,12 +5,12 @@
 		"coupon": {
 		},
 		"orderSummary": {
-			"totalPayable": 3598,
+			"totalPayable": 4197,
 			"couponDiscount": 0,
 			"shippingCost": 450,
 			"discount": 0,
-			"total": 3148,
-			"subTotal": 3148,
+			"total": 3747,
+			"subTotal": 3747,
 			"vat": 0
 		},
 		"displayMsg": "",
@@ -18,11 +18,11 @@
 			{
 				"isInStock": 1,
 				"sellerNote": "Long sleeves",
-				"regularPrice": 4999,
+				"regularPrice": 3797,
 				"qty": 3,
-				"discountPercentage": 79,
+				"discountPercentage": 67,
 				"imgUrl": "/C/V/CV-MSHON44490366340--Shonayaa-Craftsvilla_1.jpg",
-				"discountedPrice": 1049,
+				"discountedPrice": 1249,
 				"vendorDetails": {
 					"vendorId": "23776",
 					"vendorCod": 1,
@@ -34,29 +34,6 @@
 				"isCod": 1,
 				"productName": "Red and black embroidered faux georgette saree",
 				"productId": "3576388"
-			},
-			{
-				"isInStock": 1,
-				"sellerNote": "",
-				"regularPrice": 15,
-				"qty": 1,
-				"discountPercentage": 93,
-				"imgUrl": "/C/V/CV-MSAMI60162679930--Samidha_shop-Craftsvilla_1.jpg",
-				"discountedPrice": 1,
-				"vendorDetails": {
-					"vendorId": "9179",
-					"vendorCod": 1,
-					"vendorName": "Samidha shop",
-					"vendorPincode": "400104"
-				},
-				"variants": {
-					"color": [
-						"Black"
-					]
-				},
-				"isCod": 1,
-				"productName": "test",
-				"productId": "4331545"
 			}
 		],
 		"customerId": "3044185"

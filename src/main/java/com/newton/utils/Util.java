@@ -77,7 +77,8 @@ public class Util {
 			Iterator<JsonObject> it = params.keys();
 			while (it.hasNext()) {
 				String key = it.next() + "";
-				webResource = webResource.queryParam(key, params.get(key) + "");
+				
+				webResource = webResource.queryParam(key, String.valueOf(params.get(key)));
 			}
 
 		} catch (JSONException e) {

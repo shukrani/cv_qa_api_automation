@@ -1,40 +1,78 @@
 {
 	"s": 1,
-	"m": "Homepage details",
+	"m": "HomePage Details",
 	"d": {
 		"widgets": [
 			{
 				"tillDate": "2017-03-17 08:00:00",
 				"elements": [
 					{
-						"altText": "",
-						"target": {
-							"url": "http://www.craftsvilla.com/cvfeeds/georgette-sarees-offer-craftsvilla",
-							"header": ""
+						"data": {
+							"aspectRatio": {
+								"width": 375,
+								"height": 138
+							},
+							"altText": "Georgette Sarees",
+							"target": {
+								"url": "http://www.craftsvilla.com/cvfeeds/georgette-sarees-offer-craftsvilla#feedid=900&pageId=1&",
+								"header": ""
+							},
+							"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/1_Platinum_Banners/hero_banner_3.png",
+							"title": ""
 						},
-						"title": "",
-						"MID": "HP_Platinum_Banner1",
-						"aspectRatio": {
-							"width": 375,
-							"height": 135
-						},
-						"type": "Image",
-						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/1_Platinum_Banners/hero_banner_1.png"
+						"type": "image",
+						"MID": "App_HP_GeorgetteSarees_1_1"
 					},
 					{
-						"altText": "",
-						"target": {
-							"url": "http://www.craftsvilla.com/cvfeeds/designer-salwar-suit-craftsvilla",
-							"header": ""
+						"data": {
+							"aspectRatio": {
+								"width": 375,
+								"height": 138
+							},
+							"altText": "Festive Salwar Suits",
+							"target": {
+								"url": "http://www.craftsvilla.com/cvfeeds/designer-salwar-suit-craftsvilla#feedid=652&pageId=1&",
+								"header": ""
+							},
+							"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/1_Platinum_Banners/hero_banner_1.png",
+							"title": ""
 						},
-						"title": "",
-						"MID": "HP_Platinum_Banner2",
-						"aspectRatio": {
-							"width": 375,
-							"height": 135
+						"type": "image",
+						"MID": "App_HP_FestiveSalwarSuits_1_2"
+					},
+					{
+						"data": {
+							"aspectRatio": {
+								"width": 375,
+								"height": 138
+							},
+							"altText": "Elegant Lehengas",
+							"target": {
+								"url": "http://www.craftsvilla.com/cvfeeds/best-selling-lehengas-craftsvilla#feedid=98&pageId=1&",
+								"header": ""
+							},
+							"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/1_Platinum_Banners/hero_banner_2.png",
+							"title": ""
 						},
-						"type": "Image",
-						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/1_Platinum_Banners/hero_banner_2.png"
+						"type": "image",
+						"MID": "App_HP_ElegantLehengas_1_3"
+					},
+					{
+						"data": {
+							"aspectRatio": {
+								"width": 375,
+								"height": 138
+							},
+							"altText": "Casual Kurtis",
+							"target": {
+								"url": "http://www.craftsvilla.com/cvfeeds/casual-wear-kurtis-craftsvilla#feedid=956&pageId=1&",
+								"header": ""
+							},
+							"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/1_Platinum_Banners/hero_banner_4.png",
+							"title": ""
+						},
+						"type": "image",
+						"MID": "App_HP_CasualKurtis_1_4"
 					}
 				],
 				"title": "",
@@ -47,138 +85,173 @@
 				},
 				"type": "carousal",
 				"display": {
-					"columns": 1,
-					"row": 1
+					"columns": "1",
+					"row": "1"
 				},
-				"more": ""
+				"more": null
 			},
 			{
-				"tillDate": "2017-10-31 23:00:00",
+				"tillDate": "2017-10-31 17:30:00",
+				"elements": [
+				],
+				"title": "Track Order",
+				"isTimerEnabled": false,
+				"fromDate": "2016-10-02 17:30:00",
+				"dataSource": {
+					"url": "",
+					"elementCount": null,
+					"type": null
+				},
+				"type": "track",
+				"display": {
+					"columns": "1",
+					"row": "1"
+				},
+				"more": null
+			},
+			{
+				"tillDate": "2017-10-31 17:30:00",
 				"elements": [
 					{
-						"altText": "Sarees",
-						"target": {
-							"url": "http://www.craftsvilla.com/womens-clothing/sarees/?MID=megamenu_sarees_fabric_seeall#catId=10015&pageId=1&",
-							"header": ""
+						"data": {
+							"aspectRatio": {
+								"width": 1,
+								"height": 1
+							},
+							"altText": "Sarees",
+							"target": {
+								"url": "http://www.craftsvilla.com/csf/id/sarees",
+								"header": ""
+							},
+							"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/sarees.png",
+							"title": "Sarees"
 						},
-						"title": "Sarees",
-						"MID": "HP_Category_Sarees",
-						"aspectRatio": {
-							"width": 1,
-							"height": 1
-						},
-						"type": "Image",
-						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/sarees.png"
+						"type": "image",
+						"MID": "App_HP_sarees_2_1"
 					},
 					{
-						"altText": "Casual Wear",
-						"target": {
-							"url": "http://www.craftsvilla.com/womens-clothing/kurtis-tunics/kurtis/?MID=megamenu_casualwear_kurtis_seeall#feedid=20&pageId=1&",
-							"header": ""
+						"data": {
+							"aspectRatio": {
+								"width": 1,
+								"height": 1
+							},
+							"altText": "Casual Wear",
+							"target": {
+								"url": "http://www.craftsvilla.com/csf/id/casualwear",
+								"header": ""
+							},
+							"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/casual_wear.png",
+							"title": "Casual Wear"
 						},
-						"title": "Casual Wear",
-						"MID": "HP_Category_Casual",
-						"aspectRatio": {
-							"width": 1,
-							"height": 1
-						},
-						"type": null,
-						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/casual_wear.png"
+						"type": "image",
+						"MID": "App_HP_casualwear_2_2"
 					},
 					{
-						"altText": "Salwar Suits",
-						"target": {
-							"url": "",
-							"header": ""
+						"data": {
+							"aspectRatio": {
+								"width": 1,
+								"height": 1
+							},
+							"altText": "Salwar Suits",
+							"target": {
+								"url": "http://www.craftsvilla.com/csf/id/salwarsuits",
+								"header": ""
+							},
+							"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/salwar_suits.png",
+							"title": "Salwar Suits"
 						},
-						"title": "Salwar Suits",
-						"MID": "HP_Category_Salwar",
-						"aspectRatio": {
-							"width": 1,
-							"height": 1
-						},
-						"type": "Image",
-						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/salwar_suits.png"
+						"type": "image",
+						"MID": "App_HP_salwarsuits_2_3"
 					},
 					{
-						"altText": "Lehengas",
-						"target": {
-							"url": "",
-							"header": ""
+						"data": {
+							"aspectRatio": {
+								"width": 1,
+								"height": 1
+							},
+							"altText": "Lehengas",
+							"target": {
+								"url": "http://www.craftsvilla.com/csf/id/lehengas",
+								"header": ""
+							},
+							"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/Lehenga.png",
+							"title": "Lehengas"
 						},
-						"title": "Lehengas",
-						"MID": "HP_Category_Lehengas",
-						"aspectRatio": {
-							"width": 1,
-							"height": 1
-						},
-						"type": "Image",
-						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/Lehenga.png"
+						"type": "image",
+						"MID": "App_HP_lehengas_2_4"
 					},
 					{
-						"altText": "Jewellery",
-						"target": {
-							"url": "http://www.craftsvilla.com/jewellery/#catId=10002&pageId=1&",
-							"header": ""
+						"data": {
+							"aspectRatio": {
+								"width": 1,
+								"height": 1
+							},
+							"altText": "Jewellery",
+							"target": {
+								"url": "http://www.craftsvilla.com/csf/id/jewellery",
+								"header": ""
+							},
+							"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/accessories.png",
+							"title": "Jewellery"
 						},
-						"title": "Jewellery",
-						"MID": "HP_Category_Jewellery",
-						"aspectRatio": {
-							"width": 1,
-							"height": 1
-						},
-						"type": "Image",
-						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/accessories.png"
+						"type": "image",
+						"MID": "App_HP_jewellery_2_5"
 					},
 					{
-						"altText": "Home Decor",
-						"target": {
-							"url": "http://www.craftsvilla.com/home-furnishing/bedsheets-throws/?MID=megamenu_2_1_Homedecor_Bedsheets#catId=10072&pageId=1&",
-							"header": ""
+						"data": {
+							"aspectRatio": {
+								"width": 1,
+								"height": 1
+							},
+							"altText": "Home Decor",
+							"target": {
+								"url": "http://www.craftsvilla.com/csf/id/homedecor",
+								"header": ""
+							},
+							"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/home_decor.png",
+							"title": "Home Decor"
 						},
-						"title": "Home Decor",
-						"MID": "HP_Category_Home",
-						"aspectRatio": {
-							"width": 1,
-							"height": 1
-						},
-						"type": "Image",
-						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/home_decor.png"
+						"type": "image",
+						"MID": "App_HP_homedecor_2_6"
 					},
 					{
-						"altText": "Mens Wear",
-						"target": {
-							"url": "http://www.craftsvilla.com/mens-fashion/sherwanis-kurtas/?MID=megamenu_2_6_mensfashion_seeall#catId=10079&pageId=1&",
-							"header": ""
+						"data": {
+							"aspectRatio": {
+								"width": 1,
+								"height": 1
+							},
+							"altText": "Mens Wear",
+							"target": {
+								"url": "http://www.craftsvilla.com/csf/id/menswear",
+								"header": ""
+							},
+							"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/men%27s+fashion.png",
+							"title": "Men's Fashion"
 						},
-						"title": "Men's Fashion",
-						"MID": "HP_Category_Mens",
-						"aspectRatio": {
-							"width": 1,
-							"height": 1
-						},
-						"type": "Image",
-						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/men%27s+fashion.png"
+						"type": "image",
+						"MID": "App_HP_menswear_2_7"
 					},
 					{
-						"altText": "Beauty Products",
-						"target": {
-							"url": "http://www.craftsvilla.com/searchresults?searchby=product&q=body%20care&pageId=1&&windowwidth=1335",
-							"header": ""
+						"data": {
+							"aspectRatio": {
+								"width": 1,
+								"height": 1
+							},
+							"altText": "Beauty Products",
+							"target": {
+								"url": "http://www.craftsvilla.com/csf/id/beautyproducts",
+								"header": ""
+							},
+							"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/beauty.png",
+							"title": "Beauty"
 						},
-						"title": "Beauty",
-						"MID": "HP_Category_Beauty",
-						"aspectRatio": {
-							"width": 1,
-							"height": 1
-						},
-						"type": "Image",
-						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/3_Category_icons/salwar_suits.png"
+						"type": "image",
+						"MID": "App_HP_beautyproducts_2_8"
 					}
 				],
-				"title": "Shop By Category",
+				"title": "Shop by Categories",
 				"isTimerEnabled": false,
-				"fromDate": "2016-09-25 20:03:00",
+				"fromDate": "2016-08-31 18:30:00",
 				"dataSource": {
 					"url": "",
 					"elementCount": null,
@@ -186,10 +259,10 @@
 				},
 				"type": "fixed",
 				"display": {
-					"columns": 4,
-					"row": 2
+					"columns": "4",
+					"row": "2"
 				},
-				"more": ""
+				"more": null
 			},
 			{
 				"tillDate": "2017-09-05 20:16:00",
@@ -199,49 +272,116 @@
 				"isTimerEnabled": false,
 				"fromDate": "2016-09-04 20:00:00",
 				"dataSource": {
-					"url": "",
-					"elementCount": "30",
-					"type": "custom"
+					"url": "https://appapi2.craftsvilla.com/1/public/catalog/productList",
+					"elementCount": 30,
+					"type": "api"
 				},
-				"type": "Slider",
+				"type": "slider",
 				"display": {
-					"columns": 3,
-					"row": 1
+					"columns": "3",
+					"row": "1"
 				},
-				"more": null
+				"more": {
+					"data": {
+						"body": "",
+						"title": "View All",
+						"type": "text",
+						"MID": "HP_Recently_ViewAll",
+						"target": {
+							"url": "https://appapi2.craftsvilla.com/1/public/catalog/productList",
+							"header": ""
+						}
+					},
+					"type": "widget"
+				}
 			},
 			{
 				"tillDate": "2017-09-26 20:19:00",
 				"elements": [
 					{
-						"altText": "Party Gown",
-						"target": {
-							"url": "http://www.craftsvilla.com/cvfeeds/party-gowns-craftsvilla#feedid=630&pageId=1&",
-							"header": ""
+						"data": {
+							"aspectRatio": {
+								"width": 480,
+								"height": 413
+							},
+							"altText": "Party Gown",
+							"target": {
+								"url": "http://www.craftsvilla.com/cvfeeds/party-gowns-craftsvilla#feedid=630&pageId=1&",
+								"header": ""
+							},
+							"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/6_collections/collections_1.png",
+							"title": ""
 						},
-						"title": "",
-						"MID": "HP_Collections_1_Party",
-						"aspectRatio": {
-							"width": 250,
-							"height": 214
-						},
-						"type": "Image",
-						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/6_collections/collections_1.png"
+						"type": "image",
+						"MID": "App_HP_PartyGowns_4_1"
 					},
 					{
-						"altText": "Embrodered Sarees",
-						"target": {
-							"url": "http://www.craftsvilla.com/cvfeeds/elegant-embroideries-sarees-craftsvilla#feedid=336&pageId=1&",
-							"header": ""
+						"data": {
+							"aspectRatio": {
+								"width": 480,
+								"height": 413
+							},
+							"altText": "Embrodered Sarees",
+							"target": {
+								"url": "http://www.craftsvilla.com/cvfeeds/elegant-embroideries-sarees-craftsvilla#feedid=336&pageId=1&",
+								"header": ""
+							},
+							"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/6_collections/collections_2.png",
+							"title": ""
 						},
-						"title": "",
-						"MID": "HP_Collections_2_Embroiderred",
-						"aspectRatio": {
-							"width": 250,
-							"height": 214
+						"type": "image",
+						"MID": "App_HP_EmbroideredSarees_4_2"
+					},
+					{
+						"data": {
+							"aspectRatio": {
+								"width": 480,
+								"height": 413
+							},
+							"altText": "Anarkali Suits",
+							"target": {
+								"url": "http://www.craftsvilla.com/cvfeeds/anarkali-offer-craftsvilla#feedid=901&pageId=1&",
+								"header": ""
+							},
+							"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/6_collections/collections_3.png",
+							"title": ""
 						},
-						"type": "Image",
-						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/6_collections/collections_2.png"
+						"type": "image",
+						"MID": "App_HP_AnarkaliSuits_4_3"
+					},
+					{
+						"data": {
+							"aspectRatio": {
+								"width": 480,
+								"height": 413
+							},
+							"altText": "Temple Jewellery",
+							"target": {
+								"url": "http://www.craftsvilla.com/cvfeeds/temple-jewellery#feedid=874&pageId=1&",
+								"header": ""
+							},
+							"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/6_collections/collections_4.png",
+							"title": ""
+						},
+						"type": "image",
+						"MID": "App_HP_TempleJewellery_4_4"
+					},
+					{
+						"data": {
+							"aspectRatio": {
+								"width": 480,
+								"height": 413
+							},
+							"altText": "Jaipuri Bedsheets",
+							"target": {
+								"url": "http://www.craftsvilla.com/cvfeeds/buy-latest-jaipuri-bedsheets-online-craftsvilla#feedid=645&pageId=1&",
+								"header": ""
+							},
+							"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/6_collections/collections_5.png",
+							"title": ""
+						},
+						"type": "image",
+						"MID": "App_HP_JaipuriBedsheets_4_5"
 					}
 				],
 				"title": "Collections",
@@ -252,49 +392,283 @@
 					"elementCount": null,
 					"type": null
 				},
-				"type": "Slider",
+				"type": "slider",
 				"display": {
-					"columns": 2,
-					"row": 1
+					"columns": "1.3",
+					"row": "1"
 				},
-				"more": ""
+				"more": null
 			},
 			{
 				"tillDate": "2017-09-26 20:28:00",
 				"elements": [
+					{
+						"type": "productCard",
+						"data": {
+							"productDetails": {
+								"discountPrice": 1999.0,
+								"target": {
+									"url": "",
+									"header": ""
+								},
+								"price": 5999.0,
+								"productName": "Designer Choice Saree Collection ( Amaira ? 1201 )",
+								"productImageURL": "/C/V/CV-MBOLL35719960550--Bollywood_Designer_Studio-Craftsvilla_1.jpg",
+								"discountPercentage": 66,
+								"aspectRatio": {
+									"width": "",
+									"height": ""
+								},
+								"productId": "4098859"
+							}
+						},
+						"MID": "HP_RecentlyViewed"
+					},
+					{
+						"type": "productCard",
+						"data": {
+							"productDetails": {
+								"discountPrice": 3030.0,
+								"target": {
+									"url": "",
+									"header": ""
+								},
+								"price": 9999.0,
+								"productName": "Designer Choice Saree Collection ( Ayesha Orang + Red Padding - 1338)",
+								"productImageURL": "/C/V/CV-MBOLL59086587110--Bollywood_Designer_Studio-Craftsvilla_1.jpg",
+								"discountPercentage": 69,
+								"aspectRatio": {
+									"width": "",
+									"height": ""
+								},
+								"productId": "4097032"
+							}
+						},
+						"MID": "HP_RecentlyViewed"
+					},
+					{
+						"type": "productCard",
+						"data": {
+							"productDetails": {
+								"discountPrice": 1099.0,
+								"target": {
+									"url": "",
+									"header": ""
+								},
+								"price": 2599.0,
+								"productName": "Priya Fashion Fabulous Light Green Fancy Lace Designer Saree",
+								"productImageURL": "/C/V/CV-MPRIY52537228580--PRIYA_FASHION-Craftsvilla_1.jpg",
+								"discountPercentage": 57,
+								"aspectRatio": {
+									"width": "",
+									"height": ""
+								},
+								"productId": "4093890"
+							}
+						},
+						"MID": "HP_RecentlyViewed"
+					},
+					{
+						"type": "productCard",
+						"data": {
+							"productDetails": {
+								"discountPrice": 1599.0,
+								"target": {
+									"url": "",
+									"header": ""
+								},
+								"price": 4999.0,
+								"productName": "Fabtexo Black Color Emroidered Georgette & Net Saree With Blouse Piece(unstitched)",
+								"productImageURL": "/C/V/CV-MFABT86402578730--FabTexo-Craftsvilla_1.jpg",
+								"discountPercentage": 68,
+								"aspectRatio": {
+									"width": "",
+									"height": ""
+								},
+								"productId": "4093779"
+							}
+						},
+						"MID": "HP_RecentlyViewed"
+					},
+					{
+						"type": "productCard",
+						"data": {
+							"productDetails": {
+								"discountPrice": 1199.0,
+								"target": {
+									"url": "",
+									"header": ""
+								},
+								"price": 2599.0,
+								"productName": "Miraculous Red With Printed Lace Marbel Saree",
+								"productImageURL": "/C/V/CV-MMIRA97647057430--miraculous-Craftsvilla_1.jpg",
+								"discountPercentage": 53,
+								"aspectRatio": {
+									"width": "",
+									"height": ""
+								},
+								"productId": "4093109"
+							}
+						},
+						"MID": "HP_RecentlyViewed"
+					},
+					{
+						"type": "productCard",
+						"data": {
+							"productDetails": {
+								"discountPrice": 1999.0,
+								"target": {
+									"url": "",
+									"header": ""
+								},
+								"price": 8499.0,
+								"productName": "Designer Choice Saree Collection ( Amaira ? 1192 )",
+								"productImageURL": "/C/V/CV-MBOLL43230147200--Bollywood_Fashion_Studio-Craftsvilla_1.jpg",
+								"discountPercentage": 76,
+								"aspectRatio": {
+									"width": "",
+									"height": ""
+								},
+								"productId": "4092170"
+							}
+						},
+						"MID": "HP_RecentlyViewed"
+					},
+					{
+						"type": "productCard",
+						"data": {
+							"productDetails": {
+								"discountPrice": 1999.0,
+								"target": {
+									"url": "",
+									"header": ""
+								},
+								"price": 8499.0,
+								"productName": "Designer Choice Saree Collection ( Amaira ? 1193 )",
+								"productImageURL": "/C/V/CV-MBOLL97683917020--Bollywood_Fashion_Studio-Craftsvilla_1.jpg",
+								"discountPercentage": 76,
+								"aspectRatio": {
+									"width": "",
+									"height": ""
+								},
+								"productId": "4092161"
+							}
+						},
+						"MID": "HP_RecentlyViewed"
+					},
+					{
+						"type": "productCard",
+						"data": {
+							"productDetails": {
+								"discountPrice": 2899.0,
+								"target": {
+									"url": "",
+									"header": ""
+								},
+								"price": 5798.0,
+								"productName": "Designer Choice Saree Collection ( Riti Rivaj - 1258 )",
+								"productImageURL": "/C/V/CV-MBOLL19986759160--Bollywood_Fashion_Studio-Craftsvilla_1.jpg",
+								"discountPercentage": 50,
+								"aspectRatio": {
+									"width": "",
+									"height": ""
+								},
+								"productId": "4091854"
+							}
+						},
+						"MID": "HP_RecentlyViewed"
+					},
+					{
+						"type": "productCard",
+						"data": {
+							"productDetails": {
+								"discountPrice": 1799.0,
+								"target": {
+									"url": "",
+									"header": ""
+								},
+								"price": 4999.0,
+								"productName": "Multi Color Antic Lycra Saree",
+								"productImageURL": "/C/V/CV-MPION53373674090--PIONEER_TEXTILES-Craftsvilla_1.jpg",
+								"discountPercentage": 64,
+								"aspectRatio": {
+									"width": "",
+									"height": ""
+								},
+								"productId": "4091833"
+							}
+						},
+						"MID": "HP_RecentlyViewed"
+					},
+					{
+						"type": "productCard",
+						"data": {
+							"productDetails": {
+								"discountPrice": 2525.0,
+								"target": {
+									"url": "",
+									"header": ""
+								},
+								"price": 5999.0,
+								"productName": "Designer Choice Saree Collection ( Jeqline Orange - 1270 )",
+								"productImageURL": "/C/V/CV-MBOLL85638295650--Bollywood_Fashion_Studio-Craftsvilla_1.jpg",
+								"discountPercentage": 57,
+								"aspectRatio": {
+									"width": "",
+									"height": ""
+								},
+								"productId": "4091800"
+							}
+						},
+						"MID": "HP_RecentlyViewed"
+					}
 				],
 				"title": "Trending Sarees",
 				"isTimerEnabled": false,
 				"fromDate": "2016-09-04 20:28:00",
 				"dataSource": {
-					"url": "http://www.craftsvilla.com/cvfeeds/trending-sarees-craftsvilla?MID=Normal__3_345_2#feedid=345&priceOrder=ASC&pageId=1&",
-					"elementCount": "20",
-					"type": "api"
+					"url": "http://www.craftsvilla.com/cvfeeds/trending-sarees-craftsvilla/#feedid=345&pageId=1&",
+					"elementCount": 20,
+					"type": "panel"
 				},
-				"type": "Slider",
+				"type": "slider",
 				"display": {
-					"columns": 3,
-					"row": 1
+					"columns": "3",
+					"row": "1"
 				},
-				"more": ""
+				"more": {
+					"data": {
+						"body": "",
+						"title": "View All",
+						"type": "text",
+						"MID": "HP_TrendingSarees",
+						"target": {
+							"url": "http://www.craftsvilla.com/cvfeeds/trending-sarees-craftsvilla#feedid=345&pageId=1&",
+							"header": ""
+						}
+					},
+					"type": "widget"
+				}
 			},
 			{
 				"tillDate": "2017-09-25 20:30:00",
 				"elements": [
 					{
-						"altText": "Blog",
-						"target": {
-							"url": "http://www.craftsvilla.com/blog/bridal-lehenga-trends-2016/",
-							"header": ""
+						"data": {
+							"aspectRatio": {
+								"width": 1,
+								"height": 1
+							},
+							"altText": "Blog",
+							"target": {
+								"url": "http://www.craftsvilla.com/blog/bridal-lehenga-trends-2016/?render=internal",
+								"header": ""
+							},
+							"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/8_Blog/Blog.png",
+							"title": ""
 						},
-						"title": "",
-						"MID": "HP_Blog_1",
-						"aspectRatio": {
-							"width": 1,
-							"height": 1
-						},
-						"type": "Image",
-						"imgURL": "https://s3-ap-southeast-1.amazonaws.com/assets1.craftsvilla.com/AppLaunch/home_page_assets/8_Blog/Blog.png"
+						"type": "image",
+						"MID": "HP_Blog_1"
 					}
 				],
 				"title": "",
@@ -307,14 +681,234 @@
 				},
 				"type": "fixed",
 				"display": {
-					"columns": 1,
-					"row": 1
+					"columns": "1",
+					"row": "1"
 				},
-				"more": ""
+				"more": null
 			},
 			{
 				"tillDate": "2017-09-26 23:00:00",
 				"elements": [
+					{
+						"type": "productCard",
+						"data": {
+							"productDetails": {
+								"discountPrice": 3394,
+								"target": {
+									"url": "",
+									"header": ""
+								},
+								"price": 3394.0,
+								"productName": "Liril Green Colored Net Suit.",
+								"productImageURL": "/C/V/CV-MDANI67742808990--dani_fashions-Craftsvilla_1.jpg",
+								"discountPercentage": 0,
+								"aspectRatio": {
+									"width": "",
+									"height": ""
+								},
+								"productId": "4084102"
+							}
+						},
+						"MID": "HP_RecentlyViewed"
+					},
+					{
+						"type": "productCard",
+						"data": {
+							"productDetails": {
+								"discountPrice": 3226,
+								"target": {
+									"url": "",
+									"header": ""
+								},
+								"price": 3226.0,
+								"productName": "Pink Colored Georgette Suit.",
+								"productImageURL": "/C/V/CV-MDANI36328354220--dani_fashions-Craftsvilla_1.jpg",
+								"discountPercentage": 0,
+								"aspectRatio": {
+									"width": "",
+									"height": ""
+								},
+								"productId": "4083992"
+							}
+						},
+						"MID": "HP_RecentlyViewed"
+					},
+					{
+						"type": "productCard",
+						"data": {
+							"productDetails": {
+								"discountPrice": 1299.0,
+								"target": {
+									"url": "",
+									"header": ""
+								},
+								"price": 3000.0,
+								"productName": "Laxmipathii Pink  New Designer Indian Long Salwar Suit",
+								"productImageURL": "/C/V/CV-MLAXM55861598790--Laxmipathi_Suit_n_Sarees-Craftsvilla_1.jpg",
+								"discountPercentage": 56,
+								"aspectRatio": {
+									"width": "",
+									"height": ""
+								},
+								"productId": "4082500"
+							}
+						},
+						"MID": "HP_RecentlyViewed"
+					},
+					{
+						"type": "productCard",
+						"data": {
+							"productDetails": {
+								"discountPrice": 1049.0,
+								"target": {
+									"url": "",
+									"header": ""
+								},
+								"price": 3000.0,
+								"productName": "Laxmipathi  Heavy Cream Chanderi Cotton Salwar Kameez",
+								"productImageURL": "/C/V/CV-MLAXM69164307120--Laxmipathi_Suit_n_Sarees-Craftsvilla_1.jpg",
+								"discountPercentage": 65,
+								"aspectRatio": {
+									"width": "",
+									"height": ""
+								},
+								"productId": "4077112"
+							}
+						},
+						"MID": "HP_RecentlyViewed"
+					},
+					{
+						"type": "productCard",
+						"data": {
+							"productDetails": {
+								"discountPrice": 1149.0,
+								"target": {
+									"url": "",
+									"header": ""
+								},
+								"price": 3799.0,
+								"productName": "Barsana Ethnic Black & Beige Embroidered Georgette Semi-stitched Anarkali Suit",
+								"productImageURL": "/C/V/CV-MBARS99502729210--Barsana_Ethnic-Craftsvilla_1.jpg",
+								"discountPercentage": 69,
+								"aspectRatio": {
+									"width": "",
+									"height": ""
+								},
+								"productId": "4050237"
+							}
+						},
+						"MID": "HP_RecentlyViewed"
+					},
+					{
+						"type": "productCard",
+						"data": {
+							"productDetails": {
+								"discountPrice": 2397.0,
+								"target": {
+									"url": "",
+									"header": ""
+								},
+								"price": 3995.0,
+								"productName": "Exquisite Black Faux Georgette Party Wear Semi Stitched Salwar Suit",
+								"productImageURL": "/C/V/CV-MMIRC21824319700--Mirchi_Fashion-Craftsvilla_1.jpg",
+								"discountPercentage": 40,
+								"aspectRatio": {
+									"width": "",
+									"height": ""
+								},
+								"productId": "4041047"
+							}
+						},
+						"MID": "HP_RecentlyViewed"
+					},
+					{
+						"type": "productCard",
+						"data": {
+							"productDetails": {
+								"discountPrice": 2397.0,
+								"target": {
+									"url": "",
+									"header": ""
+								},
+								"price": 3995.0,
+								"productName": "Adorable Navy Blue And Coffee Faux Georgette Party Wear Semi Stitched Salwar Suit",
+								"productImageURL": "/C/V/CV-MMIRC40830839830--Mirchi_Fashion-Craftsvilla_1.jpg",
+								"discountPercentage": 40,
+								"aspectRatio": {
+									"width": "",
+									"height": ""
+								},
+								"productId": "4041013"
+							}
+						},
+						"MID": "HP_RecentlyViewed"
+					},
+					{
+						"type": "productCard",
+						"data": {
+							"productDetails": {
+								"discountPrice": 2397.0,
+								"target": {
+									"url": "",
+									"header": ""
+								},
+								"price": 3995.0,
+								"productName": "Adorable Magenta Faux Georgette Party Wear Semi Stitched Salwar Suit",
+								"productImageURL": "/C/V/CV-MMIRC86714387600--Mirchi_Fashion-Craftsvilla_1.jpg",
+								"discountPercentage": 40,
+								"aspectRatio": {
+									"width": "",
+									"height": ""
+								},
+								"productId": "4040810"
+							}
+						},
+						"MID": "HP_RecentlyViewed"
+					},
+					{
+						"type": "productCard",
+						"data": {
+							"productDetails": {
+								"discountPrice": 2397.0,
+								"target": {
+									"url": "",
+									"header": ""
+								},
+								"price": 3995.0,
+								"productName": "Sparkling Navy Blue And Peach Faux Georgette Wedding Wear Semi Stitched Salwar Suit",
+								"productImageURL": "/C/V/CV-MMIRC18500644460--Mirchi_Fashion-Craftsvilla_1.jpg",
+								"discountPercentage": 40,
+								"aspectRatio": {
+									"width": "",
+									"height": ""
+								},
+								"productId": "4040714"
+							}
+						},
+						"MID": "HP_RecentlyViewed"
+					},
+					{
+						"type": "productCard",
+						"data": {
+							"productDetails": {
+								"discountPrice": 1149.0,
+								"target": {
+									"url": "",
+									"header": ""
+								},
+								"price": 3799.0,
+								"productName": "Barsana Ethnic New Attractive Red Anarkali Suit",
+								"productImageURL": "/t/a/tas305-9070_4_1.jpg",
+								"discountPercentage": 69,
+								"aspectRatio": {
+									"width": "",
+									"height": ""
+								},
+								"productId": "4035189"
+							}
+						},
+						"MID": "HP_RecentlyViewed"
+					}
 				],
 				"title": "Trending Salwar Suits",
 				"isTimerEnabled": false,
@@ -322,17 +916,29 @@
 				"dataSource": {
 					"url": "http://www.craftsvilla.com/cvfeeds/trending-salwarsuits-craftsvilla?MID=Normal__8_349_7#feedid=349&pageId=1&",
 					"elementCount": null,
-					"type": "api"
+					"type": "panel"
 				},
-				"type": "Slider",
+				"type": "slider",
 				"display": {
-					"columns": 3,
-					"row": 1
+					"columns": "3",
+					"row": "1"
 				},
-				"more": ""
+				"more": {
+					"data": {
+						"body": "",
+						"title": "More",
+						"type": "text",
+						"MID": "App_HP_trendingsalwarsuits_7_1",
+						"target": {
+							"url": "http://www.craftsvilla.com/cvfeeds/trending-salwarsuits-craftsvilla?MID=Normal__8_349_7#feedid=349&pageId=1&",
+							"header": ""
+						}
+					},
+					"type": "widget"
+				}
 			}
 		],
-		"pageType": "CSF",
+		"pageType": "First Time",
 		"meta": "ADD User",
 		"name": "Home",
 		"userType": "First"

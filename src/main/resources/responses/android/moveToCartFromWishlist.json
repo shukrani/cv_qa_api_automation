@@ -1,3 +1,51 @@
-{
-	"": ""
-}
+[
+	{
+		"s": 1,
+		"m": "Product has been moved to your cart successfully!",
+		"d": {
+			"products": [
+				{
+					"isInStock": 0,
+					"MRP": "799.0000",
+					"productName": "Hill Leaf Chettinad Basket",
+					"discountPercentage": 0,
+					"discountedPrice": 799,
+					"vendorDetails": {
+						"vendorName": "Saanvi Home Shoppee"
+					},
+					"regularPrice": 799.0,
+					"imgUrl": "/g/p/gp00000057_1.jpg",
+					"productId": "1234"
+				},
+				{
+					"isInStock": 0,
+					"MRP": "799.0000",
+					"productName": "Eco Pen Stand",
+					"discountPercentage": 0,
+					"discountedPrice": 799,
+					"vendorDetails": {
+						"vendorName": "Saanvi Home Shoppee"
+					},
+					"regularPrice": 799.0,
+					"imgUrl": "/C/M/CMUBINDOO000006_1.jpg",
+					"productId": "12345"
+				},
+				{
+					"isInStock": 0,
+					"MRP": "2300.0000",
+					"productName": "Yellow And White Color Designer Saree",
+					"discountPercentage": 0,
+					"discountedPrice": 2300,
+					"vendorDetails": {
+						"vendorName": "Baawli Fashions"
+					},
+					"regularPrice": 2300.0,
+					"imgUrl": "/C/V/CV-MBAAW94442870010--Baawli_Fashions-Craftsvilla_1.jpg",
+					"productId": "3238687"
+				}
+			],
+			"customerId": "3238687"
+		}
+	},
+	200
+]

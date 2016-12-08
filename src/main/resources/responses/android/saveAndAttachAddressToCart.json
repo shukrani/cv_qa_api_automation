@@ -2,92 +2,51 @@
 	"s": 1,
 	"m": "",
 	"d": {
+		"displayMsg": "Few items in your cart are not available for CASH ON DELIVERY. You can still proceed and do Online Payment.",
+		"quoteId": "44639558",
+		"coupon": {
+		},
 		"orderSummary": {
-			"total": 13506,
+			"totalPayable": 4197,
+			"couponDiscount": 0,
+			"shippingCost": 450,
 			"discount": 0,
-			"subTotal": 13506,
-			"vat": 0,
-			"shippingCost": 518,
-			"totalPayable": 14024,
-			"couponDiscount": 0
+			"total": 3747,
+			"subTotal": 3747,
+			"vat": 0
 		},
 		"products": [
 			{
 				"isInStock": 1,
-				"regularPrice": 1999,
-				"sellerNote": "",
-				"isCod": 1,
-				"qty": 4,
-				"discountPercentage": 0,
-				"discountedPrice": 1999,
+				"sellerNote": "Long sleeves",
+				"regularPrice": 3797,
+				"qty": 3,
+				"discountPercentage": 67,
+				"imgUrl": "/C/V/CV-MSHON44490366340--Shonayaa-Craftsvilla_1.jpg",
+				"discountedPrice": 1249,
 				"vendorDetails": {
-					"vendorId": "16885",
+					"vendorId": "23776",
 					"vendorCod": 1,
-					"vendorName": "Nilkanth Fabrics",
-					"vendorPincode": "395004"
-				},
-				"variants": {
-				},
-				"productName": "N F  001 Sri Devi Designer Blue Velvet Saree",
-				"imgUrl": "/C/V/CV-MNILK24465111550--Nilkanth_Fabrics-Craftsvilla_1.jpg",
-				"productId": "3910732"
-			},
-			{
-				"isInStock": 1,
-				"regularPrice": 3999,
-				"sellerNote": "",
-				"isCod": 1,
-				"qty": 6,
-				"discountPercentage": 75,
-				"discountedPrice": 999,
-				"vendorDetails": {
-					"vendorId": "6865",
-					"vendorCod": 1,
-					"vendorName": "Ellis Harvey",
-					"vendorPincode": "395007"
-				},
-				"variants": {
-				},
-				"productName": "Off White Embroidered Net Anarkali Suit",
-				"imgUrl": "/C/V/CV-MELLI43038739180--ellis_harvey-Craftsvilla_1.jpg",
-				"productId": "3909979"
-			},
-			{
-				"isInStock": 1,
-				"regularPrice": 2599,
-				"sellerNote": "",
-				"isCod": 1,
-				"qty": 7,
-				"discountPercentage": 61,
-				"discountedPrice": 999,
-				"vendorDetails": {
-					"vendorId": "17285",
-					"vendorCod": 1,
-					"vendorName": "Md Creation",
+					"vendorName": "Shonayaa",
 					"vendorPincode": "395010"
 				},
 				"variants": {
 				},
-				"productName": "Professional Office Hand Bag",
-				"imgUrl": "/C/V/CV-MMD_C14542298180--MD_Creation_-Craftsvilla_1.jpg",
-				"productId": "3190488"
+				"isCod": 0,
+				"productName": "Red and black embroidered faux georgette saree",
+				"productId": "3576388"
 			}
 		],
-		"customerId": 1877116,
 		"deliveryAddress": {
-			"firstName": "Rebbecca",
-			"lastName": "Elvis",
-			"address": "Near Big Data Office",
-			"city": "Gurgaon",
-			"state": "maharashtra",
-			"country": "India",
-			"pincode": "400063",
-			"phoneNo": "9730926367",
+			"city": "New Delhi",
 			"countryId": "IN",
-			"countryPhoneCode": "+91"
+			"addressId": "4373252",
+			"firstName": "Richard",
+			"lastName": "Brown",
+			"pincode": "231766",
+			"state": "Delhi",
+			"address1": "32, MG Road"
 		},
-		"coupon": {
-		},
-		"displayMsg": "Few Items in your cart are not available for CASH ON DELIVERY. You can still proceed and do Online Payment."
+		"customerId": "3044185"
 	}
 }

@@ -5,49 +5,53 @@
 		"products": [
 			{
 				"isInStock": 0,
-				"regularPrice": 799.0,
+				"MRP": "799.0000",
+				"productName": "Hill Leaf Chettinad Basket",
 				"discountPercentage": 0,
 				"discountedPrice": 799,
 				"vendorDetails": {
 					"vendorName": "Saanvi Home Shoppee"
 				},
-				"productName": "Hill Leaf Chettinad Basket",
+				"regularPrice": 799,
 				"imgUrl": "/g/p/gp00000057_1.jpg",
 				"productId": "1234"
 			},
 			{
 				"isInStock": 0,
-				"regularPrice": 799.0,
+				"MRP": "799.0000",
+				"productName": "Eco Pen Stand",
 				"discountPercentage": 0,
 				"discountedPrice": 799,
 				"vendorDetails": {
 					"vendorName": "Saanvi Home Shoppee"
 				},
-				"productName": "Eco Pen Stand",
+				"regularPrice": 799,
 				"imgUrl": "/C/M/CMUBINDOO000006_1.jpg",
 				"productId": "12345"
 			},
 			{
 				"isInStock": 0,
-				"regularPrice": 2300.0,
+				"MRP": "2300.0000",
+				"productName": "Yellow And White Color Designer Saree",
 				"discountPercentage": 0,
 				"discountedPrice": 2300,
 				"vendorDetails": {
 					"vendorName": "Baawli Fashions"
 				},
-				"productName": "Yellow And White Color Designer Saree",
+				"regularPrice": 2300,
 				"imgUrl": "/C/V/CV-MBAAW94442870010--Baawli_Fashions-Craftsvilla_1.jpg",
 				"productId": "3238687"
 			},
 			{
 				"isInStock": 1,
-				"regularPrice": 4000.0,
-				"discountPercentage": 0,
-				"discountedPrice": 1999.0,
+				"MRP": "1999.0000",
+				"productName": "Knapsack Bag A New Style In College Bag For College Girls To Enhance Their Look",
+				"discountPercentage": 20,
+				"discountedPrice": 1999,
 				"vendorDetails": {
 					"vendorName": "Jwellr"
 				},
-				"productName": "Knapsack Bag A New Style In College Bag For College Girls To Enhance Their Look",
+				"regularPrice": 4000,
 				"imgUrl": "/C/V/CV-28905-MJWEL34080584380--jwellr-1470488843-Craftsvilla_1.jpg",
 				"productId": "5024776"
 			}

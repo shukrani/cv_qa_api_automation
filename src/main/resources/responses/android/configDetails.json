@@ -1,11 +1,12 @@
 {
 	"s": 1,
-	"m": "",
+	"m": "Config Details",
 	"d": {
 		"appSettings": {
 			"backgroundImageUrl": "",
 			"imageSize": {
 				"large": "thumb/500x500",
+				"small": "thumb/216x216",
 				"thumb": "thumb/166x166",
 				"original": "orig"
 			},
@@ -192,10 +193,14 @@
 				"48",
 				"50"
 			],
-			"deals": false,
+			"deals": {
+				"deals": "deals",
+				"isActive": true
+			},
 			"onboardingSkip": true,
 			"urls": {
 				"productImage": "http://img1.craftsvilla.com/",
+				"assetsImage": "http://assets1.craftsvilla.com/",
 				"vendorImage": "http://www.craftsvilla.com/media/",
 				"products": "http://www.craftsvilla.com/catalog/product/view/id/"
 			},

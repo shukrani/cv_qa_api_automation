@@ -5,121 +5,131 @@
 		"products": [
 			{
 				"isInStock": 1,
-				"regularPrice": 2788.0,
+				"MRP": "2788.0000",
+				"productName": "Bridal Silk Sarees",
 				"discountPercentage": 0,
 				"discountedPrice": 2788,
 				"vendorDetails": {
 					"vendorName": "Bridal Collection"
 				},
-				"productName": "Bridal Silk Sarees",
+				"regularPrice": 2788,
 				"imgUrl": "/C/V/CV-MBRID45192181810--Bridal_Collection-Craftsvilla_1.jpg",
 				"productId": "3467458"
 			},
 			{
 				"isInStock": 1,
-				"regularPrice": 1299.0,
+				"MRP": "1299.0000",
+				"productName": "New Latest Designer Banarasi Silk Saree",
 				"discountPercentage": 0,
 				"discountedPrice": 1299,
 				"vendorDetails": {
 					"vendorName": "Latest-look Creation"
 				},
-				"productName": "New Latest Designer Banarasi Silk Saree",
+				"regularPrice": 1299,
 				"imgUrl": "/C/V/CV-21263-MLATE75771195440--latest-look_creation-1467894929-Craftsvilla_1.jpg",
 				"productId": "4757417"
 			},
 			{
 				"isInStock": 1,
-				"regularPrice": 2058.0,
-				"discountPercentage": 0,
-				"discountedPrice": 799.0,
+				"MRP": "1029.0000",
+				"productName": "Bhelpuri Red Cotton Zari Work Saree With Cotton Blouse Piece",
+				"discountPercentage": 10,
+				"discountedPrice": 1029,
 				"vendorDetails": {
 					"vendorName": "Admyrin"
 				},
-				"productName": "Bhelpuri Red Cotton Zari Work Saree With Cotton Blouse Piece",
+				"regularPrice": 2058,
 				"imgUrl": "/C/V/CV-MADMY29801589990--Admyrin-Craftsvilla_1.jpg",
 				"productId": "3387607"
 			},
 			{
 				"isInStock": 1,
-				"regularPrice": 799.0,
-				"discountPercentage": 0,
-				"discountedPrice": 399.0,
+				"MRP": "399.0000",
+				"productName": "Anand Sarees  Blue-red-multi Georgette Saree",
+				"discountPercentage": 4,
+				"discountedPrice": 399,
 				"vendorDetails": {
 					"vendorName": "Anand Sarees"
 				},
-				"productName": "Anand Sarees  Blue-red-multi Georgette Saree",
+				"regularPrice": 799,
 				"imgUrl": "/C/V/CV-MANAN77837070200--ANAND_SAREES-Craftsvilla_1.jpg",
 				"productId": "3936278"
 			},
 			{
 				"isInStock": 1,
-				"regularPrice": 4599.0,
+				"MRP": "4599.0000",
+				"productName": "Red Net Lehanga Unstitched",
 				"discountPercentage": 0,
-				"discountedPrice": 1999.0,
+				"discountedPrice": 4599,
 				"vendorDetails": {
 					"vendorName": "Chhabra555"
 				},
-				"productName": "Red Net Lehanga Unstitched",
+				"regularPrice": 4599,
 				"imgUrl": "/C/V/CV-MCHHA99994078110--Chhabra_555-Craftsvilla_1.jpg",
 				"productId": "4483278"
 			},
 			{
 				"isInStock": 1,
-				"regularPrice": 5400.0,
-				"discountPercentage": 0,
-				"discountedPrice": 2700.0,
+				"MRP": "2700.0000",
+				"productName": "Coral Handloom All Self Pink Saree",
+				"discountPercentage": 27,
+				"discountedPrice": 2700,
 				"vendorDetails": {
 					"vendorName": "Zarivastram"
 				},
-				"productName": "Coral Handloom All Self Pink Saree",
+				"regularPrice": 5400,
 				"imgUrl": "/C/V/CV-30089-MZARI28754504140--ZariVastram-1472218325-Craftsvilla_1.jpg",
 				"productId": "5177525"
 			},
 			{
 				"isInStock": 1,
-				"regularPrice": 13500.0,
+				"MRP": "13500.0000",
+				"productName": "Red Uppada Silk Handloom Saree With All Over Nilambari Buta Design  - Sarees By Uppadasarees",
 				"discountPercentage": 0,
 				"discountedPrice": 13500,
 				"vendorDetails": {
 					"vendorName": "Uppada Sarees"
 				},
-				"productName": "Red Uppada Silk Handloom Saree With All Over Nilambari Buta Design  - Sarees By Uppadasarees",
+				"regularPrice": 13500,
 				"imgUrl": "/C/V/CV-5201-MUPPA73902183270-1466994180-Craftsvilla_1.jpg",
 				"productId": "4680212"
 			},
 			{
 				"isInStock": 1,
-				"regularPrice": 4999.0,
+				"MRP": "4999.0000",
+				"productName": "Dupion Silk Saree With Blouse",
 				"discountPercentage": 0,
 				"discountedPrice": 4999,
 				"vendorDetails": {
 					"vendorName": "Vrcraftsgallery"
 				},
-				"productName": "Dupion Silk Saree With Blouse",
+				"regularPrice": 4999,
 				"imgUrl": "/C/V/CV-5287-MVRCR75188097520--VRCRAFTSGALLERY-1465675834-Craftsvilla_1.jpg",
 				"productId": "4571009"
 			},
 			{
 				"isInStock": 1,
-				"regularPrice": 1389.0,
+				"MRP": "1389.0000",
+				"productName": "Pankti Creation Saree",
 				"discountPercentage": 0,
 				"discountedPrice": 1389,
 				"vendorDetails": {
 					"vendorName": "Pankti Creation"
 				},
-				"productName": "Pankti Creation Saree",
+				"regularPrice": 1389,
 				"imgUrl": "/C/V/CV-22001-MPANK48710183010--pankti_creation-1469101302-Craftsvilla_1.jpg",
 				"productId": "4877647"
 			},
 			{
 				"isInStock": 1,
-				"regularPrice": 5099.0,
-				"discountPercentage": 0,
-				"discountedPrice": 2049.0,
+				"MRP": "2049.0000",
+				"productName": "Rasvilla Red Color Designer Banarasi Silk Saree",
+				"discountPercentage": 30,
+				"discountedPrice": 2049,
 				"vendorDetails": {
 					"vendorName": "Sheladiya Fashion"
 				},
-				"productName": "Rasvilla Red Color Designer Banarasi Silk Saree",
+				"regularPrice": 5099,
 				"imgUrl": "/C/V/CV-MSHEL82237773760--SHELADIYA_FASHION-Craftsvilla_1.jpg",
 				"productId": "4138347"
 			}

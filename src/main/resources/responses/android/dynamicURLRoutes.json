@@ -1,21 +1,27 @@
 {
 	"s": 1,
-	"m": "if you think you can trust this. think again. why this message ?",
+	"m": "if you think you can trust this. think again",
 	"d": [
 		{
-			"regex": "http:\\/\\/www.craftsvilla.com\\/catalog\\/product\\/view\\/id\\/[0-9]*\\/s\\/",
-			"door": "pdp",
+			"regex": ".*render=internal.*",
+			"range_delimiter": "_",
+			"door": "webview_internal",
 			"params_delimiter": [
 				"?",
 				"#"
 			],
-			"param_position": 7,
-			"param_delimiter": "/",
 			"multiple_delimiter": ",",
-			"api_key": "product_id",
 			"data": {
+				"dynamic_attribute_parser": {
+					"multiple_delimiter": ",",
+					"replace_space": "-",
+					"word": "capitalize"
+				},
 				"key_value_delimiter": "=",
 				"parameter_mapping": {
+					"utm_campaign": {
+						"type": "marketing"
+					},
 					"perPage": {
 						"api_key": "perPage",
 						"type": "meta"
@@ -26,6 +32,10 @@
 					},
 					"catId": {
 						"api_key": "categoryId",
+						"type": "meta"
+					},
+					"userType": {
+						"api_key": "userType",
 						"type": "meta"
 					},
 					"color": {
@@ -42,8 +52,15 @@
 						"api_key": "feedId",
 						"type": "meta"
 					},
+					"utm_source": {
+						"type": "marketing"
+					},
 					"MID": {
 						"api_key": "MID",
+						"type": "meta"
+					},
+					"q": {
+						"api_key": "query",
 						"type": "meta"
 					},
 					"discount": {
@@ -56,6 +73,430 @@
 						},
 						"api_key": "discountedPrice",
 						"type": "filters"
+					},
+					"utm_medium": {
+						"type": "marketing"
+					},
+					"pageType": {
+						"api_key": "pageType",
+						"type": "meta"
+					},
+					"searchby": {
+						"type": "meta"
+					},
+					"discountedPriceOrder": {
+						"options_map": {
+							"ASC": "Low to High",
+							"DESC": "High to Low"
+						},
+						"api_key": "discountedPriceOrder",
+						"type": "sort"
+					},
+					"priceOrder": {
+						"options_map": {
+							"ASC": "Low to High",
+							"DESC": "High to Low"
+						},
+						"api_key": "priceOrder",
+						"type": "sort"
+					}
+				},
+				"door": "webview_internal",
+				"param_delimiter": "&"
+			}
+		},
+		{
+			"regex": ".*render=external.*",
+			"range_delimiter": "_",
+			"door": "webview_external",
+			"params_delimiter": [
+				"?",
+				"#"
+			],
+			"multiple_delimiter": ",",
+			"data": {
+				"dynamic_attribute_parser": {
+					"multiple_delimiter": ",",
+					"replace_space": "-",
+					"word": "capitalize"
+				},
+				"key_value_delimiter": "=",
+				"parameter_mapping": {
+					"utm_campaign": {
+						"type": "marketing"
+					},
+					"perPage": {
+						"api_key": "perPage",
+						"type": "meta"
+					},
+					"pageId": {
+						"api_key": "pageId",
+						"type": "meta"
+					},
+					"catId": {
+						"api_key": "categoryId",
+						"type": "meta"
+					},
+					"userType": {
+						"api_key": "userType",
+						"type": "meta"
+					},
+					"color": {
+						"api_key": "color",
+						"type": "filters"
+					},
+					"price": {
+						"multiple_delimiter": ",",
+						"range_delimiter": "_",
+						"api_key": "price",
+						"type": "filters"
+					},
+					"feedid": {
+						"api_key": "feedId",
+						"type": "meta"
+					},
+					"utm_source": {
+						"type": "marketing"
+					},
+					"MID": {
+						"api_key": "MID",
+						"type": "meta"
+					},
+					"q": {
+						"api_key": "query",
+						"type": "meta"
+					},
+					"discount": {
+						"options_map": {
+							"10": "Above 10%",
+							"30": "Above 30%",
+							"20": "Above 20%",
+							"50": "Above 50%",
+							"40": "Above 40%"
+						},
+						"api_key": "discountedPrice",
+						"type": "filters"
+					},
+					"utm_medium": {
+						"type": "marketing"
+					},
+					"pageType": {
+						"api_key": "pageType",
+						"type": "meta"
+					},
+					"searchby": {
+						"type": "meta"
+					},
+					"discountedPriceOrder": {
+						"options_map": {
+							"ASC": "Low to High",
+							"DESC": "High to Low"
+						},
+						"api_key": "discountedPriceOrder",
+						"type": "sort"
+					},
+					"priceOrder": {
+						"options_map": {
+							"ASC": "Low to High",
+							"DESC": "High to Low"
+						},
+						"api_key": "priceOrder",
+						"type": "sort"
+					}
+				},
+				"door": "webview_external",
+				"param_delimiter": "&"
+			}
+		},
+		{
+			"regex": "https:\\/\\/securestatic[0-9].craftsvilla.com\\/sales\\/[a-z A-Z -]*\\??.*",
+			"range_delimiter": "_",
+			"door": "webview_internal",
+			"params_delimiter": [
+				"?",
+				"#"
+			],
+			"multiple_delimiter": ",",
+			"data": {
+				"dynamic_attribute_parser": {
+					"multiple_delimiter": ",",
+					"replace_space": "-",
+					"word": "capitalize"
+				},
+				"key_value_delimiter": "=",
+				"parameter_mapping": {
+					"utm_campaign": {
+						"type": "marketing"
+					},
+					"perPage": {
+						"api_key": "perPage",
+						"type": "meta"
+					},
+					"pageId": {
+						"api_key": "pageId",
+						"type": "meta"
+					},
+					"catId": {
+						"api_key": "categoryId",
+						"type": "meta"
+					},
+					"userType": {
+						"api_key": "userType",
+						"type": "meta"
+					},
+					"color": {
+						"api_key": "color",
+						"type": "filters"
+					},
+					"price": {
+						"multiple_delimiter": ",",
+						"range_delimiter": "_",
+						"api_key": "price",
+						"type": "filters"
+					},
+					"feedid": {
+						"api_key": "feedId",
+						"type": "meta"
+					},
+					"utm_source": {
+						"type": "marketing"
+					},
+					"MID": {
+						"api_key": "MID",
+						"type": "meta"
+					},
+					"q": {
+						"api_key": "query",
+						"type": "meta"
+					},
+					"discount": {
+						"options_map": {
+							"10": "Above 10%",
+							"30": "Above 30%",
+							"20": "Above 20%",
+							"50": "Above 50%",
+							"40": "Above 40%"
+						},
+						"api_key": "discountedPrice",
+						"type": "filters"
+					},
+					"utm_medium": {
+						"type": "marketing"
+					},
+					"pageType": {
+						"api_key": "pageType",
+						"type": "meta"
+					},
+					"searchby": {
+						"type": "meta"
+					},
+					"discountedPriceOrder": {
+						"options_map": {
+							"ASC": "Low to High",
+							"DESC": "High to Low"
+						},
+						"api_key": "discountedPriceOrder",
+						"type": "sort"
+					},
+					"priceOrder": {
+						"options_map": {
+							"ASC": "Low to High",
+							"DESC": "High to Low"
+						},
+						"api_key": "priceOrder",
+						"type": "sort"
+					}
+				},
+				"door": "webview_internal",
+				"param_delimiter": "&"
+			}
+		},
+		{
+			"regex": "https:\\/\\/securestatic[0-9].craftsvilla.com\\/customer\\/[a-z A-Z -]*\\??.*",
+			"range_delimiter": "_",
+			"door": "webview_internal",
+			"params_delimiter": [
+				"?",
+				"#"
+			],
+			"multiple_delimiter": ",",
+			"data": {
+				"dynamic_attribute_parser": {
+					"multiple_delimiter": ",",
+					"replace_space": "-",
+					"word": "capitalize"
+				},
+				"key_value_delimiter": "=",
+				"parameter_mapping": {
+					"utm_campaign": {
+						"type": "marketing"
+					},
+					"perPage": {
+						"api_key": "perPage",
+						"type": "meta"
+					},
+					"pageId": {
+						"api_key": "pageId",
+						"type": "meta"
+					},
+					"catId": {
+						"api_key": "categoryId",
+						"type": "meta"
+					},
+					"userType": {
+						"api_key": "userType",
+						"type": "meta"
+					},
+					"color": {
+						"api_key": "color",
+						"type": "filters"
+					},
+					"price": {
+						"multiple_delimiter": ",",
+						"range_delimiter": "_",
+						"api_key": "price",
+						"type": "filters"
+					},
+					"feedid": {
+						"api_key": "feedId",
+						"type": "meta"
+					},
+					"utm_source": {
+						"type": "marketing"
+					},
+					"MID": {
+						"api_key": "MID",
+						"type": "meta"
+					},
+					"q": {
+						"api_key": "query",
+						"type": "meta"
+					},
+					"discount": {
+						"options_map": {
+							"10": "Above 10%",
+							"30": "Above 30%",
+							"20": "Above 20%",
+							"50": "Above 50%",
+							"40": "Above 40%"
+						},
+						"api_key": "discountedPrice",
+						"type": "filters"
+					},
+					"utm_medium": {
+						"type": "marketing"
+					},
+					"pageType": {
+						"api_key": "pageType",
+						"type": "meta"
+					},
+					"searchby": {
+						"type": "meta"
+					},
+					"discountedPriceOrder": {
+						"options_map": {
+							"ASC": "Low to High",
+							"DESC": "High to Low"
+						},
+						"api_key": "discountedPriceOrder",
+						"type": "sort"
+					},
+					"priceOrder": {
+						"options_map": {
+							"ASC": "Low to High",
+							"DESC": "High to Low"
+						},
+						"api_key": "priceOrder",
+						"type": "sort"
+					}
+				},
+				"door": "webview_internal",
+				"param_delimiter": "&"
+			}
+		},
+		{
+			"regex": "http:\\/\\/www.craftsvilla.com\\/catalog\\/product\\/view\\/id\\/[0-9]+\\/s\\/\\??.*",
+			"range_delimiter": "_",
+			"door": "pdp",
+			"params_delimiter": [
+				"?",
+				"#"
+			],
+			"id_reg_ex": "id\\/[0-9]+",
+			"multiple_delimiter": ",",
+			"api_key": "product_id",
+			"data": {
+				"dynamic_attribute_parser": {
+					"multiple_delimiter": ",",
+					"replace_space": "-",
+					"word": "capitalize"
+				},
+				"key_value_delimiter": "=",
+				"parameter_mapping": {
+					"utm_campaign": {
+						"type": "marketing"
+					},
+					"perPage": {
+						"api_key": "perPage",
+						"type": "meta"
+					},
+					"pageId": {
+						"api_key": "pageId",
+						"type": "meta"
+					},
+					"catId": {
+						"api_key": "categoryId",
+						"type": "meta"
+					},
+					"userType": {
+						"api_key": "userType",
+						"type": "meta"
+					},
+					"color": {
+						"api_key": "color",
+						"type": "filters"
+					},
+					"price": {
+						"multiple_delimiter": ",",
+						"range_delimiter": "_",
+						"api_key": "price",
+						"type": "filters"
+					},
+					"feedid": {
+						"api_key": "feedId",
+						"type": "meta"
+					},
+					"utm_source": {
+						"type": "marketing"
+					},
+					"MID": {
+						"api_key": "MID",
+						"type": "meta"
+					},
+					"q": {
+						"api_key": "query",
+						"type": "meta"
+					},
+					"discount": {
+						"options_map": {
+							"10": "Above 10%",
+							"30": "Above 30%",
+							"20": "Above 20%",
+							"50": "Above 50%",
+							"40": "Above 40%"
+						},
+						"api_key": "discountedPrice",
+						"type": "filters"
+					},
+					"utm_medium": {
+						"type": "marketing"
+					},
+					"pageType": {
+						"api_key": "pageType",
+						"type": "meta"
+					},
+					"searchby": {
+						"type": "meta"
 					},
 					"discountedPriceOrder": {
 						"options_map": {
@@ -79,162 +520,26 @@
 			}
 		},
 		{
-			"regex": "http:\\/\\/www.craftsvilla.com\\/[a-z A-Z -]*\\/[a-z A-Z -]*\\/[a-z A-Z -]*\\/",
-			"params_delimiter": [
-				"?",
-				"#"
-			],
-			"multiple_delimiter": ",",
-			"door": "feed",
-			"data": {
-				"key_value_delimiter": "=",
-				"parameter_mapping": {
-					"perPage": {
-						"api_key": "perPage",
-						"type": "meta"
-					},
-					"pageId": {
-						"api_key": "pageId",
-						"type": "meta"
-					},
-					"catId": {
-						"api_key": "categoryId",
-						"type": "meta"
-					},
-					"color": {
-						"api_key": "color",
-						"type": "filters"
-					},
-					"price": {
-						"multiple_delimiter": ",",
-						"range_delimiter": "_",
-						"api_key": "price",
-						"type": "filters"
-					},
-					"feedid": {
-						"api_key": "feedId",
-						"type": "meta"
-					},
-					"MID": {
-						"api_key": "MID",
-						"type": "meta"
-					},
-					"discount": {
-						"options_map": {
-							"10": "Above 10%",
-							"30": "Above 30%",
-							"20": "Above 20%",
-							"50": "Above 50%",
-							"40": "Above 40%"
-						},
-						"api_key": "discountedPrice",
-						"type": "filters"
-					},
-					"discountedPriceOrder": {
-						"options_map": {
-							"ASC": "Low to High",
-							"DESC": "High to Low"
-						},
-						"api_key": "discountedPriceOrder",
-						"type": "sort"
-					},
-					"priceOrder": {
-						"options_map": {
-							"ASC": "Low to High",
-							"DESC": "High to Low"
-						},
-						"api_key": "priceOrder",
-						"type": "sort"
-					}
-				},
-				"door": "feed",
-				"param_delimiter": "&"
-			}
-		},
-		{
-			"regex": "http:\\/\\/www.craftsvilla.com\\/[a-z A-Z -]*\\/[a-z A-Z -]*\\/",
-			"params_delimiter": [
-				"?",
-				"#"
-			],
-			"multiple_delimiter": ",",
-			"door": "category",
-			"data": {
-				"key_value_delimiter": "=",
-				"parameter_mapping": {
-					"perPage": {
-						"api_key": "perPage",
-						"type": "meta"
-					},
-					"pageId": {
-						"api_key": "pageId",
-						"type": "meta"
-					},
-					"catId": {
-						"api_key": "categoryId",
-						"type": "meta"
-					},
-					"color": {
-						"api_key": "color",
-						"type": "filters"
-					},
-					"price": {
-						"multiple_delimiter": ",",
-						"range_delimiter": "_",
-						"api_key": "price",
-						"type": "filters"
-					},
-					"feedid": {
-						"api_key": "feedId",
-						"type": "meta"
-					},
-					"MID": {
-						"api_key": "MID",
-						"type": "meta"
-					},
-					"discount": {
-						"options_map": {
-							"10": "Above 10%",
-							"30": "Above 30%",
-							"20": "Above 20%",
-							"50": "Above 50%",
-							"40": "Above 40%"
-						},
-						"api_key": "discountedPrice",
-						"type": "filters"
-					},
-					"discountedPriceOrder": {
-						"options_map": {
-							"ASC": "Low to High",
-							"DESC": "High to Low"
-						},
-						"api_key": "discountedPriceOrder",
-						"type": "sort"
-					},
-					"priceOrder": {
-						"options_map": {
-							"ASC": "Low to High",
-							"DESC": "High to Low"
-						},
-						"api_key": "priceOrder",
-						"type": "sort"
-					}
-				},
-				"door": "category",
-				"param_delimiter": "&"
-			}
-		},
-		{
-			"regex": "http:\\/\\/www.craftsvilla.com\\/store-front\\/[a-z A-Z -]*\\/",
-			"params_delimiter": [
-				"?",
-				"#"
-			],
-			"multiple_delimiter": ",",
+			"regex": "http:\\/\\/www.craftsvilla.com\\/store-front\\/[a-z A-Z -]*\\/\\??.*",
+			"range_delimiter": "_",
 			"door": "store_front",
+			"params_delimiter": [
+				"?",
+				"#"
+			],
+			"id_reg_ex": "store-front\\/[a-z A-Z -]*",
+			"multiple_delimiter": ",",
 			"data": {
+				"dynamic_attribute_parser": {
+					"multiple_delimiter": ",",
+					"replace_space": "-",
+					"word": "capitalize"
+				},
 				"key_value_delimiter": "=",
 				"parameter_mapping": {
+					"utm_campaign": {
+						"type": "marketing"
+					},
 					"perPage": {
 						"api_key": "perPage",
 						"type": "meta"
@@ -245,6 +550,10 @@
 					},
 					"catId": {
 						"api_key": "categoryId",
+						"type": "meta"
+					},
+					"userType": {
+						"api_key": "userType",
 						"type": "meta"
 					},
 					"color": {
@@ -261,8 +570,15 @@
 						"api_key": "feedId",
 						"type": "meta"
 					},
+					"utm_source": {
+						"type": "marketing"
+					},
 					"MID": {
 						"api_key": "MID",
+						"type": "meta"
+					},
+					"q": {
+						"api_key": "query",
 						"type": "meta"
 					},
 					"discount": {
@@ -275,6 +591,16 @@
 						},
 						"api_key": "discountedPrice",
 						"type": "filters"
+					},
+					"utm_medium": {
+						"type": "marketing"
+					},
+					"pageType": {
+						"api_key": "pageType",
+						"type": "meta"
+					},
+					"searchby": {
+						"type": "meta"
 					},
 					"discountedPriceOrder": {
 						"options_map": {
@@ -298,19 +624,27 @@
 			}
 		},
 		{
-			"regex": "http:\\/\\/www.craftsvilla.com\\/[0-9]*\\/ShowSimilar\\/",
+			"regex": "http:\\/\\/www.craftsvilla.com\\/[0-9]+\\/ShowSimilar\\/\\??.*",
+			"range_delimiter": "_",
 			"door": "pdp_with_similar_products",
 			"params_delimiter": [
 				"?",
 				"#"
 			],
-			"param_position": 3,
-			"param_delimiter": "/",
+			"id_reg_ex": "com\\/[0-9]+",
 			"multiple_delimiter": ",",
 			"api_key": "product_id",
 			"data": {
+				"dynamic_attribute_parser": {
+					"multiple_delimiter": ",",
+					"replace_space": "-",
+					"word": "capitalize"
+				},
 				"key_value_delimiter": "=",
 				"parameter_mapping": {
+					"utm_campaign": {
+						"type": "marketing"
+					},
 					"perPage": {
 						"api_key": "perPage",
 						"type": "meta"
@@ -321,6 +655,10 @@
 					},
 					"catId": {
 						"api_key": "categoryId",
+						"type": "meta"
+					},
+					"userType": {
+						"api_key": "userType",
 						"type": "meta"
 					},
 					"color": {
@@ -337,8 +675,15 @@
 						"api_key": "feedId",
 						"type": "meta"
 					},
+					"utm_source": {
+						"type": "marketing"
+					},
 					"MID": {
 						"api_key": "MID",
+						"type": "meta"
+					},
+					"q": {
+						"api_key": "query",
 						"type": "meta"
 					},
 					"discount": {
@@ -351,6 +696,16 @@
 						},
 						"api_key": "discountedPrice",
 						"type": "filters"
+					},
+					"utm_medium": {
+						"type": "marketing"
+					},
+					"pageType": {
+						"api_key": "pageType",
+						"type": "meta"
+					},
+					"searchby": {
+						"type": "meta"
 					},
 					"discountedPriceOrder": {
 						"options_map": {
@@ -374,16 +729,25 @@
 			}
 		},
 		{
-			"regex": "http:\\/\\/www.craftsvilla.com\\/searchresults",
+			"regex": "http:\\/\\/www.craftsvilla.com\\/searchresults\\??.*",
+			"range_delimiter": "_",
+			"door": "search",
 			"params_delimiter": [
 				"?",
 				"#"
 			],
 			"multiple_delimiter": ",",
-			"door": "search",
 			"data": {
+				"dynamic_attribute_parser": {
+					"multiple_delimiter": ",",
+					"replace_space": "-",
+					"word": "capitalize"
+				},
 				"key_value_delimiter": "=",
 				"parameter_mapping": {
+					"utm_campaign": {
+						"type": "marketing"
+					},
 					"perPage": {
 						"api_key": "perPage",
 						"type": "meta"
@@ -394,6 +758,10 @@
 					},
 					"catId": {
 						"api_key": "categoryId",
+						"type": "meta"
+					},
+					"userType": {
+						"api_key": "userType",
 						"type": "meta"
 					},
 					"color": {
@@ -410,8 +778,15 @@
 						"api_key": "feedId",
 						"type": "meta"
 					},
+					"utm_source": {
+						"type": "marketing"
+					},
 					"MID": {
 						"api_key": "MID",
+						"type": "meta"
+					},
+					"q": {
+						"api_key": "query",
 						"type": "meta"
 					},
 					"discount": {
@@ -424,6 +799,16 @@
 						},
 						"api_key": "discountedPrice",
 						"type": "filters"
+					},
+					"utm_medium": {
+						"type": "marketing"
+					},
+					"pageType": {
+						"api_key": "pageType",
+						"type": "meta"
+					},
+					"searchby": {
+						"type": "meta"
 					},
 					"discountedPriceOrder": {
 						"options_map": {
@@ -447,16 +832,26 @@
 			}
 		},
 		{
-			"regex": "http:\\/\\/www.craftsvilla.com\\/cvfeeds\\/[a-z A-Z -]*",
+			"regex": "http:\\/\\/www.craftsvilla.com\\/csf\\/id\\/[a-z A-Z -]*\\/??.*",
+			"range_delimiter": "_",
+			"door": "csf",
 			"params_delimiter": [
 				"?",
 				"#"
 			],
+			"id_reg_ex": "id\\/[a-z A-Z -]*",
 			"multiple_delimiter": ",",
-			"door": "feed",
 			"data": {
+				"dynamic_attribute_parser": {
+					"multiple_delimiter": ",",
+					"replace_space": "-",
+					"word": "capitalize"
+				},
 				"key_value_delimiter": "=",
 				"parameter_mapping": {
+					"utm_campaign": {
+						"type": "marketing"
+					},
 					"perPage": {
 						"api_key": "perPage",
 						"type": "meta"
@@ -467,6 +862,10 @@
 					},
 					"catId": {
 						"api_key": "categoryId",
+						"type": "meta"
+					},
+					"userType": {
+						"api_key": "userType",
 						"type": "meta"
 					},
 					"color": {
@@ -483,8 +882,15 @@
 						"api_key": "feedId",
 						"type": "meta"
 					},
+					"utm_source": {
+						"type": "marketing"
+					},
 					"MID": {
 						"api_key": "MID",
+						"type": "meta"
+					},
+					"q": {
+						"api_key": "query",
 						"type": "meta"
 					},
 					"discount": {
@@ -497,6 +903,223 @@
 						},
 						"api_key": "discountedPrice",
 						"type": "filters"
+					},
+					"utm_medium": {
+						"type": "marketing"
+					},
+					"pageType": {
+						"api_key": "pageType",
+						"type": "meta"
+					},
+					"searchby": {
+						"type": "meta"
+					},
+					"discountedPriceOrder": {
+						"options_map": {
+							"ASC": "Low to High",
+							"DESC": "High to Low"
+						},
+						"api_key": "discountedPriceOrder",
+						"type": "sort"
+					},
+					"priceOrder": {
+						"options_map": {
+							"ASC": "Low to High",
+							"DESC": "High to Low"
+						},
+						"api_key": "priceOrder",
+						"type": "sort"
+					}
+				},
+				"door": "csf",
+				"param_delimiter": "&"
+			}
+		},
+		{
+			"regex": "http:\\/\\/www.craftsvilla.com\\/deals\\/id\\/[a-z A-Z -]*\\/??.*",
+			"range_delimiter": "_",
+			"door": "deals",
+			"params_delimiter": [
+				"?",
+				"#"
+			],
+			"id_reg_ex": "id\\/[a-z A-Z -]*",
+			"multiple_delimiter": ",",
+			"data": {
+				"dynamic_attribute_parser": {
+					"multiple_delimiter": ",",
+					"replace_space": "-",
+					"word": "capitalize"
+				},
+				"key_value_delimiter": "=",
+				"parameter_mapping": {
+					"utm_campaign": {
+						"type": "marketing"
+					},
+					"perPage": {
+						"api_key": "perPage",
+						"type": "meta"
+					},
+					"pageId": {
+						"api_key": "pageId",
+						"type": "meta"
+					},
+					"catId": {
+						"api_key": "categoryId",
+						"type": "meta"
+					},
+					"userType": {
+						"api_key": "userType",
+						"type": "meta"
+					},
+					"color": {
+						"api_key": "color",
+						"type": "filters"
+					},
+					"price": {
+						"multiple_delimiter": ",",
+						"range_delimiter": "_",
+						"api_key": "price",
+						"type": "filters"
+					},
+					"feedid": {
+						"api_key": "feedId",
+						"type": "meta"
+					},
+					"utm_source": {
+						"type": "marketing"
+					},
+					"MID": {
+						"api_key": "MID",
+						"type": "meta"
+					},
+					"q": {
+						"api_key": "query",
+						"type": "meta"
+					},
+					"discount": {
+						"options_map": {
+							"10": "Above 10%",
+							"30": "Above 30%",
+							"20": "Above 20%",
+							"50": "Above 50%",
+							"40": "Above 40%"
+						},
+						"api_key": "discountedPrice",
+						"type": "filters"
+					},
+					"utm_medium": {
+						"type": "marketing"
+					},
+					"pageType": {
+						"api_key": "pageType",
+						"type": "meta"
+					},
+					"searchby": {
+						"type": "meta"
+					},
+					"discountedPriceOrder": {
+						"options_map": {
+							"ASC": "Low to High",
+							"DESC": "High to Low"
+						},
+						"api_key": "discountedPriceOrder",
+						"type": "sort"
+					},
+					"priceOrder": {
+						"options_map": {
+							"ASC": "Low to High",
+							"DESC": "High to Low"
+						},
+						"api_key": "priceOrder",
+						"type": "sort"
+					}
+				},
+				"door": "deals",
+				"param_delimiter": "&"
+			}
+		},
+		{
+			"regex": "http:\\/\\/www.craftsvilla.com\\/[a-z A-Z - \\/]+\\??.*feedid=.*",
+			"range_delimiter": "_",
+			"door": "feed",
+			"params_delimiter": [
+				"?",
+				"#"
+			],
+			"multiple_delimiter": ",",
+			"data": {
+				"dynamic_attribute_parser": {
+					"multiple_delimiter": ",",
+					"replace_space": "-",
+					"word": "capitalize"
+				},
+				"key_value_delimiter": "=",
+				"parameter_mapping": {
+					"utm_campaign": {
+						"type": "marketing"
+					},
+					"perPage": {
+						"api_key": "perPage",
+						"type": "meta"
+					},
+					"pageId": {
+						"api_key": "pageId",
+						"type": "meta"
+					},
+					"catId": {
+						"api_key": "categoryId",
+						"type": "meta"
+					},
+					"userType": {
+						"api_key": "userType",
+						"type": "meta"
+					},
+					"color": {
+						"api_key": "color",
+						"type": "filters"
+					},
+					"price": {
+						"multiple_delimiter": ",",
+						"range_delimiter": "_",
+						"api_key": "price",
+						"type": "filters"
+					},
+					"feedid": {
+						"api_key": "feedId",
+						"type": "meta"
+					},
+					"utm_source": {
+						"type": "marketing"
+					},
+					"MID": {
+						"api_key": "MID",
+						"type": "meta"
+					},
+					"q": {
+						"api_key": "query",
+						"type": "meta"
+					},
+					"discount": {
+						"options_map": {
+							"10": "Above 10%",
+							"30": "Above 30%",
+							"20": "Above 20%",
+							"50": "Above 50%",
+							"40": "Above 40%"
+						},
+						"api_key": "discountedPrice",
+						"type": "filters"
+					},
+					"utm_medium": {
+						"type": "marketing"
+					},
+					"pageType": {
+						"api_key": "pageType",
+						"type": "meta"
+					},
+					"searchby": {
+						"type": "meta"
 					},
 					"discountedPriceOrder": {
 						"options_map": {
@@ -520,16 +1143,25 @@
 			}
 		},
 		{
-			"regex": "https:\\/\\/secure.craftsvilla.com\\/buy\\/cart",
+			"regex": "http:\\/\\/www.craftsvilla.com\\/[a-z A-Z - \\/]+\\??.*catId=.*",
+			"range_delimiter": "_",
+			"door": "category",
 			"params_delimiter": [
 				"?",
 				"#"
 			],
 			"multiple_delimiter": ",",
-			"door": "cart",
 			"data": {
+				"dynamic_attribute_parser": {
+					"multiple_delimiter": ",",
+					"replace_space": "-",
+					"word": "capitalize"
+				},
 				"key_value_delimiter": "=",
 				"parameter_mapping": {
+					"utm_campaign": {
+						"type": "marketing"
+					},
 					"perPage": {
 						"api_key": "perPage",
 						"type": "meta"
@@ -540,6 +1172,10 @@
 					},
 					"catId": {
 						"api_key": "categoryId",
+						"type": "meta"
+					},
+					"userType": {
+						"api_key": "userType",
 						"type": "meta"
 					},
 					"color": {
@@ -556,8 +1192,15 @@
 						"api_key": "feedId",
 						"type": "meta"
 					},
+					"utm_source": {
+						"type": "marketing"
+					},
 					"MID": {
 						"api_key": "MID",
+						"type": "meta"
+					},
+					"q": {
+						"api_key": "query",
 						"type": "meta"
 					},
 					"discount": {
@@ -570,6 +1213,119 @@
 						},
 						"api_key": "discountedPrice",
 						"type": "filters"
+					},
+					"utm_medium": {
+						"type": "marketing"
+					},
+					"pageType": {
+						"api_key": "pageType",
+						"type": "meta"
+					},
+					"searchby": {
+						"type": "meta"
+					},
+					"discountedPriceOrder": {
+						"options_map": {
+							"ASC": "Low to High",
+							"DESC": "High to Low"
+						},
+						"api_key": "discountedPriceOrder",
+						"type": "sort"
+					},
+					"priceOrder": {
+						"options_map": {
+							"ASC": "Low to High",
+							"DESC": "High to Low"
+						},
+						"api_key": "priceOrder",
+						"type": "sort"
+					}
+				},
+				"door": "category",
+				"param_delimiter": "&"
+			}
+		},
+		{
+			"regex": "https:\\/\\/secure.craftsvilla.com\\/buy\\/cart\\/??.*",
+			"range_delimiter": "_",
+			"door": "cart",
+			"params_delimiter": [
+				"?",
+				"#"
+			],
+			"multiple_delimiter": ",",
+			"data": {
+				"dynamic_attribute_parser": {
+					"multiple_delimiter": ",",
+					"replace_space": "-",
+					"word": "capitalize"
+				},
+				"key_value_delimiter": "=",
+				"parameter_mapping": {
+					"utm_campaign": {
+						"type": "marketing"
+					},
+					"perPage": {
+						"api_key": "perPage",
+						"type": "meta"
+					},
+					"pageId": {
+						"api_key": "pageId",
+						"type": "meta"
+					},
+					"catId": {
+						"api_key": "categoryId",
+						"type": "meta"
+					},
+					"userType": {
+						"api_key": "userType",
+						"type": "meta"
+					},
+					"color": {
+						"api_key": "color",
+						"type": "filters"
+					},
+					"price": {
+						"multiple_delimiter": ",",
+						"range_delimiter": "_",
+						"api_key": "price",
+						"type": "filters"
+					},
+					"feedid": {
+						"api_key": "feedId",
+						"type": "meta"
+					},
+					"utm_source": {
+						"type": "marketing"
+					},
+					"MID": {
+						"api_key": "MID",
+						"type": "meta"
+					},
+					"q": {
+						"api_key": "query",
+						"type": "meta"
+					},
+					"discount": {
+						"options_map": {
+							"10": "Above 10%",
+							"30": "Above 30%",
+							"20": "Above 20%",
+							"50": "Above 50%",
+							"40": "Above 40%"
+						},
+						"api_key": "discountedPrice",
+						"type": "filters"
+					},
+					"utm_medium": {
+						"type": "marketing"
+					},
+					"pageType": {
+						"api_key": "pageType",
+						"type": "meta"
+					},
+					"searchby": {
+						"type": "meta"
 					},
 					"discountedPriceOrder": {
 						"options_map": {

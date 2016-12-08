@@ -16,3 +16,10 @@ This repository contains framework to test REST APIs.
 
 ###running tests ###
 * run ```mvn test```
+
+### Adding SSL certificate for proxy ####
+- navigate to $JAVA_HOME/jre/lib/security and run below command
+```
+keytool -import -keystore cacerts -file test.cer
+```
+

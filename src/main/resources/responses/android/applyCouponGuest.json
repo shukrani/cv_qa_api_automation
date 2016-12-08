@@ -1,12 +1,16 @@
 {
 	"s": 1,
-	"m": "",
+	"m": "CVTEAM10 coupon has been applied successfully.",
 	"d": {
 		"coupon": {
+			"isValid": 1,
+			"message": "",
+			"code": "CVTEAM10",
+			"value": 199.9
 		},
 		"orderSummary": {
-			"totalPayable": 2149,
-			"couponDiscount": 0,
+			"totalPayable": 1949.1,
+			"couponDiscount": 199.9,
 			"shippingCost": 150,
 			"discount": 0,
 			"total": 1999,
@@ -17,7 +21,7 @@
 		"products": [
 			{
 				"isInStock": 1,
-				"sellerNote": "",
+				"sellerNote": "short sleeves",
 				"regularPrice": 4000,
 				"qty": 1,
 				"discountPercentage": 50,

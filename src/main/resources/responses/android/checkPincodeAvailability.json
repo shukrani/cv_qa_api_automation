@@ -1,18 +1,21 @@
 {
 	"s": 1,
-	"m": "Few products not available for cashondelivery!",
+	"m": "",
 	"d": [
 		{
-			"msg": "Available for <b>Cash on Delivery</b>",
-			"supported": 0
+			"msg": "Not available for <b>Cash on Delivery<b>",
+			"supported": 0,
+			"type": "CODAvailability"
 		},
 		{
 			"msg": "Delivers within 7-8 days",
-			"supported": 1
+			"supported": 1,
+			"type": "deliveryPromise"
 		},
 		{
-			"msg": "15 days free return",
-			"supported": 1
+			"msg": "7 days free return",
+			"supported": 1,
+			"type": "returnTimeline"
 		}
 	]
 }

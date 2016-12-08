@@ -5,24 +5,24 @@
 		"coupon": {
 		},
 		"orderSummary": {
-			"totalPayable": 5747,
+			"totalPayable": 6346,
 			"couponDiscount": 0,
 			"shippingCost": 600,
 			"discount": 0,
-			"total": 5147,
-			"subTotal": 5147,
+			"total": 5746,
+			"subTotal": 5746,
 			"vat": 0
 		},
-		"displayMsg": "Few Items in your cart are not available for CASH ON DELIVERY. You can still proceed and do Online Payment.",
+		"displayMsg": "Few items in your cart are not available for CASH ON DELIVERY. You can still proceed and do Online Payment.",
 		"products": [
 			{
 				"isInStock": 1,
 				"sellerNote": "Long sleeves",
-				"regularPrice": 4999,
+				"regularPrice": 3797,
 				"qty": 3,
-				"discountPercentage": 79,
+				"discountPercentage": 67,
 				"imgUrl": "/C/V/CV-MSHON44490366340--Shonayaa-Craftsvilla_1.jpg",
-				"discountedPrice": 1049,
+				"discountedPrice": 1249,
 				"vendorDetails": {
 					"vendorId": "23776",
 					"vendorCod": 1,
@@ -34,29 +34,6 @@
 				"isCod": 1,
 				"productName": "Red and black embroidered faux georgette saree",
 				"productId": "3576388"
-			},
-			{
-				"isInStock": 1,
-				"sellerNote": "",
-				"regularPrice": 15,
-				"qty": 1,
-				"discountPercentage": 93,
-				"imgUrl": "/C/V/CV-MSAMI60162679930--Samidha_shop-Craftsvilla_1.jpg",
-				"discountedPrice": 1,
-				"vendorDetails": {
-					"vendorId": "9179",
-					"vendorCod": 1,
-					"vendorName": "Samidha shop",
-					"vendorPincode": "400104"
-				},
-				"variants": {
-					"color": [
-						"Black"
-					]
-				},
-				"isCod": 1,
-				"productName": "test",
-				"productId": "4331545"
 			},
 			{
 				"isInStock": 1,
@@ -73,9 +50,6 @@
 					"vendorPincode": "395010"
 				},
 				"variants": {
-					"color": [
-						"Black"
-					]
 				},
 				"isCod": 0,
 				"productName": "Knapsack Bag a new style in college bag for college girls to enhance their look",

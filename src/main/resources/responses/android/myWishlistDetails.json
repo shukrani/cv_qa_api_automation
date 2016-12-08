@@ -4,18 +4,42 @@
 	"d": {
 		"products": [
 			{
-				"isInStock": 1,
-				"regularPrice": 5000.0,
+				"isInStock": 0,
+				"regularPrice": 799,
 				"discountPercentage": 0,
-				"discountedPrice": 999.0,
+				"discountedPrice": 799,
 				"vendorDetails": {
-					"vendorName": "World Of Style"
+					"vendorName": "Saanvi Home Shoppee"
 				},
-				"productName": "Blue Georgette Zari Work Saree With Blouse",
-				"imgUrl": "/C/V/CV-10271-MWORL20635014890--World_Of_Style-1475563217-Craftsvilla_1.jpg",
-				"productId": "4314360"
+				"productName": "Hill Leaf Chettinad Basket",
+				"imgUrl": "/g/p/gp00000057_1.jpg",
+				"productId": "1234"
+			},
+			{
+				"isInStock": 0,
+				"regularPrice": 799,
+				"discountPercentage": 0,
+				"discountedPrice": 799,
+				"vendorDetails": {
+					"vendorName": "Saanvi Home Shoppee"
+				},
+				"productName": "Eco Pen Stand",
+				"imgUrl": "/C/M/CMUBINDOO000006_1.jpg",
+				"productId": "12345"
+			},
+			{
+				"isInStock": 0,
+				"regularPrice": 2300,
+				"discountPercentage": 0,
+				"discountedPrice": 2300,
+				"vendorDetails": {
+					"vendorName": "Baawli Fashions"
+				},
+				"productName": "Yellow And White Color Designer Saree",
+				"imgUrl": "/C/V/CV-MBAAW94442870010--Baawli_Fashions-Craftsvilla_1.jpg",
+				"productId": "3238687"
 			}
 		],
-		"customerId": "3044185"
+		"customerId": "3238687"
 	}
 }

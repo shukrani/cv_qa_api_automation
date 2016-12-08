@@ -80,7 +80,7 @@ public class FlaskAndroidTest extends BaseTest {
 
 		String actualJson = "";
 
-		WebResource webResource = client.resource(baseURL + "1/public/users/getSession");
+		WebResource webResource = client.resource(baseURL + "1/personal/users/getSession");
 
 		Builder builder = webResource.header("X-VERSION-CODE", Config.versionCode);
 
@@ -98,7 +98,7 @@ public class FlaskAndroidTest extends BaseTest {
 		requestJsonObject.put("password", util.decryptPassword(testData.get("Password")));
 		String actualJson = "";
 
-		WebResource webResource = client.resource(baseURL + "1/public/users/customerLogin");
+		WebResource webResource = client.resource(baseURL + "1/personal/users/customerLogin");
 
 		Builder builder = webResource.header("X-VERSION-CODE", Config.versionCode);
 		builder = builder.header("X-Session", Config.sessionToken);

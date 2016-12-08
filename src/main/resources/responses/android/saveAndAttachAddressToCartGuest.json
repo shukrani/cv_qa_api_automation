@@ -2,8 +2,8 @@
 	"s": 1,
 	"m": "",
 	"d": {
-		"displayMsg": "Few Items in your cart are not available for CASH ON DELIVERY. You can still proceed and do Online Payment.",
-		"quoteId": "44332617",
+		"displayMsg": "Few items in your cart are not available for CASH ON DELIVERY. You can still proceed and do Online Payment.",
+		"quoteId": "44618482",
 		"coupon": {
 		},
 		"orderSummary": {
@@ -31,9 +31,6 @@
 					"vendorPincode": "395010"
 				},
 				"variants": {
-					"color": [
-						"Black"
-					]
 				},
 				"isCod": 0,
 				"productName": "Knapsack Bag a new style in college bag for college girls to enhance their look",
@@ -43,6 +40,7 @@
 		"deliveryAddress": {
 			"city": "Gurgaon",
 			"countryId": "IN",
+			"addressId": "4401258",
 			"firstName": "Rebbecca",
 			"lastName": "Elvis",
 			"pincode": "400063",

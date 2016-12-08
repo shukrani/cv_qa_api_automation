@@ -1,6 +1,6 @@
 {
 	"s": 1,
-	"m": "Product added to your cart!",
+	"m": "Product added to your cart successfully.",
 	"d": {
 		"coupon": {
 		},
@@ -13,7 +13,7 @@
 			"subTotal": 1999,
 			"vat": 0
 		},
-		"displayMsg": "Few Items in your cart are not available for CASH ON DELIVERY. You can still proceed and do Online Payment.",
+		"displayMsg": "Few items in your cart are not available for CASH ON DELIVERY. You can still proceed and do Online Payment.",
 		"products": [
 			{
 				"isInStock": 1,
@@ -30,9 +30,6 @@
 					"vendorPincode": "395010"
 				},
 				"variants": {
-					"color": [
-						"Black"
-					]
 				},
 				"isCod": 0,
 				"productName": "Knapsack Bag a new style in college bag for college girls to enhance their look",
