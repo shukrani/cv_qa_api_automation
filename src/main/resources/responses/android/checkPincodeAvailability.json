@@ -8,7 +8,7 @@
 			"type": "CODAvailability"
 		},
 		{
-			"msg": "Delivers within 7-8 days",
+			"msg": "Estimated Delivery 6-8 working days",
 			"supported": 1,
 			"type": "deliveryPromise"
 		},

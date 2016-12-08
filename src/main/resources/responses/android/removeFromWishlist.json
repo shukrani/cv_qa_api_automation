@@ -4,8 +4,8 @@
 	"d": {
 		"products": [
 			{
-				"isInStock": 0,
-				"regularPrice": 799.0,
+				"MRP": "799.0000",
+				"regularPrice": 799,
 				"discountPercentage": 0,
 				"discountedPrice": 799,
 				"vendorDetails": {
@@ -16,8 +16,8 @@
 				"productId": "1234"
 			},
 			{
-				"isInStock": 0,
-				"regularPrice": 799.0,
+				"MRP": "799.0000",
+				"regularPrice": 799,
 				"discountPercentage": 0,
 				"discountedPrice": 799,
 				"vendorDetails": {
@@ -28,8 +28,8 @@
 				"productId": "12345"
 			},
 			{
-				"isInStock": 0,
-				"regularPrice": 2300.0,
+				"MRP": "2300.0000",
+				"regularPrice": 2300,
 				"discountPercentage": 0,
 				"discountedPrice": 2300,
 				"vendorDetails": {

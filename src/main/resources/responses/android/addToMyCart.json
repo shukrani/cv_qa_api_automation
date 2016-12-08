@@ -5,35 +5,35 @@
 		"coupon": {
 		},
 		"orderSummary": {
-			"totalPayable": 6346,
+			"totalPayable": 3148,
 			"couponDiscount": 0,
-			"shippingCost": 600,
+			"shippingCost": 150,
 			"discount": 0,
-			"total": 5746,
-			"subTotal": 5746,
+			"total": 2998,
+			"subTotal": 2998,
 			"vat": 0
 		},
-		"displayMsg": "Few items in your cart are not available for CASH ON DELIVERY. You can still proceed and do Online Payment.",
+		"displayMsg": "Few items in your cart are not available for CASH ON DELIVERY. You can still proceed and do Online Payment.Some items are out of stock. Please remove them to proceed.",
 		"products": [
 			{
-				"isInStock": 1,
+				"isInStock": 0,
 				"sellerNote": "Long sleeves",
-				"regularPrice": 3797,
-				"qty": 3,
-				"discountPercentage": 67,
-				"imgUrl": "/C/V/CV-MSHON44490366340--Shonayaa-Craftsvilla_1.jpg",
-				"discountedPrice": 1249,
+				"regularPrice": 4995,
+				"qty": 1,
+				"discountPercentage": 80,
+				"imgUrl": "/C/V/CV-MMONS57679940840--MONSOON_DHAMAKA-Craftsvilla_1.png-1468499347",
+				"discountedPrice": 999,
 				"vendorDetails": {
-					"vendorId": "23776",
+					"vendorId": "8125",
 					"vendorCod": 1,
-					"vendorName": "Shonayaa",
+					"vendorName": "MONSOON DHAMAKA",
 					"vendorPincode": "395010"
 				},
 				"variants": {
 				},
 				"isCod": 1,
-				"productName": "Red and black embroidered faux georgette saree",
-				"productId": "3576388"
+				"productName": "RED_07 NEW YEAR SPECIAL",
+				"productId": "3717455"
 			},
 			{
 				"isInStock": 1,

@@ -3,6 +3,109 @@
 	"m": "if you think you can trust this. think again",
 	"d": [
 		{
+			"regex": "http:\\/\\/www.craftsvilla.com[\\/]?$",
+			"range_delimiter": "_",
+			"door": "home",
+			"params_delimiter": [
+				"?",
+				"#"
+			],
+			"multiple_delimiter": ",",
+			"data": {
+				"dynamic_attribute_parser": {
+					"multiple_delimiter": ",",
+					"replace_space": "-",
+					"word": "capitalize"
+				},
+				"key_value_delimiter": "=",
+				"parameter_mapping": {
+					"utm_campaign": {
+						"type": "marketing"
+					},
+					"perPage": {
+						"api_key": "perPage",
+						"type": "meta"
+					},
+					"pageId": {
+						"api_key": "pageId",
+						"type": "meta"
+					},
+					"catId": {
+						"api_key": "categoryId",
+						"type": "meta"
+					},
+					"userType": {
+						"api_key": "userType",
+						"type": "meta"
+					},
+					"color": {
+						"api_key": "color",
+						"type": "filters"
+					},
+					"price": {
+						"multiple_delimiter": ",",
+						"range_delimiter": "_",
+						"api_key": "price",
+						"type": "filters"
+					},
+					"feedid": {
+						"api_key": "feedId",
+						"type": "meta"
+					},
+					"utm_source": {
+						"type": "marketing"
+					},
+					"MID": {
+						"api_key": "MID",
+						"type": "meta"
+					},
+					"q": {
+						"api_key": "query",
+						"type": "meta"
+					},
+					"discount": {
+						"options_map": {
+							"10": "Above 10%",
+							"20": "Above 20%",
+							"30": "Above 30%",
+							"40": "Above 40%",
+							"50": "Above 50%"
+						},
+						"api_key": "discountedPrice",
+						"type": "filters"
+					},
+					"utm_medium": {
+						"type": "marketing"
+					},
+					"pageType": {
+						"api_key": "pageType",
+						"type": "meta"
+					},
+					"searchby": {
+						"type": "meta"
+					},
+					"discountedPriceOrder": {
+						"options_map": {
+							"ASC": "Low to High",
+							"DESC": "High to Low"
+						},
+						"api_key": "discountedPriceOrder",
+						"type": "sort"
+					},
+					"priceOrder": {
+						"options_map": {
+							"ASC": "Low to High",
+							"DESC": "High to Low"
+						},
+						"api_key": "priceOrder",
+						"type": "sort"
+					}
+				},
+				"door": "home",
+				"param_delimiter": "&"
+			}
+		},
+		{
 			"regex": ".*render=internal.*",
 			"range_delimiter": "_",
 			"door": "webview_internal",
@@ -66,10 +169,10 @@
 					"discount": {
 						"options_map": {
 							"10": "Above 10%",
-							"30": "Above 30%",
 							"20": "Above 20%",
-							"50": "Above 50%",
-							"40": "Above 40%"
+							"30": "Above 30%",
+							"40": "Above 40%",
+							"50": "Above 50%"
 						},
 						"api_key": "discountedPrice",
 						"type": "filters"
@@ -169,10 +272,10 @@
 					"discount": {
 						"options_map": {
 							"10": "Above 10%",
-							"30": "Above 30%",
 							"20": "Above 20%",
-							"50": "Above 50%",
-							"40": "Above 40%"
+							"30": "Above 30%",
+							"40": "Above 40%",
+							"50": "Above 50%"
 						},
 						"api_key": "discountedPrice",
 						"type": "filters"
@@ -272,10 +375,10 @@
 					"discount": {
 						"options_map": {
 							"10": "Above 10%",
-							"30": "Above 30%",
 							"20": "Above 20%",
-							"50": "Above 50%",
-							"40": "Above 40%"
+							"30": "Above 30%",
+							"40": "Above 40%",
+							"50": "Above 50%"
 						},
 						"api_key": "discountedPrice",
 						"type": "filters"
@@ -375,10 +478,10 @@
 					"discount": {
 						"options_map": {
 							"10": "Above 10%",
-							"30": "Above 30%",
 							"20": "Above 20%",
-							"50": "Above 50%",
-							"40": "Above 40%"
+							"30": "Above 30%",
+							"40": "Above 40%",
+							"50": "Above 50%"
 						},
 						"api_key": "discountedPrice",
 						"type": "filters"
@@ -480,10 +583,115 @@
 					"discount": {
 						"options_map": {
 							"10": "Above 10%",
-							"30": "Above 30%",
 							"20": "Above 20%",
-							"50": "Above 50%",
-							"40": "Above 40%"
+							"30": "Above 30%",
+							"40": "Above 40%",
+							"50": "Above 50%"
+						},
+						"api_key": "discountedPrice",
+						"type": "filters"
+					},
+					"utm_medium": {
+						"type": "marketing"
+					},
+					"pageType": {
+						"api_key": "pageType",
+						"type": "meta"
+					},
+					"searchby": {
+						"type": "meta"
+					},
+					"discountedPriceOrder": {
+						"options_map": {
+							"ASC": "Low to High",
+							"DESC": "High to Low"
+						},
+						"api_key": "discountedPriceOrder",
+						"type": "sort"
+					},
+					"priceOrder": {
+						"options_map": {
+							"ASC": "Low to High",
+							"DESC": "High to Low"
+						},
+						"api_key": "priceOrder",
+						"type": "sort"
+					}
+				},
+				"door": "pdp",
+				"param_delimiter": "&"
+			}
+		},
+		{
+			"regex": "http:\\/\\/www.craftsvilla.com\\/shop\\/[a-z A-Z 0-9 -]*\\/[0-9]+",
+			"range_delimiter": "_",
+			"door": "pdp",
+			"params_delimiter": [
+				"?",
+				"#"
+			],
+			"id_reg_ex": "[a-z A-Z 0-9 -]*\\/[0-9]+",
+			"multiple_delimiter": ",",
+			"api_key": "product_id",
+			"data": {
+				"dynamic_attribute_parser": {
+					"multiple_delimiter": ",",
+					"replace_space": "-",
+					"word": "capitalize"
+				},
+				"key_value_delimiter": "=",
+				"parameter_mapping": {
+					"utm_campaign": {
+						"type": "marketing"
+					},
+					"perPage": {
+						"api_key": "perPage",
+						"type": "meta"
+					},
+					"pageId": {
+						"api_key": "pageId",
+						"type": "meta"
+					},
+					"catId": {
+						"api_key": "categoryId",
+						"type": "meta"
+					},
+					"userType": {
+						"api_key": "userType",
+						"type": "meta"
+					},
+					"color": {
+						"api_key": "color",
+						"type": "filters"
+					},
+					"price": {
+						"multiple_delimiter": ",",
+						"range_delimiter": "_",
+						"api_key": "price",
+						"type": "filters"
+					},
+					"feedid": {
+						"api_key": "feedId",
+						"type": "meta"
+					},
+					"utm_source": {
+						"type": "marketing"
+					},
+					"MID": {
+						"api_key": "MID",
+						"type": "meta"
+					},
+					"q": {
+						"api_key": "query",
+						"type": "meta"
+					},
+					"discount": {
+						"options_map": {
+							"10": "Above 10%",
+							"20": "Above 20%",
+							"30": "Above 30%",
+							"40": "Above 40%",
+							"50": "Above 50%"
 						},
 						"api_key": "discountedPrice",
 						"type": "filters"
@@ -584,10 +792,10 @@
 					"discount": {
 						"options_map": {
 							"10": "Above 10%",
-							"30": "Above 30%",
 							"20": "Above 20%",
-							"50": "Above 50%",
-							"40": "Above 40%"
+							"30": "Above 30%",
+							"40": "Above 40%",
+							"50": "Above 50%"
 						},
 						"api_key": "discountedPrice",
 						"type": "filters"
@@ -689,10 +897,10 @@
 					"discount": {
 						"options_map": {
 							"10": "Above 10%",
-							"30": "Above 30%",
 							"20": "Above 20%",
-							"50": "Above 50%",
-							"40": "Above 40%"
+							"30": "Above 30%",
+							"40": "Above 40%",
+							"50": "Above 50%"
 						},
 						"api_key": "discountedPrice",
 						"type": "filters"
@@ -792,10 +1000,10 @@
 					"discount": {
 						"options_map": {
 							"10": "Above 10%",
-							"30": "Above 30%",
 							"20": "Above 20%",
-							"50": "Above 50%",
-							"40": "Above 40%"
+							"30": "Above 30%",
+							"40": "Above 40%",
+							"50": "Above 50%"
 						},
 						"api_key": "discountedPrice",
 						"type": "filters"
@@ -896,10 +1104,10 @@
 					"discount": {
 						"options_map": {
 							"10": "Above 10%",
-							"30": "Above 30%",
 							"20": "Above 20%",
-							"50": "Above 50%",
-							"40": "Above 40%"
+							"30": "Above 30%",
+							"40": "Above 40%",
+							"50": "Above 50%"
 						},
 						"api_key": "discountedPrice",
 						"type": "filters"
@@ -1000,10 +1208,10 @@
 					"discount": {
 						"options_map": {
 							"10": "Above 10%",
-							"30": "Above 30%",
 							"20": "Above 20%",
-							"50": "Above 50%",
-							"40": "Above 40%"
+							"30": "Above 30%",
+							"40": "Above 40%",
+							"50": "Above 50%"
 						},
 						"api_key": "discountedPrice",
 						"type": "filters"
@@ -1103,10 +1311,10 @@
 					"discount": {
 						"options_map": {
 							"10": "Above 10%",
-							"30": "Above 30%",
 							"20": "Above 20%",
-							"50": "Above 50%",
-							"40": "Above 40%"
+							"30": "Above 30%",
+							"40": "Above 40%",
+							"50": "Above 50%"
 						},
 						"api_key": "discountedPrice",
 						"type": "filters"
@@ -1206,10 +1414,10 @@
 					"discount": {
 						"options_map": {
 							"10": "Above 10%",
-							"30": "Above 30%",
 							"20": "Above 20%",
-							"50": "Above 50%",
-							"40": "Above 40%"
+							"30": "Above 30%",
+							"40": "Above 40%",
+							"50": "Above 50%"
 						},
 						"api_key": "discountedPrice",
 						"type": "filters"
@@ -1309,10 +1517,10 @@
 					"discount": {
 						"options_map": {
 							"10": "Above 10%",
-							"30": "Above 30%",
 							"20": "Above 20%",
-							"50": "Above 50%",
-							"40": "Above 40%"
+							"30": "Above 30%",
+							"40": "Above 40%",
+							"50": "Above 50%"
 						},
 						"api_key": "discountedPrice",
 						"type": "filters"
