@@ -38,13 +38,17 @@ public class Util {
 		FileWriter fw = null;
 		try {
 
-			String filename = "./responses/response" + System.currentTimeMillis() + ".json";
+			String filename = "./test-output/extent-reports/responses/response" + System.currentTimeMillis() + ".json";
 			File file = new File(filename);
 
 			fw = new FileWriter(file);
 			fw.write(response);
 
-			return file.getAbsolutePath();
+			// String fpath = file.getAbsolutePath();
+
+			String fpath = "./responses/" + file.getName();
+
+			return fpath;
 		} catch (Exception e) {
 			// Reporter.log("Exception in taking screenshot");
 		} finally {
@@ -77,7 +81,7 @@ public class Util {
 			Iterator<JsonObject> it = params.keys();
 			while (it.hasNext()) {
 				String key = it.next() + "";
-				
+
 				webResource = webResource.queryParam(key, String.valueOf(params.get(key)));
 			}
 
@@ -93,7 +97,8 @@ public class Util {
 	private String getExtentReportPath() {
 
 		new File("./test-output/extent-reports").mkdirs();
-		String reportPath = "./test-output/extent-reports/extent-report" + System.currentTimeMillis() + ".html";
+		new File("./test-output/extent-reports/responses").mkdirs();
+		String reportPath = "./test-output/extent-reports/extent-report.html";
 		return reportPath;
 	}
 
