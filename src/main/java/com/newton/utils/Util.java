@@ -97,7 +97,7 @@ public class Util {
 
 		new File("./test-output/extent-reports").mkdirs();
 		new File("./test-output/extent-reports/responses").mkdirs();
-		String reportPath = "./test-output/extent-reports/extent-report" + System.currentTimeMillis() + ".html";
+		String reportPath = "./test-output/extent-reports/extent-report.html";
 		return reportPath;
 	}
 
