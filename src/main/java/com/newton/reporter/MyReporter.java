@@ -16,7 +16,7 @@ public class MyReporter extends ExtentReports {
 	private StopWatch stopWatch;
 
 	private MyReporter(String filepath) {
-		super(filepath, NetworkMode.OFFLINE);
+		super(filepath);
 		try {
 
 			stopWatch = new StopWatch();
