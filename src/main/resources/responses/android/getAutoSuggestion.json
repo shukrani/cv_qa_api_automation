@@ -22,7 +22,7 @@
 			"category_name": "Sarees"
 		},
 		{
-			"text": "silk saree",
+			"text": "mirror work saree",
 			"category_id": 10015,
 			"type": "context_suggest",
 			"category_name": "Sarees"
@@ -34,7 +34,19 @@
 			"category_name": "Sarees"
 		},
 		{
+			"text": "silk saree",
+			"category_id": 10015,
+			"type": "context_suggest",
+			"category_name": "Sarees"
+		},
+		{
 			"text": "chiffon sarees",
+			"category_id": 10015,
+			"type": "context_suggest",
+			"category_name": "Sarees"
+		},
+		{
+			"text": "bollywood sarees",
 			"category_id": 10015,
 			"type": "context_suggest",
 			"category_name": "Sarees"
@@ -46,19 +58,7 @@
 			"category_name": "Sarees"
 		},
 		{
-			"text": "mirror work saree",
-			"category_id": 10015,
-			"type": "context_suggest",
-			"category_name": "Sarees"
-		},
-		{
 			"text": "georgette sarees",
-			"category_id": 10015,
-			"type": "context_suggest",
-			"category_name": "Sarees"
-		},
-		{
-			"text": "silk sarees",
 			"category_id": 10015,
 			"type": "context_suggest",
 			"category_name": "Sarees"
