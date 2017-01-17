@@ -219,4 +219,25 @@ public class Executioner {
 
 	}
 
+	public Executioner verifyEquals(Object expected, Object actual, String message, ExtentTest test) {
+
+		String screenshot = "NA";
+		try {
+
+			startTime = stopWatch.getTime();
+			Assert.assertEquals(expected, actual);
+			addStep(startTime, stopWatch.getTime() - startTime, message, "Pass", screenshot, test);
+			Reporter.log("Staus: PASS, Expected: " + expected + ", Actual : " + actual, true);
+			return this;
+		} catch (AssertionError | org.json.JSONException exception) {
+			addStep(startTime, stopWatch.getTime() - startTime, message + " <br> " + exception.getMessage(), "Failed",
+					screenshot, test);
+			// Assert.fail(exception.getMessage());
+
+			return this;
+
+		}
+
+	}
+
 }

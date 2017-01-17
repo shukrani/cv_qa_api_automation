@@ -1,5 +1,6 @@
 {
 	"withDisplayFilters": true,
 	"filterDataInArray": true,
-	"categoryRequired": true
+	"categoryRequired": true,
+	"dynamicFilters":true
 }
