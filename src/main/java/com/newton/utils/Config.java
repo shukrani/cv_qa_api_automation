@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Config {
-	public static String baseURL = "http://52.74.175.195:9198/v1/";
+	public static String baseURL = "http://172.30.17.108:9000/v1/";
 	// public static String baseURL =
 	// "http://ec2-52-221-239-89.ap-southeast-1.compute.amazonaws.com:5000/apidocs/index.html/";
 	public static int versionCode = 23;
