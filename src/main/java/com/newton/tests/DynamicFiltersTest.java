@@ -231,12 +231,14 @@ public class DynamicFiltersTest extends BaseTest {
 						test);
 				filterValue.put(filterName2);
 				filter.put(filterName, filterValue);
-				JSONArray priceRange = new JSONArray();
-				JSONObject minMaxPrice = new JSONObject();
-				minMaxPrice.put("min", 1000);
-				minMaxPrice.put("max", 2000);
-				priceRange.put(minMaxPrice);
-				filter.put("price", priceRange);
+				if (j == 0) {
+					JSONArray priceRange = new JSONArray();
+					JSONObject minMaxPrice = new JSONObject();
+					minMaxPrice.put("min", 1000);
+					minMaxPrice.put("max", 2000);
+					priceRange.put(minMaxPrice);
+					filter.put("price", priceRange);
+				}
 
 				// discount range
 				JSONArray discountRange = new JSONArray();
@@ -266,10 +268,10 @@ public class DynamicFiltersTest extends BaseTest {
 				// verify count
 				int actualCount = new JSONObject(actualJson).getJSONObject("data").getInt("totalProducts");
 				JSONArray products = new JSONObject(actualJson).getJSONObject("data").getJSONArray("products");
-				if (filterValue.length() == 2) {
+				if (filterValue.length() == 2 && j != 0) {
 					executor.verifyEquals(expectedCount, actualCount,
 							"Verify Total Products Count : " + actualCount + " is equal to :" + expectedCount, test);
-				} else {
+				} else if (j != 0) {
 					executor.verifyEquals(true, (actualCount <= expectedCount), "Verify Total Products Count : "
 							+ actualCount + " is less than or equal to  : " + expectedCount, test);
 				}
@@ -278,11 +280,14 @@ public class DynamicFiltersTest extends BaseTest {
 					JSONObject product = products.getJSONObject(k);
 					int price = (int) Float.parseFloat(product.getString("discounted_price"));
 					int discount_percentage = (int) product.getDouble("discount_percentage");
-					executor.verifyEquals(true, discount_percentage >= 30 && discount_percentage <= 90,
-							"verify discount percentage " + discount_percentage + " >= 30 and less than or equal to 90",
-							test);
-					executor.verifyEquals(true, (price >= 1000 && price <= 2000),
-							"verify price : " + price + " in range 1000-2000", test);
+					if (j == 0) {
+						executor.verifyEquals(true, discount_percentage >= 30 && discount_percentage <= 90,
+								"verify discount percentage " + discount_percentage
+										+ " >= 30 and less than or equal to 90",
+								test);
+						executor.verifyEquals(true, (price >= 1000 && price <= 2000),
+								"verify price : " + price + " in range 1000-2000", test);
+					}
 					if (k != 0) {
 						int pre_price = (int) Float
 								.parseFloat(products.getJSONObject(k - 1).getString("discounted_price"));
